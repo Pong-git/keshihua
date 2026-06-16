@@ -1,0 +1,21 @@
+﻿target_keyword_node,target_type,path_length,path,relation_steps
+Seabreeze Foods Ltd. Corporation United,unknown,1,8327 -> Seabreeze Foods Ltd. Corporation United,ownership
+âIllegal,unknown,1,8327 -> âIllegal,membership
+FishEye International,organization,2,8327 -> Seabreeze Foods Ltd. Corporation United -> FishEye International,ownership -> membership
+Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,unknown,2,8327 -> 435054320 -> Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,membership -> membership
+Fishisland,unknown,2,8327 -> 435054320 -> Fishisland,membership -> membership
+Irish Sea Seaside GmbH & Co. KG Distribution,unknown,2,8327 -> 160 -> Irish Sea Seaside GmbH & Co. KG Distribution,membership -> ownership
+Ocean Fisheries Llc,unknown,2,8327 -> 160 -> Ocean Fisheries Llc,membership -> ownership
+Odisha Sea Dry dock LLC Consultants,unknown,2,8327 -> âIllegal -> Odisha Sea Dry dock LLC Consultants,membership -> partnership
+Okavango Delta Seaside Limited Liability Company Logistics,unknown,2,8327 -> 160 -> Okavango Delta Seaside Limited Liability Company Logistics,membership -> partnership
+Sea Harvest,unknown,2,8327 -> 40213337 -> Sea Harvest,ownership -> ownership
+Sea Products,unknown,2,8327 -> 40213337 -> Sea Products,ownership -> ownership
+SeaSpray Wave SRL Solutions,unknown,2,8327 -> 160 -> SeaSpray Wave SRL Solutions,membership -> ownership
+Sonia Fisheries Pvt,unknown,2,8327 -> Seabreeze Foods Ltd. Corporation United -> Sonia Fisheries Pvt,ownership -> membership
+Spanish Shrimp  Carriers,company,2,8327 -> 160 -> Spanish Shrimp  Carriers,"membership -> ownership, partnership"
+Asia Seafood,unknown,3,8327 -> 160 -> Playa del Cielo Kga -> Asia Seafood,membership -> ownership -> partnership
+Catchâ,unknown,3,8327 -> Seabreeze Foods Ltd. Corporation United -> 58623386 -> Catchâ,ownership -> ownership -> membership
+Costa de Coral Charter Boat Oyj Overseas,unknown,3,8327 -> 160 -> b1a0ee2a-0e6d-48c2-b639-032e4648fa5c -> Costa de Coral Charter Boat Oyj Overseas,membership -> membership -> membership
+Dry Creek S.p.A. Overseas,unknown,3,8327 -> 160 -> Playa del Cielo Kga -> Dry Creek S.p.A. Overseas,membership -> ownership -> ownership
+Faroe Islands Shrimp Shark,company,3,8327 -> 160 -> png xi  Line -> Faroe Islands Shrimp Shark,"membership -> membership, ownership -> family_relationship, membership, ownership"
+FinestSea Ltd. Corporation Enterprises,unknown,3,8327 -> 160 -> png xi  Line -> FinestSea Ltd. Corporation Enterprises,"membership -> membership, ownership -> partnership"

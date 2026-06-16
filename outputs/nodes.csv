@@ -1,0 +1,3429 @@
+﻿type,dataset,country,id,label
+company,MC1,Nalakond,Spanish Shrimp  Carriers,Spanish Shrimp  Carriers
+organization,MC1,,12744,12744
+organization,MC1,,143129355,143129355
+organization,MC1,,7775,7775
+organization,MC1,,1017141,1017141
+organization,MC1,,2591586,2591586
+organization,MC1,,185040354,185040354
+company,MC1,Rio Isla,Faroe Islands Shrimp Shark,Faroe Islands Shrimp Shark
+organization,MC1,,341411,341411
+organization,MC1,,21323516,21323516
+unknown,MC1,,âvictimâ,âvictimâ
+unknown,MC1,,âperpetratorâ,âperpetratorâ
+organization,MC1,,8561,8561
+person,MC1,Country_271835,William Bradley,William Bradley
+person,MC1,Country_271835,Joseph Griffin,Joseph Griffin
+unknown,MC1,,âŠâ,âŠâ
+organization,MC1,,853949688,853949688
+organization,MC1,,650512,650512
+organization,MC1,,8,8
+organization,MC1,,128692,128692
+organization,MC1,,172711,172711
+person,MC1,Country_789455,Jacob Caldwell,Jacob Caldwell
+organization,MC1,,14253815,14253815
+location,MC1,,4369922c-ce1d-40ff-904c-1f6a3000bf6b,4369922c-ce1d-40ff-904c-1f6a3000bf6b
+company,MC1,Country_271835,Saltwater Solitude GmbH & Co. KG,Saltwater Solitude GmbH & Co. KG
+unknown,MC1,,PRK,PRK
+unknown,MC1,,âVikingâ,âVikingâ
+organization,MC1,,506,506
+organization,MC1,,4937447,4937447
+unknown,MC1,,âregularâ,âregularâ
+organization,MC1,,2079436,2079436
+person,MC1,Osterivaria,Ann Daniels,Ann Daniels
+person,MC1,Osterivaria,Stephanie Mccormick MD,Stephanie Mccormick MD
+person,MC1,Country_271835,Lisa Clay,Lisa Clay
+organization,MC1,,589,589
+person,MC1,Country_712875,Elizabeth Welch,Elizabeth Welch
+location,MC1,,da0a7bbb-5bd1-42aa-bcc0-b8923d5c15d4,da0a7bbb-5bd1-42aa-bcc0-b8923d5c15d4
+person,MC1,Country_271835,Eugene Ochoa,Eugene Ochoa
+organization,MC1,,967900443,967900443
+person,MC1,Country_271835,Lisa Jimenez,Lisa Jimenez
+organization,MC1,,1,1
+location,MC1,,445a6124-4650-4e5a-83bb-a0e0b4040ee9,445a6124-4650-4e5a-83bb-a0e0b4040ee9
+person,MC1,Country_271835,Martha Robbins,Martha Robbins
+person,MC1,Country_271835,Don Hopkins,Don Hopkins
+person,MC1,Country_271835,Joseph Gray,Joseph Gray
+organization,MC1,,4,4
+organization,MC1,,4975,4975
+organization,MC1,,7282284,7282284
+organization,MC1,,0,0
+person,MC1,Country_271835,Sean Vasquez,Sean Vasquez
+organization,MC1,,196159,196159
+organization,MC1,,755,755
+organization,MC1,,860067396,860067396
+organization,MC1,,664738735,664738735
+organization,MC1,,290834957,290834957
+person,MC1,Country_271835,Timothy Reeves,Timothy Reeves
+organization,MC1,,457009514,457009514
+organization,MC1,,6043477,6043477
+organization,MC1,,526269,526269
+person,MC1,Oceanus,Jason Cameron,Jason Cameron
+location,MC1,,77b46bc7-7e31-41a0-973c-e633011d21b0,77b46bc7-7e31-41a0-973c-e633011d21b0
+organization,MC1,,7,7
+organization,MC1,,35,35
+political_organization,MC1,,6406040,6406040
+person,MC1,Country_271835,Jamie Knox,Jamie Knox
+person,MC1,Country_271835,Kristin Graham,Kristin Graham
+organization,MC1,,99575926,99575926
+political_organization,MC1,,72371354,72371354
+organization,MC1,,55,55
+political_organization,MC1,,766649,766649
+organization,MC1,,955425,955425
+organization,MC1,,132,132
+organization,MC1,,8701038,8701038
+organization,MC1,,9067,9067
+organization,MC1,,750975,750975
+organization,MC1,,3404599,3404599
+political_organization,MC1,,85117949,85117949
+organization,MC1,,3506021,3506021
+political_organization,MC1,,348079,348079
+political_organization,MC1,,78,78
+organization,MC1,,95,95
+unknown,MC1,,â8â,â8â
+unknown,MC1,,ârefer,ârefer
+unknown,MC1,,â10â,â10â
+person,MC1,Country_271835,Alyssa Huffman,Alyssa Huffman
+organization,MC1,,245,245
+organization,MC1,,300668979,300668979
+unknown,MC1,,âNoticesââ,âNoticesââ
+organization,MC1,,651,651
+political_organization,MC1,,7845,7845
+organization,MC1,,265700083,265700083
+organization,MC1,,47679,47679
+location,MC1,,d0123474-8425-4ab0-90d5-175920158638,d0123474-8425-4ab0-90d5-175920158638
+organization,MC1,,425887173,425887173
+organization,MC1,,86597,86597
+location,MC1,,405ab2a5-68f0-4304-ab94-24c7995a248e,405ab2a5-68f0-4304-ab94-24c7995a248e
+political_organization,MC1,,44842,44842
+location,MC1,,e2b334d9-4d51-40b2-a7b1-441b88400b75,e2b334d9-4d51-40b2-a7b1-441b88400b75
+political_organization,MC1,,68,68
+organization,MC1,,610,610
+organization,MC1,,4063,4063
+organization,MC1,,740523,740523
+vessel,MC1,,Marine,Marine
+unknown,MC1,,255â273,255â273
+location,MC1,,91dcf36d-dba8-41e8-a4cc-912981a27296,91dcf36d-dba8-41e8-a4cc-912981a27296
+organization,MC1,,69150209,69150209
+organization,MC1,,2,2
+organization,MC1,,72,72
+organization,MC1,,35881,35881
+location,MC1,,06430a2c-805a-4a76-bbda-2a24c0c860d7,06430a2c-805a-4a76-bbda-2a24c0c860d7
+person,MC1,Nalakond,Derek Burke,Derek Burke
+political_organization,MC1,,490653,490653
+political_organization,MC1,,888,888
+organization,MC1,,775298545,775298545
+organization,MC1,,26676370,26676370
+company,MC1,Country_271835,Viento Azul Harbor LLC Investment,Viento Azul Harbor LLC Investment
+vessel,MC1,,Viking fishing,Viking fishing
+organization,MC1,,44956,44956
+political_organization,MC1,,3,3
+organization,MC1,,5,5
+location,MC1,,0715f2ea-3d11-4eaa-a0c4-fb3290896531,0715f2ea-3d11-4eaa-a0c4-fb3290896531
+vessel,MC1,,77,77
+person,MC1,Oceanus,Andrea Gibson,Andrea Gibson
+movement,MC1,,hours,hours
+organization,MC1,,7298083,7298083
+organization,MC1,,21,21
+organization,MC1,,6,6
+person,MC1,Country_271835,Alexander Buchanan,Alexander Buchanan
+person,MC1,Oceanus,Maria Mitchell,Maria Mitchell
+organization,MC1,,9,9
+location,MC1,,14bda3bb-9993-4265-97cc-1747808c144e,14bda3bb-9993-4265-97cc-1747808c144e
+person,MC1,Oceanus,Amanda Mckenzie,Amanda Mckenzie
+organization,MC1,,8698,8698
+person,MC1,Country_271835,Claire Russell,Claire Russell
+organization,MC1,,964,964
+person,MC1,Country_271835,Scott Medina,Scott Medina
+organization,MC1,,2262,2262
+organization,MC1,,93873119,93873119
+person,MC1,Country_271835,Jeremy Cordova,Jeremy Cordova
+location,MC1,,602ea158-0519-47fc-badc-787721580418,602ea158-0519-47fc-badc-787721580418
+person,MC1,Country_271835,Victoria Parks,Victoria Parks
+unknown,MC1,,St,St
+location,MC1,,e40c01a4-8ed5-400f-857d-31e7bd263e35,e40c01a4-8ed5-400f-857d-31e7bd263e35
+organization,MC1,,49494,49494
+organization,MC1,,551,551
+person,MC1,Country_271835,Bryan Taylor,Bryan Taylor
+organization,MC1,,380,380
+location,MC1,,f20779bf-63b5-4ea4-bb5f-944bb9449bce,f20779bf-63b5-4ea4-bb5f-944bb9449bce
+organization,MC1,,349,349
+organization,MC1,,97453782,97453782
+organization,MC1,,71835024,71835024
+person,MC1,Country_271835,Anne Anderson,Anne Anderson
+person,MC1,Country_271835,Brian Nelson,Brian Nelson
+organization,MC1,,78590886,78590886
+organization,MC1,,7209,7209
+organization,MC1,,79139,79139
+organization,MC1,,78135,78135
+organization,MC1,,5810,5810
+organization,MC1,,704138011,704138011
+organization,MC1,,84616,84616
+organization,MC1,,66538530,66538530
+organization,MC1,,12731,12731
+location,MC1,,ee05a28e-82ba-4f1d-a60f-68797a422ada,ee05a28e-82ba-4f1d-a60f-68797a422ada
+political_organization,MC1,,82344,82344
+organization,MC1,,58,58
+person,MC1,Country_19028,Cynthia Williams,Cynthia Williams
+unknown,MC1,,Armed Robberyâ,Armed Robberyâ
+organization,MC1,,76,76
+organization,MC1,,6731,6731
+organization,MC1,,83,83
+person,MC1,Vesperanda,Ms. Stephanie Rivera DDS,Ms. Stephanie Rivera DDS
+organization,MC1,,665,665
+organization,MC1,,89772543,89772543
+unknown,MC1,,âunregulatedâ,âunregulatedâ
+location,MC1,,aea12579-8802-4b2d-b432-fc35fe4d10d5,aea12579-8802-4b2d-b432-fc35fe4d10d5
+location,MC1,,a7948099-0cab-4b80-8707-2ada931ac288,a7948099-0cab-4b80-8707-2ada931ac288
+person,MC1,Country_271835,Michael Smith,Michael Smith
+person,MC1,Country_271835,Melanie Miller,Melanie Miller
+organization,MC1,,12,12
+organization,MC1,,27,27
+person,MC1,Country_271835,Timothy Allen,Timothy Allen
+person,MC1,Riodelsol,Nathaniel Jimenez,Nathaniel Jimenez
+location,MC1,,3b728c8f-1eaa-4f16-8c63-d3bcffd437bb,3b728c8f-1eaa-4f16-8c63-d3bcffd437bb
+company,MC1,Oceanus,Turkish Sword Buoy Incorporated Forwading,Turkish Sword Buoy Incorporated Forwading
+organization,MC1,,498817,498817
+organization,MC1,,2989,2989
+organization,MC1,,967,967
+location,MC1,,df42b319-be6a-4a2e-b11d-c4da7ecfc01c,df42b319-be6a-4a2e-b11d-c4da7ecfc01c
+organization,MC1,,185106,185106
+organization,MC1,,947,947
+person,MC1,Vesperand's Bay,Gregory Ortiz,Gregory Ortiz
+person,MC1,Vesperand's Bay,Michael Compton,Michael Compton
+organization,MC1,,4348721,4348721
+vessel,MC1,,USS Hershel,USS Hershel
+location,MC1,,b20c0baf-8530-4a84-a5b6-8da324ebebdb,b20c0baf-8530-4a84-a5b6-8da324ebebdb
+organization,MC1,,26,26
+organization,MC1,,21538,21538
+organization,MC1,,860600018,860600018
+organization,MC1,,237659945,237659945
+person,MC1,Country_271835,Victoria Anderson,Victoria Anderson
+vessel,MC1,,USCGC Spencer,USCGC Spencer
+vessel,MC1,,WMEC,WMEC
+organization,MC1,,435054320,435054320
+vessel,MC1,,Cutter,Cutter
+location,MC1,,f21800ca-b3c9-404b-8438-3d75ea84c409,f21800ca-b3c9-404b-8438-3d75ea84c409
+organization,MC1,,1560,1560
+unknown,MC1,,Sept,Sept
+person,MC1,Nalakond,John Gonzalez,John Gonzalez
+organization,MC1,,68703341,68703341
+political_organization,MC1,,57,57
+political_organization,MC1,,6046437,6046437
+location,MC1,,03b6c1a6-dcd8-462f-9a7e-bf9ea7e0a987,03b6c1a6-dcd8-462f-9a7e-bf9ea7e0a987
+event,MC1,,Act,Act
+location,MC1,,9a651d73-d88f-4f9c-9497-7321ef575c6f,9a651d73-d88f-4f9c-9497-7321ef575c6f
+person,MC1,Country_271835,Natasha Phillips,Natasha Phillips
+location,MC1,,36351742-aff4-4df7-a495-1f1f2c94127a,36351742-aff4-4df7-a495-1f1f2c94127a
+person,MC1,Country_951683,Dakota Hansen,Dakota Hansen
+organization,MC1,,301,301
+person,MC1,Country_271835,James Best,James Best
+organization,MC1,,9203,9203
+organization,MC1,,3878194,3878194
+person,MC1,Country_271835,Amy Kent,Amy Kent
+unknown,MC1,,Conventionâ,Conventionâ
+event,MC1,,months years,months years
+vessel,MC1,,water fishing,water fishing
+unknown,MC1,,monthsâ,monthsâ
+vessel,MC1,,18,18
+movement,MC1,,months,months
+person,MC1,Country_271835,Emily Johnson,Emily Johnson
+organization,MC1,,94,94
+location,MC1,,e85c691a-2adc-4094-8d29-5ea328486951,e85c691a-2adc-4094-8d29-5ea328486951
+organization,MC1,,760079,760079
+organization,MC1,,3009706,3009706
+location,MC1,,41870892-4565-42cd-9374-8665d01e9aa9,41870892-4565-42cd-9374-8665d01e9aa9
+person,MC1,Country_271835,Susan Erickson,Susan Erickson
+organization,MC1,,80191,80191
+location,MC1,,0f5fd4f9-1683-464e-9459-a4488de5064b,0f5fd4f9-1683-464e-9459-a4488de5064b
+event,MC1,,cookies,cookies
+person,MC1,Syrithania,Ashley Davis,Ashley Davis
+organization,MC1,,924,924
+organization,MC1,,865275,865275
+organization,MC1,,449308,449308
+organization,MC1,,28,28
+organization,MC1,,23777,23777
+organization,MC1,,518,518
+organization,MC1,,426469,426469
+location,MC1,,6064a564-2a82-44b7-8614-3a33f25e41ba,6064a564-2a82-44b7-8614-3a33f25e41ba
+location,MC1,,3cda9d0b-77af-4e85-bef8-e935ca55ea06,3cda9d0b-77af-4e85-bef8-e935ca55ea06
+organization,MC1,,494197,494197
+organization,MC1,,200640636,200640636
+organization,MC1,,23,23
+organization,MC1,,144431,144431
+person,MC1,Country_271835,Debbie Daniel,Debbie Daniel
+company,MC1,Country_628643,png xi  Line,png xi  Line
+organization,MC1,,26261586,26261586
+organization,MC1,,15910405,15910405
+organization,MC1,,7361,7361
+organization,MC1,,85052185,85052185
+organization,MC1,,48605,48605
+location,MC1,,c73572b6-7b24-49e7-8f52-11cf8ec3c7d2,c73572b6-7b24-49e7-8f52-11cf8ec3c7d2
+organization,MC1,,8412071,8412071
+organization,MC1,,439861274,439861274
+person,MC1,Country_271835,Brian Williams,Brian Williams
+organization,MC1,,908724,908724
+person,MC1,Country_271835,Jennifer Price,Jennifer Price
+political_organization,MC1,,653505420,653505420
+person,MC1,Country_271835,Kimberly Palmer,Kimberly Palmer
+organization,MC1,,5848,5848
+organization,MC1,,15785056,15785056
+organization,MC1,,733,733
+organization,MC1,,277983365,277983365
+company,MC1,Rio Isla,Playa del Cielo Kga,Playa del Cielo Kga
+organization,MC1,,26431,26431
+location,MC1,,6d249c4d-1f62-4ab2-b107-8fd978f115c7,6d249c4d-1f62-4ab2-b107-8fd978f115c7
+organization,MC1,,3785,3785
+organization,MC1,,164575,164575
+person,MC1,Country_271835,Spencer King,Spencer King
+person,MC1,Country_271835,Dawn Oconnell,Dawn Oconnell
+event,MC1,,âŠ,âŠ
+organization,MC1,,1396,1396
+organization,MC1,,235866056,235866056
+location,MC1,,d5b94ebc-e03a-438e-872b-a15db349a748,d5b94ebc-e03a-438e-872b-a15db349a748
+organization,MC1,,486,486
+event,MC1,,arts,arts
+unknown,MC1,,98,98
+person,MC1,Country_271835,Timothy Cuevas,Timothy Cuevas
+person,MC1,Country_271835,Joshua Glover,Joshua Glover
+person,MC1,Country_271835,Tara Villegas,Tara Villegas
+person,MC1,Country_271835,Ashley Wiggins,Ashley Wiggins
+political_organization,MC1,,49048884,49048884
+organization,MC1,,9612243,9612243
+person,MC1,Country_271835,Andrea Hansen,Andrea Hansen
+unknown,MC1,,189,189
+unknown,MC1,,07,07
+organization,MC1,,737205,737205
+event,MC1,,April,April
+organization,MC1,,5705060,5705060
+organization,MC1,,959,959
+company,MC1,Country_271835,Belgian Scallop Ltd. Liability Co,Belgian Scallop Ltd. Liability Co
+unknown,MC1,,ânecessaryâ,ânecessaryâ
+organization,MC1,,883320938,883320938
+person,MC1,Country_271835,Ryan Williams,Ryan Williams
+person,MC1,Country_271835,Colleen Everett,Colleen Everett
+person,MC1,Country_271835,Brenda Gonzalez,Brenda Gonzalez
+organization,MC1,,2198,2198
+person,MC1,Country_271835,Clayton Rodgers,Clayton Rodgers
+person,MC1,Country_271835,Randy Collins,Randy Collins
+location,MC1,,41398ea8-d14a-4666-80e8-6a212684d871,41398ea8-d14a-4666-80e8-6a212684d871
+person,MC1,Country_271835,Brandon Berger,Brandon Berger
+organization,MC1,,40690,40690
+location,MC1,,e836e8c3-a45e-4225-870d-d3e8dbc62c26,e836e8c3-a45e-4225-870d-d3e8dbc62c26
+person,MC1,Oceanus,Jennifer Alvarez,Jennifer Alvarez
+person,MC1,Oceanus,Bryce Baker,Bryce Baker
+organization,MC1,,743225,743225
+company,MC1,Country_271835,Norwegian Shrimp Ltd. Liability Co,Norwegian Shrimp Ltd. Liability Co
+company,MC1,Nalakond,Rajasthan Limited Liability Company,Rajasthan Limited Liability Company
+organization,MC1,,4783,4783
+person,MC1,Country_271835,Timothy Estrada,Timothy Estrada
+event,MC1,,ten,ten
+location,MC1,,e2816018-e01c-4eac-8dc5-e84aebc22cff,e2816018-e01c-4eac-8dc5-e84aebc22cff
+person,MC1,Country_271835,Vanessa Avila,Vanessa Avila
+organization,MC1,,529,529
+organization,MC1,,47924922,47924922
+organization,MC1,,49,49
+political_organization,MC1,,12845006,12845006
+organization,MC1,,9488645,9488645
+person,MC1,Merigrad,Lauren Moore,Lauren Moore
+unknown,MC1,,âlocalâ,âlocalâ
+unknown,MC1,,Leominster Provincetownâ,Leominster Provincetownâ
+location,MC1,,371bf15a-3000-499a-88e4-cc096b028ec7,371bf15a-3000-499a-88e4-cc096b028ec7
+political_organization,MC1,,913428,913428
+location,MC1,,d7f220de-bba2-4965-9c15-3dd38ef5c3c7,d7f220de-bba2-4965-9c15-3dd38ef5c3c7
+unknown,MC1,,fisheriesâ,fisheriesâ
+person,MC1,Country_271835,Mark Weiss,Mark Weiss
+organization,MC1,,53073557,53073557
+person,MC1,Country_271835,Jason Davis,Jason Davis
+organization,MC1,,34,34
+person,MC1,Country_271835,Erin Bowen,Erin Bowen
+person,MC1,Country_19028,Albert Thomas,Albert Thomas
+organization,MC1,,31408,31408
+organization,MC1,,28064,28064
+person,MC1,Country_271835,Kyle Stanton,Kyle Stanton
+location,MC1,,ae16dd9b-0271-4699-91bc-0ce6b69357c6,ae16dd9b-0271-4699-91bc-0ce6b69357c6
+person,MC1,Country_271835,Mrs. Crystal Reyes,Mrs. Crystal Reyes
+location,MC1,,e31b2b9c-3197-4c2c-ac40-3c6711a4682b,e31b2b9c-3197-4c2c-ac40-3c6711a4682b
+location,MC1,,5a52675e-1243-4244-ad55-85a06c4408de,5a52675e-1243-4244-ad55-85a06c4408de
+person,MC1,Oceanus,Stephanie Hinton,Stephanie Hinton
+location,MC1,,8153f5cb-e1f7-49bb-91bb-24b3a296a40a,8153f5cb-e1f7-49bb-91bb-24b3a296a40a
+organization,MC1,,70873,70873
+company,MC1,Country_338740,Estrella de Mar Ltd. Liability Co,Estrella de Mar Ltd. Liability Co
+vessel,MC1,,Ship2Report,Ship2Report
+organization,MC1,,90562,90562
+location,MC1,,b28d568f-09b4-41bd-b04d-4cf255f1adc6,b28d568f-09b4-41bd-b04d-4cf255f1adc6
+organization,MC1,,410,410
+organization,MC1,,47562016,47562016
+organization,MC1,,87940,87940
+organization,MC1,,5639000,5639000
+organization,MC1,,5372,5372
+organization,MC1,,951093,951093
+organization,MC1,,86590543,86590543
+person,MC1,Country_271835,Jonathan Smith,Jonathan Smith
+location,MC1,,217fe70e-cc2d-4899-9127-e0a7da182699,217fe70e-cc2d-4899-9127-e0a7da182699
+company,MC1,Country_271835,Playa de la Luna Ltd. Corporation,Playa de la Luna Ltd. Corporation
+organization,MC1,,304,304
+organization,MC1,,672,672
+location,MC1,,02cd44a1-7945-40d9-b38f-56f70976582c,02cd44a1-7945-40d9-b38f-56f70976582c
+organization,MC1,,7950,7950
+organization,MC1,,44,44
+organization,MC1,,41,41
+organization,MC1,,2125,2125
+location,MC1,,1076f239-831c-4c53-9134-484c8f2d5c73,1076f239-831c-4c53-9134-484c8f2d5c73
+person,MC1,Country_271835,Amy Wilson,Amy Wilson
+location,MC1,,9e2e5adf-b6aa-4e7f-9af1-a899ceccfba6,9e2e5adf-b6aa-4e7f-9af1-a899ceccfba6
+organization,MC1,,59,59
+organization,MC1,,46510923,46510923
+vessel,MC1,,pilot,pilot
+organization,MC1,,9699687,9699687
+company,MC1,Vesperlandia,Mar del Oeste Pic,Mar del Oeste Pic
+organization,MC1,,31,31
+organization,MC1,,4526320,4526320
+organization,MC1,,98748,98748
+organization,MC1,,50,50
+organization,MC1,,5495,5495
+political_organization,MC1,,454,454
+organization,MC1,,83818120,83818120
+person,MC1,Country_271835,Mr. Gregory Brown,Mr. Gregory Brown
+organization,MC1,,8327,8327
+organization,MC1,,222848436,222848436
+vessel,MC1,,Amphibious Warships,Amphibious Warships
+person,MC1,Country_271835,Brian Weber,Brian Weber
+movement,MC1,,weeks,weeks
+organization,MC1,,40213337,40213337
+vessel,MC1,,cutters,cutters
+vessel,MC1,,Coast,Coast
+organization,MC1,,7505050,7505050
+event,MC1,,Today,Today
+event,MC1,,June year,June year
+organization,MC1,,8787,8787
+political_organization,MC1,,218,218
+political_organization,MC1,,88149,88149
+organization,MC1,,175,175
+person,MC1,Country_271835,Michael Nicholson,Michael Nicholson
+person,MC1,Country_271835,Andrea Peters,Andrea Peters
+organization,MC1,,7691,7691
+organization,MC1,,98332,98332
+organization,MC1,,78565892,78565892
+location,MC1,,df365f60-c399-42f5-ad38-736145edef5e,df365f60-c399-42f5-ad38-736145edef5e
+organization,MC1,,4146760,4146760
+organization,MC1,,812740593,812740593
+person,MC1,Country_271835,Joshua Baker,Joshua Baker
+organization,MC1,,4764109,4764109
+organization,MC1,,761,761
+location,MC1,,a7d22b55-872d-4fc0-b1ea-935f63ce0d2a,a7d22b55-872d-4fc0-b1ea-935f63ce0d2a
+vessel,MC1,,water,water
+unknown,MC1,,âdevil vesselsâ,âdevil vesselsâ
+person,MC1,Country_245265,Erik Johnson,Erik Johnson
+person,MC1,Country_271835,Alexandria Wilson,Alexandria Wilson
+organization,MC1,,9786,9786
+person,MC1,Country_271835,Stephanie Garner,Stephanie Garner
+unknown,MC1,,œÆï,œÆï
+unknown,MC1,,œe1Pï,œe1Pï
+unknown,MC1,,œe1Pï¿œPï,œe1Pï¿œPï
+unknown,MC1,,œPï,œPï
+unknown,MC1,,œíï,œíï
+unknown,MC1,,œXuï,œXuï
+unknown,MC1,,œÞ£ï,œÞ£ï
+unknown,MC1,,œ8p,œ8p
+unknown,MC1,,œk,œk
+unknown,MC1,,œPjï,œPjï
+unknown,MC1,,œÞï,œÞï
+unknown,MC1,,œB,œB
+unknown,MC1,,œlÞuï,œlÞuï
+unknown,MC1,,iJPkï,iJPkï
+unknown,MC1,,œ5ï,œ5ï
+unknown,MC1,,œï,œï
+unknown,MC1,,œDdï,œDdï
+unknown,MC1,,Æï,Æï
+unknown,MC1,,œgï,œgï
+unknown,MC1,,pï¿œï,pï¿œï
+unknown,MC1,,œï¿œï,œï¿œï
+unknown,MC1,,Kï,Kï
+unknown,MC1,,œiï,œiï
+unknown,MC1,,qï¿œî,qï¿œî
+unknown,MC1,,œGuï,œGuï
+unknown,MC1,,œPm6,œPm6
+unknown,MC1,,œz,œz
+unknown,MC1,,œNï,œNï
+unknown,MC1,,œÎï,œÎï
+unknown,MC1,,œbjNnnï,œbjNnnï
+unknown,MC1,,œLï,œLï
+unknown,MC1,,œß,œß
+unknown,MC1,,œ5ï,œ5ï
+unknown,MC1,,Éd,Éd
+unknown,MC1,,Lï,Lï
+unknown,MC1,,œjOÑ,œjOÑ
+unknown,MC1,,œY,œY
+unknown,MC1,,œnOï,œnOï
+unknown,MC1,,Nï,Nï
+unknown,MC1,,œzï,œzï
+unknown,MC1,,œX,œX
+unknown,MC1,,œÒŒipï,œÒŒipï
+unknown,MC1,,œMSssï,œMSssï
+unknown,MC1,,œx,œx
+unknown,MC1,,œVï,œVï
+unknown,MC1,,œUkï,œUkï
+unknown,MC1,,œmï¿œdï,œmï¿œdï
+unknown,MC1,,œmç¢kï,œmç¢kï
+unknown,MC1,,œmç¢kï¿œF1ï,œmç¢kï¿œF1ï
+unknown,MC1,,œF1ï,œF1ï
+unknown,MC1,,œF1ï¿œF,œF1ï¿œF
+person,MC1,Country_271835,Miguel Fisher,Miguel Fisher
+event,MC1,,Last,Last
+person,MC1,Country_271835,Jeremy Norris,Jeremy Norris
+person,MC1,Marebak,Dana Goodwin,Dana Goodwin
+organization,MC1,,897,897
+location,MC1,,5961c4ed-5c5b-40e4-b0ab-1e0217cb12c0,5961c4ed-5c5b-40e4-b0ab-1e0217cb12c0
+location,MC1,,d3243667-8978-454b-917e-530ab514fcb0,d3243667-8978-454b-917e-530ab514fcb0
+organization,MC1,,2243528,2243528
+location,MC1,,693c9865-5633-40a1-bcb6-3f0dd68a41c4,693c9865-5633-40a1-bcb6-3f0dd68a41c4
+organization,MC1,,544344,544344
+organization,MC1,,2056,2056
+organization,MC1,,95219,95219
+organization,MC1,,579919,579919
+vessel,MC1,,Ocean Tuna,Ocean Tuna
+organization,MC1,,262157542,262157542
+organization,MC1,,46194,46194
+organization,MC1,,826273,826273
+organization,MC1,,951,951
+organization,MC1,,911,911
+organization,MC1,,9204971,9204971
+organization,MC1,,2230601,2230601
+event,MC1,,10,10
+vessel,MC1,,Explorer,Explorer
+person,MC1,Country_271835,Diana Brandt,Diana Brandt
+person,MC1,Country_271835,Brandi Bowen,Brandi Bowen
+person,MC1,Country_271835,Taylor Chan,Taylor Chan
+location,MC1,,1a069318-6dc0-45d0-9948-7b846f61c201,1a069318-6dc0-45d0-9948-7b846f61c201
+location,MC1,,79513661-4dbe-4797-a73a-e53177f7a4b3,79513661-4dbe-4797-a73a-e53177f7a4b3
+person,MC1,Country_271835,Michele Henry,Michele Henry
+organization,MC1,,36295,36295
+location,MC1,,a7a35f33-3e72-44f2-a51b-922e44da23bc,a7a35f33-3e72-44f2-a51b-922e44da23bc
+unknown,MC1,,âartisanalâ,âartisanalâ
+unknown,MC1,,âsubsistenceâ,âsubsistenceâ
+person,MC1,Country_271835,Jeremiah Delacruz,Jeremiah Delacruz
+event,MC1,,âsquids,âsquids
+event,MC1,,âclams,âclams
+event,MC1,,Octopus,Octopus
+organization,MC1,,60253,60253
+organization,MC1,,109746,109746
+organization,MC1,,13015105,13015105
+person,MC1,Country_552976,Ms. Jenna Gonzalez MD,Ms. Jenna Gonzalez MD
+location,MC1,,37e46ce7-3cfa-4805-a254-5549adf19805,37e46ce7-3cfa-4805-a254-5549adf19805
+person,MC1,Country_552976,Scott Mays,Scott Mays
+location,MC1,,b4caf8cd-dbc7-4c99-9f2b-de407274c08b,b4caf8cd-dbc7-4c99-9f2b-de407274c08b
+location,MC1,,38b72863-eaf3-4270-a213-d9ddaee2c6cb,38b72863-eaf3-4270-a213-d9ddaee2c6cb
+location,MC1,,410af01b-a5fb-4d6c-946d-a48fea30332b,410af01b-a5fb-4d6c-946d-a48fea30332b
+event,MC1,,âSocioeconomic,âSocioeconomic
+organization,MC1,,553309,553309
+unknown,MC1,,EBSCOhostâsearched âoctopus,EBSCOhostâsearched âoctopus
+unknown,MC1,,AND fisheryâ,AND fisheryâ
+organization,MC1,,515270,515270
+location,MC1,,09e2222b-c13c-4a94-b1d9-b79238be0788,09e2222b-c13c-4a94-b1d9-b79238be0788
+unknown,MC1,,artisanalâ,artisanalâ
+political_organization,MC1,,704,704
+person,MC1,Country_271835,Elizabeth Savage,Elizabeth Savage
+unknown,MC1,,âoctopusâ,âoctopusâ
+unknown,MC1,,âcephalopodâ,âcephalopodâ
+unknown,MC1,,cyaneaâ,cyaneaâ
+unknown,MC1,,mayaâ,mayaâ
+person,MC1,Country_271835,Taylor Park,Taylor Park
+unknown,MC1,,âpolvoâ,âpolvoâ
+unknown,MC1,,âlivelihoodâ,âlivelihoodâ
+person,MC1,Country_271835,Angela Wheeler,Angela Wheeler
+person,MC1,Country_271835,Lisa Branch,Lisa Branch
+unknown,MC1,,folkâ,folkâ
+unknown,MC1,,âwomenâ,âwomenâ
+unknown,MC1,,âfisherâ,âfisherâ
+unknown,MC1,,managementâ,managementâ
+unknown,MC1,,âo,âo
+person,MC1,Country_271835,Adam Blankenship,Adam Blankenship
+unknown,MC1,,âpoulpeâ,âpoulpeâ
+person,MC1,Country_271835,Mr. Thomas Johnson DDS,Mr. Thomas Johnson DDS
+unknown,MC1,,scaleâ,scaleâ
+company,MC1,Country_271835,Costa del Mar Oyj Hijiki,Costa del Mar Oyj Hijiki
+person,MC1,Quandoria,Miss Jessica Baker DVM,Miss Jessica Baker DVM
+unknown,MC1,,Alonso-FernÃ,Alonso-FernÃ
+location,MC1,,4b6a1701-93c3-403c-bd2f-9684106e8bba,4b6a1701-93c3-403c-bd2f-9684106e8bba
+location,MC1,,c1aeee2d-0030-4d85-b45c-ac3fd9887b98,c1aeee2d-0030-4d85-b45c-ac3fd9887b98
+company,MC1,Osterivaria,Bu yu wang Plc Carriers,Bu yu wang Plc Carriers
+person,MC1,Country_271835,Jeffrey Yates,Jeffrey Yates
+location,MC1,,42aea61e-a98f-4528-9f30-51624ecf3957,42aea61e-a98f-4528-9f30-51624ecf3957
+organization,MC1,,1334578,1334578
+organization,MC1,,7670,7670
+organization,MC1,,43,43
+movement,MC1,,conjunction,conjunction
+event,MC1,,OE23,OE23
+organization,MC1,,3601920,3601920
+organization,MC1,,435978092,435978092
+person,MC1,Uzimoria,Andres Cook,Andres Cook
+location,MC1,,22a2062d-03d8-48c3-9e91-9e5930b8d29f,22a2062d-03d8-48c3-9e91-9e5930b8d29f
+person,MC1,Country_271835,Tyler Guzman,Tyler Guzman
+location,MC1,,ab195b55-453e-4436-ab0c-9f5660b4ec8c,ab195b55-453e-4436-ab0c-9f5660b4ec8c
+person,MC1,Country_874023,Joseph Gonzales,Joseph Gonzales
+person,MC1,Oceanus,Cindy Ritter,Cindy Ritter
+organization,MC1,,5441,5441
+organization,MC1,,199442,199442
+political_organization,MC1,,903,903
+person,MC1,Country_874023,Erica Mitchell,Erica Mitchell
+organization,MC1,,829,829
+organization,MC1,,995899,995899
+organization,MC1,,47249,47249
+organization,MC1,,23399545,23399545
+political_organization,MC1,,621,621
+unknown,MC1,,europeansting,europeansting
+company,MC1,Country_271835,Jammu & Kashmir Ltd Family,Jammu & Kashmir Ltd Family
+political_organization,MC1,,7023,7023
+organization,MC1,,13863,13863
+person,MC1,Country_271835,James Smith MD,James Smith MD
+person,MC1,Country_271835,Brian Palmer,Brian Palmer
+organization,MC1,,35683821,35683821
+person,MC1,Country_895471,Morgan Bell,Morgan Bell
+organization,MC1,,1465792,1465792
+organization,MC1,,366,366
+organization,MC1,,19386200,19386200
+organization,MC1,,85946,85946
+organization,MC1,,172114,172114
+organization,MC1,,657,657
+organization,MC1,,87339689,87339689
+organization,MC1,,522017227,522017227
+political_organization,MC1,,29,29
+political_organization,MC1,,327481624,327481624
+location,MC1,,cf651b3c-4e21-458c-91c4-3cae2eb36bcb,cf651b3c-4e21-458c-91c4-3cae2eb36bcb
+location,MC1,,17c99d9d-7049-4ebb-8a2a-f3d39cc42870,17c99d9d-7049-4ebb-8a2a-f3d39cc42870
+organization,MC1,,760402,760402
+person,MC1,Country_271835,Sarah Clark,Sarah Clark
+vessel,MC1,,Water,Water
+organization,MC1,,737137552,737137552
+location,MC1,,77bfcfcd-af2c-4b58-8a99-871a6c6109f2,77bfcfcd-af2c-4b58-8a99-871a6c6109f2
+location,MC1,,25875c2e-ff9a-4669-bad7-2c84bafb7515,25875c2e-ff9a-4669-bad7-2c84bafb7515
+person,MC1,Country_271835,Matthew Martin,Matthew Martin
+person,MC1,Country_271835,Tyler Brown,Tyler Brown
+organization,MC1,,11960055,11960055
+location,MC1,,ce0d446c-d08d-49a8-8aa2-e625ead63d0c,ce0d446c-d08d-49a8-8aa2-e625ead63d0c
+organization,MC1,,25423,25423
+company,MC1,Country_271835,Delhi ers AS Holdings,Delhi ers AS Holdings
+company,MC1,Country_271835,Cape of Good Hope  Oyj,Cape of Good Hope  Oyj
+location,MC1,,abcb0d9c-80da-4491-99f3-e093984f5373,abcb0d9c-80da-4491-99f3-e093984f5373
+person,MC1,Oceanus,Erin Simmons,Erin Simmons
+unknown,MC1,,LOMÃ,LOMÃ
+location,MC1,,6ae0d6bb-b101-4905-8b41-86b10a580c82,6ae0d6bb-b101-4905-8b41-86b10a580c82
+person,MC1,Oceanus,Kristina Frazier,Kristina Frazier
+person,MC1,Oceanus,Bryan Johnston,Bryan Johnston
+organization,MC1,,874124852,874124852
+location,MC1,,05ef2661-6f3a-4f37-83e7-2ec8352afaef,05ef2661-6f3a-4f37-83e7-2ec8352afaef
+location,MC1,,2ef60e7b-4914-4dbd-a063-5b23143fe5db,2ef60e7b-4914-4dbd-a063-5b23143fe5db
+political_organization,MC1,,2633692,2633692
+location,MC1,,fc4e853f-6e18-4631-bf95-f70d6a30579f,fc4e853f-6e18-4631-bf95-f70d6a30579f
+location,MC1,,6c7a8222-efc7-41a6-809a-043b091ae04a,6c7a8222-efc7-41a6-809a-043b091ae04a
+person,MC1,Country_271835,Dale Warner,Dale Warner
+organization,MC1,,451,451
+location,MC1,,705283b0-cdb7-4f0a-8481-b3fea243a8e5,705283b0-cdb7-4f0a-8481-b3fea243a8e5
+location,MC1,,30295c76-f2c6-4284-89fd-8f8fd082889b,30295c76-f2c6-4284-89fd-8f8fd082889b
+unknown,MC1,,Statesâ,Statesâ
+vessel,MC1,,Gulf,Gulf
+vessel,MC1,,Boat,Boat
+person,MC1,Country_271835,Teresa Rivera,Teresa Rivera
+organization,MC1,,767368152,767368152
+location,MC1,,6d887b98-7c48-4a82-98bb-2f50fe4b29d5,6d887b98-7c48-4a82-98bb-2f50fe4b29d5
+vessel,MC1,,salmon,salmon
+person,MC1,Country_271835,George Ramirez,George Ramirez
+location,MC1,,4e872202-1d65-4183-80c9-e8c12c8f736e,4e872202-1d65-4183-80c9-e8c12c8f736e
+organization,MC1,,4382,4382
+organization,MC1,,7320771,7320771
+organization,MC1,,94760735,94760735
+political_organization,MC1,,969,969
+location,MC1,,86dc0f8c-7305-4c1e-b655-cf16eefd6fce,86dc0f8c-7305-4c1e-b655-cf16eefd6fce
+location,MC1,,8164acdd-514f-4e18-867c-4bc63cebf15b,8164acdd-514f-4e18-867c-4bc63cebf15b
+company,MC1,Country_271835,Playa del Mar Caviar,Playa del Mar Caviar
+location,MC1,,a7f76d84-4ccf-424a-9bf9-fc20b862b7a8,a7f76d84-4ccf-424a-9bf9-fc20b862b7a8
+organization,MC1,,142,142
+organization,MC1,,3183,3183
+company,MC1,Country_766259,Estrella de la Costa Inc Transit,Estrella de la Costa Inc Transit
+organization,MC1,,802113,802113
+organization,MC1,,372016989,372016989
+person,MC1,Country_271835,Alan Pacheco,Alan Pacheco
+location,MC1,,50335cc3-71d6-4803-baca-5faaecfc33cb,50335cc3-71d6-4803-baca-5faaecfc33cb
+person,MC1,Country_271835,Virginia Carter,Virginia Carter
+person,MC1,Country_271835,April James,April James
+unknown,MC1,,Aleut Community St,Aleut Community St
+unknown,MC1,,KanuuxÌ,KanuuxÌ
+location,MC1,,e8036bce-0679-41d2-aa7b-d444163ae65a,e8036bce-0679-41d2-aa7b-d444163ae65a
+unknown,MC1,,âSewardâs Follyâ,âSewardâs Follyâ
+person,MC1,Country_271835,Wendy Duarte,Wendy Duarte
+location,MC1,,aa1f466d-d060-40fa-ab0e-3f8bb2ca940f,aa1f466d-d060-40fa-ab0e-3f8bb2ca940f
+person,MC1,Country_271835,Alexis Murphy,Alexis Murphy
+unknown,MC1,,AlaÄum KanuuxÌ,AlaÄum KanuuxÌ
+person,MC1,Country_34878,Angela Powers,Angela Powers
+person,MC1,Country_271835,Eric Gentry,Eric Gentry
+person,MC1,Country_271835,Donna Shepherd,Donna Shepherd
+company,MC1,Country_271835,Zambezi Rapids NV Brothers,Zambezi Rapids NV Brothers
+organization,MC1,,25652724,25652724
+organization,MC1,,430,430
+location,MC1,,f402c1d2-8262-4bae-aa92-c8675a7006fc,f402c1d2-8262-4bae-aa92-c8675a7006fc
+organization,MC1,,49729,49729
+organization,MC1,,9209373,9209373
+location,MC1,,dff423b9-cf9a-4b0a-849f-ecb513924287,dff423b9-cf9a-4b0a-849f-ecb513924287
+organization,MC1,,993137821,993137821
+organization,MC1,,2421,2421
+organization,MC1,,7413,7413
+political_organization,MC1,,43185,43185
+organization,MC1,,937182447,937182447
+unknown,MC1,,âAlaÄum KanuuxÌ,âAlaÄum KanuuxÌ
+organization,MC1,,861,861
+person,MC1,Country_271835,Gary Scott,Gary Scott
+organization,MC1,,883290144,883290144
+organization,MC1,,859375359,859375359
+location,MC1,,47967ccc-0e26-458d-b1e5-80e8668db714,47967ccc-0e26-458d-b1e5-80e8668db714
+organization,MC1,,7056336,7056336
+organization,MC1,,36322,36322
+organization,MC1,,52,52
+location,MC1,,c9b9c344-98ec-40b8-af05-8528e5d82534,c9b9c344-98ec-40b8-af05-8528e5d82534
+organization,MC1,,42603647,42603647
+organization,MC1,,8544797,8544797
+organization,MC1,,5070599,5070599
+organization,MC1,,8966,8966
+organization,MC1,,39,39
+vessel,MC1,,Plastic,Plastic
+organization,MC1,,927244,927244
+location,MC1,,e53552bc-174b-4799-b96b-c23cfa0731cb,e53552bc-174b-4799-b96b-c23cfa0731cb
+organization,MC1,,9166,9166
+vessel,MC1,,19,19
+organization,MC1,,48,48
+person,MC1,Oceanus,Thomas Curry,Thomas Curry
+location,MC1,,87ea830d-be41-4317-8b1b-142f23da70d7,87ea830d-be41-4317-8b1b-142f23da70d7
+organization,MC1,,662118,662118
+organization,MC1,,45,45
+location,MC1,,c14a3dc1-59d0-4b92-b9f3-331e51912787,c14a3dc1-59d0-4b92-b9f3-331e51912787
+unknown,MC1,,17 Sept,17 Sept
+person,MC1,Oceanus,Christopher Peterson,Christopher Peterson
+organization,MC1,,505943,505943
+person,MC1,Country_271835,Isaiah Hammond,Isaiah Hammond
+person,MC1,Country_271835,Erica Bailey,Erica Bailey
+organization,MC1,,90183,90183
+organization,MC1,,79538,79538
+person,MC1,Country_271835,Kevin Norton,Kevin Norton
+person,MC1,Country_271835,Gregory Moore,Gregory Moore
+organization,MC1,,43685541,43685541
+organization,MC1,,7871,7871
+organization,MC1,,7247721,7247721
+organization,MC1,,22,22
+location,MC1,,cefaf8b3-3aa2-4c59-b4aa-7974c8e1fe32,cefaf8b3-3aa2-4c59-b4aa-7974c8e1fe32
+unknown,MC1,,âgreenâ,âgreenâ
+movement,MC1,,normal,normal
+location,MC1,,ede1806c-b3d1-47f5-ba49-d948d6ec385a,ede1806c-b3d1-47f5-ba49-d948d6ec385a
+organization,MC1,,36,36
+location,MC1,,52e9a600-9d6f-4683-95be-c7c60c57ffe1,52e9a600-9d6f-4683-95be-c7c60c57ffe1
+person,MC1,Polarisdom,Christina Olsen,Christina Olsen
+unknown,MC1,,DiÃ,DiÃ
+unknown,MC1,,logo,logo
+person,MC1,Country_271835,Amy Wise,Amy Wise
+organization,MC1,,8609,8609
+political_organization,MC1,,40952,40952
+organization,MC1,,27641046,27641046
+location,MC1,,e167b40a-96f4-40e0-873b-78950e4434f4,e167b40a-96f4-40e0-873b-78950e4434f4
+organization,MC1,,324989705,324989705
+organization,MC1,,5415,5415
+organization,MC1,,9473,9473
+location,MC1,,52093e45-b873-4300-9612-8dfc291b1339,52093e45-b873-4300-9612-8dfc291b1339
+location,MC1,,46aadaa6-fb30-4474-a060-3adb689f4189,46aadaa6-fb30-4474-a060-3adb689f4189
+location,MC1,,8c53a730-3aa1-463f-aef6-999a3cfbfb70,8c53a730-3aa1-463f-aef6-999a3cfbfb70
+organization,MC1,,528,528
+person,MC1,Country_895471,Abigail Foster,Abigail Foster
+company,MC1,Marebak,Rybachit Limited Liability Company,Rybachit Limited Liability Company
+person,MC1,Country_271835,Hunter Wheeler,Hunter Wheeler
+person,MC1,Country_271835,Christopher Miller,Christopher Miller
+location,MC1,,ae88562c-5c39-4c15-b128-b4f67f5e5812,ae88562c-5c39-4c15-b128-b4f67f5e5812
+unknown,MC1,,ipoa-iuu,ipoa-iuu
+unknown,MC1,,Think Tank Index Reportâ,Think Tank Index Reportâ
+unknown,MC1,,upenn,upenn
+unknown,MC1,,edu,edu
+location,MC1,,2ceda972-c633-4a88-bbe8-a4fe48cb5555,2ceda972-c633-4a88-bbe8-a4fe48cb5555
+unknown,MC1,,Torremolinos,Torremolinos
+unknown,MC1,,International-Convention,International-Convention
+unknown,MC1,,imo,imo
+organization,MC1,,890,890
+unknown,MC1,,âU,âU
+company,MC1,Country_271835,Senegal Coast Oyj Motorboat,Senegal Coast Oyj Motorboat
+organization,MC1,,762833,762833
+vessel,MC1,,Spy,Spy
+person,MC1,Country_271835,Howard Pierce,Howard Pierce
+political_organization,MC1,,228,228
+political_organization,MC1,,63,63
+organization,MC1,,84,84
+political_organization,MC1,,22150,22150
+person,MC1,Country_271835,Jill Boyd,Jill Boyd
+person,MC1,Country_459036,Kristin Davidson,Kristin Davidson
+person,MC1,Country_271835,Robert Carpenter,Robert Carpenter
+person,MC1,Country_459036,Mario Richardson,Mario Richardson
+event,MC1,,âregions,âregions
+organization,MC1,,7529,7529
+organization,MC1,,90254947,90254947
+organization,MC1,,591787,591787
+person,MC1,Country_415128,Joseph Johnson,Joseph Johnson
+person,MC1,Country_895471,Peter Oliver,Peter Oliver
+unknown,MC1,,âsinkâ,âsinkâ
+organization,MC1,,555217629,555217629
+person,MC1,Country_437825,Jeremy Jackson,Jeremy Jackson
+person,MC1,Country_198078,Kelly Brown,Kelly Brown
+person,MC1,Country_271835,Susan Porter,Susan Porter
+person,MC1,Country_271835,Meghan Wolfe,Meghan Wolfe
+person,MC1,Country_931736,Zachary Petersen,Zachary Petersen
+person,MC1,Marebak,Stephen Evans,Stephen Evans
+person,MC1,Country_271835,Charles Tran,Charles Tran
+location,MC1,,23550059-88d4-4a69-b74e-3c7de8bf56de,23550059-88d4-4a69-b74e-3c7de8bf56de
+person,MC1,Country_984533,Patricia Byrd,Patricia Byrd
+person,MC1,Riodelsol,Ronald Mahoney,Ronald Mahoney
+company,MC1,Country_271835,Playa de Coral GmbH Consultants,Playa de Coral GmbH Consultants
+person,MC1,Country_271835,Kirk Jackson,Kirk Jackson
+unknown,MC1,,âdegradedâ,âdegradedâ
+person,MC1,Country_271835,Jeffrey Curry,Jeffrey Curry
+person,MC1,Country_271835,Steven Huynh,Steven Huynh
+person,MC1,Oceanterra,Evelyn Huang,Evelyn Huang
+event,MC1,,âpoint,âpoint
+person,MC1,Country_271835,Bonnie Perez,Bonnie Perez
+person,MC1,Country_483478,Courtney Evans,Courtney Evans
+unknown,MC1,,Mexicoâs YucatÃ,Mexicoâs YucatÃ
+person,MC1,Country_271835,Jerry Welch,Jerry Welch
+location,MC1,,1196cfc8-175c-465b-aee9-fbf74c81aa49,1196cfc8-175c-465b-aee9-fbf74c81aa49
+organization,MC1,,87,87
+event,MC1,,NiÃ±o,NiÃ±o
+person,MC1,Country_271835,Judy Johns,Judy Johns
+person,MC1,Country_271835,Richard Greer,Richard Greer
+person,MC1,Country_271835,David Hayden,David Hayden
+person,MC1,Country_271835,Matthew Delgado,Matthew Delgado
+location,MC1,,21e68e53-183c-45a0-9805-68c099d4d9c0,21e68e53-183c-45a0-9805-68c099d4d9c0
+unknown,MC1,,âpioneersâ,âpioneersâ
+event,MC1,,embaÃºba,embaÃºba
+unknown,MC1,,âzombie,âzombie
+person,MC1,Country_981995,Kenneth Jones,Kenneth Jones
+event,MC1,,âSwiss,âSwiss
+person,MC1,Country_271835,Elizabeth Dean,Elizabeth Dean
+person,MC1,Country_271835,Daniel Mason,Daniel Mason
+person,MC1,Country_271835,Miss Angel Thomas,Miss Angel Thomas
+person,MC1,Country_271835,Amanda Mitchell,Amanda Mitchell
+person,MC1,Country_271835,Scott Brown,Scott Brown
+movement,MC1,,days,days
+organization,MC1,,38111,38111
+person,MC1,Country_271835,Thomas Rivas,Thomas Rivas
+person,MC1,Country_271835,Holly Taylor,Holly Taylor
+organization,MC1,,66030248,66030248
+organization,MC1,,20571414,20571414
+organization,MC1,,31894357,31894357
+organization,MC1,,1225,1225
+organization,MC1,,363355,363355
+organization,MC1,,387674,387674
+person,MC1,Marebak,Alan Wells,Alan Wells
+political_organization,MC1,,981038,981038
+event,MC1,,âThese,âThese
+person,MC1,Country_271835,Stephen Lowe,Stephen Lowe
+person,MC1,Country_271835,Nicholas Hernandez,Nicholas Hernandez
+person,MC1,Country_271835,Stephanie Robinson,Stephanie Robinson
+location,MC1,,e678510b-947d-455a-8eb0-44d1009682ec,e678510b-947d-455a-8eb0-44d1009682ec
+unknown,MC1,,The Pew Charitable Trustsâ,The Pew Charitable Trustsâ
+person,MC1,Country_271835,Jerry Montgomery,Jerry Montgomery
+location,MC1,,ad8fe467-3759-4f53-bf6a-896a237d187f,ad8fe467-3759-4f53-bf6a-896a237d187f
+vessel,MC1,,Leng 999 Gal,Leng 999 Gal
+organization,MC1,,1402,1402
+location,MC1,,a0deebdf-db0c-4aa8-91b6-0536e017c20f,a0deebdf-db0c-4aa8-91b6-0536e017c20f
+organization,MC1,,25125567,25125567
+person,MC1,Country_271835,Parker Jones,Parker Jones
+event,MC1,,âCollecting,âCollecting
+organization,MC1,,33681303,33681303
+person,MC1,Country_461742,Michael Brock,Michael Brock
+organization,MC1,,2573803,2573803
+organization,MC1,,56126935,56126935
+unknown,MC1,,âcollaborativeâ,âcollaborativeâ
+person,MC1,Syrithania,Xavier Sanchez,Xavier Sanchez
+person,MC1,Country_271835,Raymond King,Raymond King
+person,MC1,Country_542476,Thomas Morales,Thomas Morales
+organization,MC1,,138782226,138782226
+person,MC1,Country_271835,Christopher Daniel,Christopher Daniel
+person,MC1,Country_887466,Linda Sherman,Linda Sherman
+person,MC1,Country_271835,Mary Lucas,Mary Lucas
+person,MC1,Country_271835,Morgan Black,Morgan Black
+person,MC1,Oceanus,Kristine Vaughn,Kristine Vaughn
+organization,MC1,,1301719,1301719
+person,MC1,Marebak,Melissa Gonzales,Melissa Gonzales
+organization,MC1,,496391,496391
+organization,MC1,,7539428,7539428
+location,MC1,,8afc9cb6-edf5-4a7d-9a02-054444a5604e,8afc9cb6-edf5-4a7d-9a02-054444a5604e
+person,MC1,Country_271835,Crystal Smith,Crystal Smith
+person,MC1,Oceanus,Richard Perkins,Richard Perkins
+person,MC1,Oceanus,Amanda Gibson,Amanda Gibson
+person,MC1,Country_271835,Christine Jones,Christine Jones
+person,MC1,Country_271835,Carlos White,Carlos White
+organization,MC1,,28379,28379
+person,MC1,Country_271835,Christine Robinson,Christine Robinson
+organization,MC1,,958085,958085
+company,MC1,Marebak,Diao er Ltd. Corporation Transport,Diao er Ltd. Corporation Transport
+company,MC1,Marebak,Tshikwea Corp Marine sanctuary,Tshikwea Corp Marine sanctuary
+location,MC1,,5ede75fe-f670-4a59-b693-da34e7f6eb47,5ede75fe-f670-4a59-b693-da34e7f6eb47
+person,MC1,Country_271835,Robert Adams,Robert Adams
+person,MC1,Country_271835,Brandon Jackson,Brandon Jackson
+person,MC1,Osterivaria,Sierra Smith,Sierra Smith
+organization,MC1,,519994690,519994690
+organization,MC1,,102642,102642
+organization,MC1,,7908385,7908385
+organization,MC1,,691192,691192
+organization,MC1,,243964,243964
+company,MC1,Country_271835,Turkish Sword Ltd Export,Turkish Sword Ltd Export
+person,MC1,Country_271835,Jasmine Camacho,Jasmine Camacho
+person,MC1,Country_271835,Lindsey Palmer,Lindsey Palmer
+event,MC1,,âespecially,âespecially
+person,MC1,Country_271835,Melissa Spence,Melissa Spence
+location,MC1,,e13aca6a-88b5-4be7-a293-4a57854d7b1d,e13aca6a-88b5-4be7-a293-4a57854d7b1d
+person,MC1,Country_789037,Jessica Brown,Jessica Brown
+person,MC1,Country_271835,Daniel Snyder,Daniel Snyder
+organization,MC1,,441,441
+person,MC1,Country_271835,Bethany Wright,Bethany Wright
+person,MC1,Country_271835,Willie Hill,Willie Hill
+person,MC1,Country_271835,Jennifer Meyers,Jennifer Meyers
+person,MC1,Country_271835,Allison Leonard,Allison Leonard
+unknown,MC1,,ââ,ââ
+person,MC1,Country_271835,Amanda Andrews,Amanda Andrews
+person,MC1,Ivarisia,Bruce Brooks,Bruce Brooks
+organization,MC1,,111795162,111795162
+organization,MC1,,482048,482048
+organization,MC1,,70,70
+event,MC1,,âHe,âHe
+location,MC1,,7cc6bfba-4893-444b-a641-a7d0b48fa427,7cc6bfba-4893-444b-a641-a7d0b48fa427
+organization,MC1,,56,56
+organization,MC1,,621770,621770
+organization,MC1,,3016,3016
+organization,MC1,,98703,98703
+person,MC1,Country_271835,Misty Thomas,Misty Thomas
+organization,MC1,,314,314
+organization,MC1,,567,567
+organization,MC1,,990,990
+organization,MC1,,341853,341853
+organization,MC1,,13592,13592
+person,MC1,Country_449947,Dawn Sanchez,Dawn Sanchez
+organization,MC1,,979893388,979893388
+person,MC1,Country_271835,Tammy Ryan,Tammy Ryan
+person,MC1,Country_204272,Timothy Lopez,Timothy Lopez
+company,MC1,Country_271835,Marine Mermaids CJSC Marine biology,Marine Mermaids CJSC Marine biology
+person,MC1,Country_204272,David Larsen,David Larsen
+political_organization,MC1,,706129,706129
+organization,MC1,,14,14
+organization,MC1,,4698,4698
+organization,MC1,,89734,89734
+person,MC1,Country_271835,Terry Murphy,Terry Murphy
+organization,MC1,,491,491
+organization,MC1,,3528,3528
+organization,MC1,,43247945,43247945
+location,MC1,,e1d7b4ac-ed31-42a4-9375-4afb0f78f276,e1d7b4ac-ed31-42a4-9375-4afb0f78f276
+person,MC1,Country_271835,Mary Horton,Mary Horton
+vessel,MC1,,cutter James,cutter James
+person,MC1,Country_800653,Mr. Mark Kline,Mr. Mark Kline
+location,MC1,,1da2bc5a-e590-41c9-9982-2ade48dfc426,1da2bc5a-e590-41c9-9982-2ade48dfc426
+organization,MC1,,842229565,842229565
+person,MC1,Country_271835,Dylan Roberts,Dylan Roberts
+vessel,MC1,,Hang,Hang
+organization,MC1,,41695239,41695239
+organization,MC1,,489,489
+location,MC1,,67a59fab-710a-4992-b6d0-d581fd9dceba,67a59fab-710a-4992-b6d0-d581fd9dceba
+location,MC1,,da75877e-ec57-42cc-82b9-de68c8d333e7,da75877e-ec57-42cc-82b9-de68c8d333e7
+vessel,MC1,,boat,boat
+person,MC1,Syrithania,Michelle Hancock,Michelle Hancock
+person,MC1,Country_271835,Kathy Rodriguez,Kathy Rodriguez
+unknown,MC1,,GalÃ,GalÃ
+political_organization,MC1,,950296,950296
+vessel,MC1,,Oceans,Oceans
+person,MC1,Country_271835,David Weber,David Weber
+location,MC1,,7c54563c-577c-462f-8e30-389b510c776a,7c54563c-577c-462f-8e30-389b510c776a
+event,MC1,,Morning,Morning
+person,MC1,Country_271835,Jennifer Simmons,Jennifer Simmons
+organization,MC1,,4759,4759
+vessel,MC1,,626,626
+location,MC1,,72899187-0989-47fa-9db0-cd1d4c3fc4e3,72899187-0989-47fa-9db0-cd1d4c3fc4e3
+organization,MC1,,833355,833355
+political_organization,MC1,,27078926,27078926
+organization,MC1,,2983,2983
+organization,MC1,,613281364,613281364
+person,MC1,Country_271835,Dylan Moss,Dylan Moss
+organization,MC1,,92,92
+political_organization,MC1,,8597,8597
+organization,MC1,,801809,801809
+person,MC1,Country_271835,Angela Spencer,Angela Spencer
+organization,MC1,,97,97
+political_organization,MC1,,6889326,6889326
+location,MC1,,ec1b111d-b9eb-4eef-ab00-ff7124cca480,ec1b111d-b9eb-4eef-ab00-ff7124cca480
+organization,MC1,,32416483,32416483
+location,MC1,,f2aee915-d483-4823-a030-9aac5e44c1fe,f2aee915-d483-4823-a030-9aac5e44c1fe
+vessel,MC1,,oceanâs,oceanâs
+organization,MC1,,7328,7328
+company,MC1,Country_271835,OceanicOrigin Foods Co and Son's,OceanicOrigin Foods Co and Son's
+organization,MC1,,71317,71317
+organization,MC1,,852015,852015
+organization,MC1,,65,65
+organization,MC1,,58745,58745
+organization,MC1,,71755,71755
+organization,MC1,,1972868,1972868
+organization,MC1,,61057213,61057213
+organization,MC1,,653,653
+location,MC1,,473c1320-e50b-4f90-a068-76f82e210f26,473c1320-e50b-4f90-a068-76f82e210f26
+company,MC1,Country_271835,Ola de la Costa S.A. de C.V.,Ola de la Costa S.A. de C.V.
+organization,MC1,,18,18
+organization,MC1,,24641639,24641639
+organization,MC1,,678,678
+organization,MC1,,6393,6393
+person,MC1,Country_271835,Margaret Shields,Margaret Shields
+organization,MC1,,346281879,346281879
+organization,MC1,,341,341
+organization,MC1,,1094345,1094345
+vessel,MC1,,629,629
+person,MC1,Country_271835,Brian Wolfe,Brian Wolfe
+organization,MC1,,119411,119411
+organization,MC1,,8950,8950
+location,MC1,,8041aa28-8c50-4083-a528-469c0c6251d9,8041aa28-8c50-4083-a528-469c0c6251d9
+vessel,MC1,,621,621
+person,MC1,Country_271835,Frank Guzman,Frank Guzman
+location,MC1,,34f0cbbf-83c3-4e09-ad7a-b94a778f7c12,34f0cbbf-83c3-4e09-ad7a-b94a778f7c12
+person,MC1,Country_271835,Michael Porter,Michael Porter
+person,MC1,Country_271835,Madison Edwards,Madison Edwards
+person,MC1,Marebak,Calvin Salas,Calvin Salas
+unknown,MC1,,âpresumedâ,âpresumedâ
+unknown,MC1,,âconfirmedâ,âconfirmedâ
+organization,MC1,,685607,685607
+organization,MC1,,265494227,265494227
+location,MC1,,2a282617-d174-409c-b0b1-490fdc369335,2a282617-d174-409c-b0b1-490fdc369335
+company,MC1,Country_271835,xu y Ltd. Corporation,xu y Ltd. Corporation
+event,MC1,,periods years,periods years
+organization,MC1,,89035,89035
+person,MC1,Wysterion,Tristan Johnson,Tristan Johnson
+person,MC1,Country_271835,Andrew Gamble,Andrew Gamble
+organization,MC1,,21724,21724
+event,MC1,,âhigh,âhigh
+unknown,MC1,,âwidespreadâ,âwidespreadâ
+person,MC1,Country_907876,David Mcfarland,David Mcfarland
+unknown,MC1,,âprotectedâ,âprotectedâ
+organization,MC1,,30700925,30700925
+person,MC1,Country_271835,George Morton,George Morton
+person,MC1,Country_271835,Janice Bell,Janice Bell
+movement,MC1,,Saturday,Saturday
+location,MC1,,a39483f8-121a-4c18-9b20-9e0d2cba52e9,a39483f8-121a-4c18-9b20-9e0d2cba52e9
+organization,MC1,,58623386,58623386
+organization,MC1,,492238508,492238508
+person,MC1,Country_709784,Anita Tate,Anita Tate
+organization,MC1,,4447143,4447143
+person,MC1,Country_271835,Lisa Foster,Lisa Foster
+organization,MC1,,34252,34252
+organization,MC1,,8494294,8494294
+unknown,MC1,,Catchâ,Catchâ
+organization,MC1,,17,17
+organization,MC1,,150674265,150674265
+person,MC1,Oceanus,Audrey Romero,Audrey Romero
+person,MC1,Oceanus,Melinda Wade,Melinda Wade
+location,MC1,,36b70b18-465a-442f-bfbe-cedb85d48acc,36b70b18-465a-442f-bfbe-cedb85d48acc
+organization,MC1,,13,13
+organization,MC1,,3887,3887
+vessel,MC1,,reefers,reefers
+unknown,MC1,,âencounteredâ,âencounteredâ
+person,MC1,Country_271835,Veronica Payne,Veronica Payne
+person,MC1,Country_271835,Ronnie Burns,Ronnie Burns
+person,MC1,Country_271835,Lisa Lambert,Lisa Lambert
+organization,MC1,,1360,1360
+person,MC1,Country_271835,Kimberly Lara,Kimberly Lara
+location,MC1,,2ad4f7ea-6f93-4a11-ace7-d7a4234bb991,2ad4f7ea-6f93-4a11-ace7-d7a4234bb991
+location,MC1,,b24194ae-69ad-4e6c-be29-787c215cde65,b24194ae-69ad-4e6c-be29-787c215cde65
+person,MC1,Country_271835,Sara Jenkins,Sara Jenkins
+location,MC1,,19a4297e-2d2b-47c0-9dce-816148a16f4e,19a4297e-2d2b-47c0-9dce-816148a16f4e
+vessel,MC1,,Maru,Maru
+person,MC1,Country_271835,Danielle Camacho,Danielle Camacho
+organization,MC1,,60693571,60693571
+organization,MC1,,54073418,54073418
+person,MC1,Country_271835,Mr. Justin Bailey MD,Mr. Justin Bailey MD
+organization,MC1,,76568,76568
+location,MC1,,c682ec16-cd10-4a6c-94ce-4a5eb590b42e,c682ec16-cd10-4a6c-94ce-4a5eb590b42e
+person,MC1,Country_271835,Paula Allen,Paula Allen
+unknown,MC1,,13 yearsâ,13 yearsâ
+movement,MC1,,three,three
+person,MC1,Country_271835,Christy Fields,Christy Fields
+person,MC1,Country_271835,Michele Hernandez,Michele Hernandez
+person,MC1,Country_271835,Mary Castillo,Mary Castillo
+person,MC1,Country_271835,Jennifer Brown,Jennifer Brown
+person,MC1,Country_271835,John Barnes DDS,John Barnes DDS
+organization,MC1,,830155,830155
+person,MC1,Country_271835,Anna Turner,Anna Turner
+person,MC1,Country_271835,Stephanie Quinn,Stephanie Quinn
+organization,MC1,,9590898,9590898
+person,MC1,Arreciviento,Joshua Garrett,Joshua Garrett
+organization,MC1,,95230042,95230042
+organization,MC1,,21240092,21240092
+organization,MC1,,7234,7234
+organization,MC1,,6335187,6335187
+organization,MC1,,695031,695031
+organization,MC1,,2508,2508
+organization,MC1,,6391,6391
+person,MC1,Country_271835,Mary Jenkins,Mary Jenkins
+political_organization,MC1,,75835980,75835980
+organization,MC1,,23774,23774
+person,MC1,Luminsia,Nicole Smith,Nicole Smith
+organization,MC1,,9992346,9992346
+organization,MC1,,227,227
+vessel,MC1,,ocean,ocean
+person,MC1,Country_271835,Jennifer Reilly,Jennifer Reilly
+political_organization,MC1,,79,79
+organization,MC1,,39893,39893
+location,MC1,,47bd4f34-d0af-41f0-88c5-eb9d4fde440c,47bd4f34-d0af-41f0-88c5-eb9d4fde440c
+organization,MC1,,3782,3782
+organization,MC1,,7441,7441
+unknown,MC1,,Fisheries Animal Industriesâ,Fisheries Animal Industriesâ
+person,MC1,Country_271835,Donald Thompson,Donald Thompson
+person,MC1,Country_271835,Cynthia Byrd,Cynthia Byrd
+person,MC1,Country_271835,Christopher Hernandez,Christopher Hernandez
+organization,MC1,,58666504,58666504
+person,MC1,Country_271835,Jennifer Frederick,Jennifer Frederick
+organization,MC1,,70347729,70347729
+organization,MC1,,116070050,116070050
+location,MC1,,b47086b0-e225-436a-83b1-2cf5cda4dbd5,b47086b0-e225-436a-83b1-2cf5cda4dbd5
+organization,MC1,,613465161,613465161
+vessel,MC1,,bottom,bottom
+person,MC1,Country_271835,Michael Patton,Michael Patton
+person,MC1,Country_271835,Kristin Jones,Kristin Jones
+organization,MC1,,884648,884648
+organization,MC1,,90,90
+organization,MC1,,353149780,353149780
+organization,MC1,,2913,2913
+organization,MC1,,693436,693436
+location,MC1,,88a1fe65-33d9-487a-a3ac-d4208f41b754,88a1fe65-33d9-487a-a3ac-d4208f41b754
+person,MC1,Country_271835,Jenna Barton,Jenna Barton
+location,MC1,,67f3755e-7f86-40a1-ae17-998d50a3e772,67f3755e-7f86-40a1-ae17-998d50a3e772
+organization,MC1,,631919,631919
+person,MC1,Country_271835,Stephen Gutierrez,Stephen Gutierrez
+person,MC1,Country_271835,Jessica Owens,Jessica Owens
+person,MC1,Country_271835,John Hutchinson,John Hutchinson
+person,MC1,Country_271835,Daniel Wood,Daniel Wood
+event,MC1,,â¬7,â¬7
+vessel,MC1,,reefer,reefer
+vessel,MC1,,Fu Yuan Yu Leng 999,Fu Yuan Yu Leng 999
+location,MC1,,88e9e7e8-3edf-4fd4-959d-8ec4f53e59d6,88e9e7e8-3edf-4fd4-959d-8ec4f53e59d6
+organization,MC1,,8732,8732
+organization,MC1,,44396,44396
+location,MC1,,f7a4114d-d1ca-44df-a7e0-c72e440671ba,f7a4114d-d1ca-44df-a7e0-c72e440671ba
+organization,MC1,,6038,6038
+vessel,MC1,,Chinook,Chinook
+organization,MC1,,6274,6274
+location,MC1,,f9f6fc72-83db-4c44-a818-dde6c33985f9,f9f6fc72-83db-4c44-a818-dde6c33985f9
+organization,MC1,,6758207,6758207
+unknown,MC1,,abc12,abc12
+political_organization,MC1,,40,40
+organization,MC1,,615043,615043
+person,MC1,Country_271835,Robert Lewis,Robert Lewis
+person,MC1,Country_271835,Margaret Nichols,Margaret Nichols
+organization,MC1,,64124835,64124835
+organization,MC1,,767,767
+person,MC1,Country_271835,Chris Grant,Chris Grant
+person,MC1,Country_271835,Angela Orr,Angela Orr
+organization,MC1,,67909,67909
+location,MC1,,e09b64a2-397a-4bec-96a1-7d61479fe37a,e09b64a2-397a-4bec-96a1-7d61479fe37a
+organization,MC1,,1012,1012
+person,MC1,Country_271835,Katelyn Gibson,Katelyn Gibson
+person,MC1,Country_271835,Kayla Reynolds,Kayla Reynolds
+organization,MC1,,724,724
+organization,MC1,,824,824
+person,MC1,Country_271835,William Williams,William Williams
+person,MC1,Country_271835,Vicki Owen,Vicki Owen
+person,MC1,Country_271835,Alyssa Mccoy,Alyssa Mccoy
+location,MC1,,292bf7d9-d86c-411d-9a85-da0cb4535e22,292bf7d9-d86c-411d-9a85-da0cb4535e22
+location,MC1,,c82d3e99-b297-484e-a28a-76cba8d515cc,c82d3e99-b297-484e-a28a-76cba8d515cc
+person,MC1,Country_271835,Scott Wright,Scott Wright
+organization,MC1,,854,854
+political_organization,MC1,,2653581,2653581
+person,MC1,Country_271835,John Conley,John Conley
+organization,MC1,,977,977
+person,MC1,Country_271835,James Hernandez,James Hernandez
+location,MC1,,1f899410-3447-48e7-bcb3-cbff10619e86,1f899410-3447-48e7-bcb3-cbff10619e86
+organization,MC1,,39048624,39048624
+vessel,MC1,,river,river
+person,MC1,Country_271835,Rhonda Johnson,Rhonda Johnson
+political_organization,MC1,,54,54
+organization,MC1,,1853970,1853970
+organization,MC1,,87648111,87648111
+person,MC1,Country_271835,Barbara Mccarty,Barbara Mccarty
+person,MC1,Country_271835,Christopher Simon,Christopher Simon
+person,MC1,Country_271835,Lauren Jackson DDS,Lauren Jackson DDS
+event,MC1,,ï¬shes,ï¬shes
+event,MC1,,ï¬sh,ï¬sh
+person,MC1,Country_990614,Darren Wilson,Darren Wilson
+person,MC1,Country_271835,Andrew Miller,Andrew Miller
+person,MC1,Country_990614,Erica Cisneros,Erica Cisneros
+political_organization,MC1,,440994840,440994840
+person,MC1,Country_271835,Heather Hill,Heather Hill
+person,MC1,Country_271835,Krystal Lee,Krystal Lee
+organization,MC1,,42258,42258
+organization,MC1,,506986590,506986590
+organization,MC1,,7321,7321
+organization,MC1,,647724,647724
+organization,MC1,,272735814,272735814
+person,MC1,Country_271835,Wesley Woods,Wesley Woods
+company,MC1,Country_283574,Dry Creek Marine sanctuary,Dry Creek Marine sanctuary
+organization,MC1,,1214936,1214936
+organization,MC1,,2751,2751
+person,MC1,Country_271835,Marvin White,Marvin White
+person,MC1,Country_271835,Philip Black,Philip Black
+person,MC1,Country_271835,Laurie Clark,Laurie Clark
+organization,MC1,,7548555,7548555
+vessel,MC1,,ARA Contraalmirante Cordero,ARA Contraalmirante Cordero
+person,MC1,Country_198078,Keith Webb,Keith Webb
+organization,MC1,,54217974,54217974
+organization,MC1,,38,38
+person,MC1,Country_271835,Elijah Gordon,Elijah Gordon
+organization,MC1,,71352,71352
+organization,MC1,,60806,60806
+location,MC1,,259e9338-b33e-4dc7-843a-96a720d22d9b,259e9338-b33e-4dc7-843a-96a720d22d9b
+organization,MC1,,461553,461553
+organization,MC1,,538991,538991
+organization,MC1,,71,71
+person,MC1,Oceanus,Rebecca Fox,Rebecca Fox
+event,MC1,,expect year,expect year
+company,MC1,Country_271835,Charles OJSC Marine conservation,Charles OJSC Marine conservation
+vessel,MC1,,shrimper,shrimper
+company,MC1,Ariuzima,Caracola Azul Limited Liability Company,Caracola Azul Limited Liability Company
+person,MC1,Country_271835,Brandy Williams,Brandy Williams
+location,MC1,,d6968538-6f18-4a1c-a4e2-59de3c0e25c2,d6968538-6f18-4a1c-a4e2-59de3c0e25c2
+vessel,MC1,,coastguard,coastguard
+company,MC1,Country_271835,Viento y Mar BV,Viento y Mar BV
+person,MC1,Country_271835,Robert Vega,Robert Vega
+person,MC1,Country_271835,James Sampson,James Sampson
+person,MC1,Country_271835,Debra Hebert,Debra Hebert
+organization,MC1,,135024,135024
+organization,MC1,,38844,38844
+person,MC1,Country_271835,John Frederick,John Frederick
+person,MC1,Country_271835,Allison Rodgers,Allison Rodgers
+organization,MC1,,759,759
+location,MC1,,0ae94787-4593-4139-848d-9174ea13ac23,0ae94787-4593-4139-848d-9174ea13ac23
+company,MC1,Country_271835,OceanFront Foods Co Beach,OceanFront Foods Co Beach
+political_organization,MC1,,19186817,19186817
+political_organization,MC1,,2748013,2748013
+organization,MC1,,23636990,23636990
+organization,MC1,,996,996
+organization,MC1,,81661977,81661977
+movement,MC1,,metric,metric
+organization,MC1,,24189,24189
+organization,MC1,,216,216
+person,MC1,Oceanus,Frederick Hunter,Frederick Hunter
+organization,MC1,,9977227,9977227
+organization,MC1,,64365043,64365043
+location,MC1,,06c161ac-e601-493f-b8df-839382e16a74,06c161ac-e601-493f-b8df-839382e16a74
+organization,MC1,,458785,458785
+location,MC1,,e5e2e269-ccc5-4e16-88a8-e909c1fa32db,e5e2e269-ccc5-4e16-88a8-e909c1fa32db
+organization,MC1,,42,42
+organization,MC1,,4258240,4258240
+person,MC1,Country_271835,Julie Parks,Julie Parks
+organization,MC1,,891,891
+location,MC1,,a96730cc-485e-46be-aba4-339442bacd8d,a96730cc-485e-46be-aba4-339442bacd8d
+vessel,MC1,,USCGC,USCGC
+person,MC1,Country_271835,Kristi Weeks,Kristi Weeks
+vessel,MC1,,DDG,DDG
+vessel,MC1,,USS,USS
+vessel,MC1,,USS Hurricane,USS Hurricane
+vessel,MC1,,PC,PC
+person,MC1,Country_271835,Brandi White,Brandi White
+person,MC1,Country_271835,Tara Hanson,Tara Hanson
+person,MC1,Country_271835,Wesley Vasquez,Wesley Vasquez
+organization,MC1,,16,16
+person,MC1,Country_271835,Rebecca Adams,Rebecca Adams
+organization,MC1,,29481,29481
+person,MC1,Country_271835,Briana Johnson,Briana Johnson
+organization,MC1,,6126134,6126134
+organization,MC1,,595038316,595038316
+organization,MC1,,673431,673431
+organization,MC1,,73704,73704
+organization,MC1,,6780,6780
+person,MC1,Country_271835,Mr. Joseph Johnson,Mr. Joseph Johnson
+organization,MC1,,7480,7480
+person,MC1,Country_271835,Marie Lee,Marie Lee
+organization,MC1,,4769248,4769248
+organization,MC1,,3015,3015
+organization,MC1,,2679,2679
+location,MC1,,97836b65-db6a-43bf-9467-cf57d84645ff,97836b65-db6a-43bf-9467-cf57d84645ff
+person,MC1,Country_271835,Douglas Gillespie,Douglas Gillespie
+unknown,MC1,,âdisasterâ,âdisasterâ
+person,MC1,Country_271835,Jonathan Garner,Jonathan Garner
+person,MC1,Country_271835,Amanda Contreras,Amanda Contreras
+vessel,MC1,,Long Xing 629,Long Xing 629
+person,MC1,Country_271835,Bryan Hill,Bryan Hill
+location,MC1,,58db776e-40f1-4e68-b13d-dcc42416ce58,58db776e-40f1-4e68-b13d-dcc42416ce58
+person,MC1,Marebak,Anthony Le,Anthony Le
+person,MC1,Country_271835,Jo Francis,Jo Francis
+person,MC1,Country_271835,Stephanie Thompson,Stephanie Thompson
+person,MC1,Country_271835,Michael Baker,Michael Baker
+organization,MC1,,868,868
+organization,MC1,,99985383,99985383
+organization,MC1,,298,298
+person,MC1,Country_271835,Michael Wagner,Michael Wagner
+person,MC1,Country_271835,Susan Hodges,Susan Hodges
+person,MC1,Country_663412,Michael Chen,Michael Chen
+person,MC1,Country_271835,Jennifer Thompson,Jennifer Thompson
+person,MC1,Country_271835,Sabrina Zamora,Sabrina Zamora
+person,MC1,Country_271835,Hannah Chandler,Hannah Chandler
+vessel,MC1,,Deckhands,Deckhands
+person,MC1,Country_271835,Bruce Bates,Bruce Bates
+person,MC1,Country_271835,Kimberly Lopez,Kimberly Lopez
+person,MC1,Country_271835,Teresa Jackson,Teresa Jackson
+unknown,MC1,,âWe fins,âWe fins
+location,MC1,,ecf18ac9-a773-43a0-98c8-cdd264565b2f,ecf18ac9-a773-43a0-98c8-cdd264565b2f
+organization,MC1,,46,46
+location,MC1,,65fea097-e838-4be6-9889-83f5361fe777,65fea097-e838-4be6-9889-83f5361fe777
+person,MC1,Country_907876,Ann Nelson,Ann Nelson
+person,MC1,Country_948318,Robert Nguyen,Robert Nguyen
+location,MC1,,dec69ea4-1c0c-4b31-b6fe-7d0c7e4b8fd9,dec69ea4-1c0c-4b31-b6fe-7d0c7e4b8fd9
+person,MC1,Country_271835,Dr. Michelle Dominguez,Dr. Michelle Dominguez
+person,MC1,Country_271835,Charles Hart,Charles Hart
+vessel,MC1,,Tian,Tian
+person,MC1,Oceanus,Patricia Bowen,Patricia Bowen
+person,MC1,Country_271835,Paul Holloway,Paul Holloway
+person,MC1,Country_271835,Maria Russell,Maria Russell
+person,MC1,Country_271835,Justin Rodriguez,Justin Rodriguez
+person,MC1,Country_271835,Carl Lopez,Carl Lopez
+company,MC1,Country_271835,Mar del Norte Ferry,Mar del Norte Ferry
+organization,MC1,,122245,122245
+organization,MC1,,4946,4946
+person,MC1,Country_271835,Gabriela Graham,Gabriela Graham
+person,MC1,Country_271835,Joseph Newman,Joseph Newman
+person,MC1,Country_242593,Danielle Valdez,Danielle Valdez
+person,MC1,Country_271835,Susan Williamson,Susan Williamson
+person,MC1,Country_271835,Lauren Reynolds,Lauren Reynolds
+political_organization,MC1,,91,91
+political_organization,MC1,,20,20
+organization,MC1,,74211169,74211169
+company,MC1,Islavaria,Romero Oyster NV Carriers,Romero Oyster NV Carriers
+person,MC1,Country_271835,James Hall,James Hall
+organization,MC1,,3553,3553
+organization,MC1,,72875,72875
+vessel,MC1,,Coast Guard Cutter Edgar Culbertson,Coast Guard Cutter Edgar Culbertson
+movement,MC1,,38,38
+person,MC1,Country_443882,Heidi Kline,Heidi Kline
+organization,MC1,,863749817,863749817
+organization,MC1,,475,475
+organization,MC1,,567217,567217
+vessel,MC1,,Oliver,Oliver
+person,MC1,Country_271835,Amanda Becker,Amanda Becker
+organization,MC1,,160,160
+person,MC1,Country_271835,Nicholas Dennis,Nicholas Dennis
+organization,MC1,,938816,938816
+unknown,MC1,,ðªðª,ðªðª
+organization,MC1,,5469,5469
+organization,MC1,,4679,4679
+company,MC1,Country_271835,Cape Verde Islands Oyj,Cape Verde Islands Oyj
+person,MC1,Country_271835,Andre Phillips,Andre Phillips
+vessel,MC1,,USCGâs,USCGâs
+vessel,MC1,,CutterOliverHenry,CutterOliverHenry
+person,MC1,Country_271835,Scott Solis,Scott Solis
+person,MC1,Country_271835,Jonathan Spence,Jonathan Spence
+organization,MC1,,11,11
+person,MC1,Country_271835,Tanner Smith,Tanner Smith
+person,MC1,Country_271835,Emily Bailey,Emily Bailey
+organization,MC1,,30041,30041
+organization,MC1,,468511,468511
+organization,MC1,,86,86
+person,MC1,Country_271835,Ann Flowers,Ann Flowers
+organization,MC1,,60774,60774
+organization,MC1,,47,47
+person,MC1,Country_271835,Michael Bullock,Michael Bullock
+person,MC1,Country_271835,Michelle Singh,Michelle Singh
+vessel,MC1,,SSN,SSN
+person,MC1,Country_271835,Tyler Palmer,Tyler Palmer
+vessel,MC1,,HMAS,HMAS
+location,MC1,,dec44f58-94b0-4070-bfb3-1e13ef308ec3,dec44f58-94b0-4070-bfb3-1e13ef308ec3
+person,MC1,Country_271835,Chad Nichols,Chad Nichols
+organization,MC1,,2114,2114
+organization,MC1,,34020206,34020206
+company,MC1,Country_271835,Fin Flair Pic Delivery,Fin Flair Pic Delivery
+person,MC1,Country_271835,Scott Wallace,Scott Wallace
+person,MC1,Uzifrica,Tony Patterson,Tony Patterson
+unknown,MC1,,Sampath,Sampath
+organization,MC1,,683962,683962
+person,MC1,Country_271835,Anna Johnson,Anna Johnson
+location,MC1,,95c715ba-891e-4472-8e2a-4e746dcc266a,95c715ba-891e-4472-8e2a-4e746dcc266a
+person,MC1,Marebak,Anna Smith,Anna Smith
+organization,MC1,,760219951,760219951
+political_organization,MC1,,36744944,36744944
+organization,MC1,,734121719,734121719
+person,MC1,Country_271835,Kathleen Gates,Kathleen Gates
+location,MC1,,6b58646e-1d3a-4b72-b8a0-9f57c296d73d,6b58646e-1d3a-4b72-b8a0-9f57c296d73d
+organization,MC1,,9357541,9357541
+person,MC1,Country_271835,William Atkinson,William Atkinson
+person,MC1,Country_271835,Lisa Payne,Lisa Payne
+organization,MC1,,87278,87278
+person,MC1,Country_271835,Christine Chaney,Christine Chaney
+organization,MC1,,8226730,8226730
+location,MC1,,5b199218-6513-430b-8e56-8aa1d83456a3,5b199218-6513-430b-8e56-8aa1d83456a3
+person,MC1,Country_271835,Mr. Jose King,Mr. Jose King
+person,MC1,Country_271835,Thomas Adams,Thomas Adams
+organization,MC1,,75,75
+person,MC1,Country_271835,Kimberly Olson,Kimberly Olson
+organization,MC1,,911243414,911243414
+organization,MC1,,9280,9280
+location,MC1,,cc6cf3e0-5794-4497-a31d-79b4db1b55a9,cc6cf3e0-5794-4497-a31d-79b4db1b55a9
+person,MC1,Brindivaria,Ryan Garrett,Ryan Garrett
+organization,MC1,,408119,408119
+person,MC1,Country_271835,Gary Butler,Gary Butler
+person,MC1,Country_271835,Gary Smith,Gary Smith
+person,MC1,Country_271835,Denise Diaz,Denise Diaz
+location,MC1,,6ead18ca-3084-4f8e-9c1e-a5e470fc5935,6ead18ca-3084-4f8e-9c1e-a5e470fc5935
+organization,MC1,,48259,48259
+location,MC1,,b636c0f8-2ddf-42ad-9f9c-73bd48682561,b636c0f8-2ddf-42ad-9f9c-73bd48682561
+unknown,MC1,,United Statesâ,United Statesâ
+organization,MC1,,55301,55301
+person,MC1,Country_271835,Elaine Duncan,Elaine Duncan
+unknown,MC1,,Game Thiefâ,Game Thiefâ
+organization,MC1,,604905,604905
+organization,MC1,,784221,784221
+location,MC1,,ae19b5a7-4f70-4366-98ad-819e3009aeca,ae19b5a7-4f70-4366-98ad-819e3009aeca
+location,MC1,,d4947401-8ec7-48b9-a66f-45d983d59e0a,d4947401-8ec7-48b9-a66f-45d983d59e0a
+person,MC1,Country_271835,Dennis Little,Dennis Little
+unknown,MC1,,âtransshipmentâ,âtransshipmentâ
+person,MC1,Marebak,Brooke Garza,Brooke Garza
+vessel,MC1,,Feng,Feng
+organization,MC1,,82462633,82462633
+person,MC1,Country_271835,Carrie Elliott,Carrie Elliott
+organization,MC1,,5235138,5235138
+person,MC1,Country_338923,Breanna Ward,Breanna Ward
+person,MC1,Country_271835,Donna Webb,Donna Webb
+event,MC1,,summer,summer
+person,MC1,Country_271835,Tracy Smith,Tracy Smith
+person,MC1,Country_729731,Kimberly Petersen,Kimberly Petersen
+person,MC1,Country_271835,Robert Schaefer,Robert Schaefer
+person,MC1,Country_271835,Samuel Stokes,Samuel Stokes
+person,MC1,Country_271835,Timothy Hernandez,Timothy Hernandez
+organization,MC1,,5680682,5680682
+political_organization,MC1,,47234884,47234884
+person,MC1,Oceanus,Marcus English,Marcus English
+person,MC1,Country_271835,Meghan Kim,Meghan Kim
+person,MC1,Country_271835,David Nunez MD,David Nunez MD
+event,MC1,,30,30
+person,MC1,Country_271835,Thomas Diaz,Thomas Diaz
+person,MC1,Country_271835,Hannah Taylor,Hannah Taylor
+person,MC1,Country_271835,Joanna Brown,Joanna Brown
+organization,MC1,,307,307
+person,MC1,Country_271835,Monique Rios,Monique Rios
+event,MC1,,yearsâthat,yearsâthat
+political_organization,MC1,,950574,950574
+unknown,MC1,,Pacific Island States United Statesâ,Pacific Island States United Statesâ
+unknown,MC1,,territory American Samoa,territory American Samoa
+location,MC1,,62d4bdbc-8978-4cbf-b9ea-82aaa9188c91,62d4bdbc-8978-4cbf-b9ea-82aaa9188c91
+organization,MC1,,900,900
+company,MC1,Country_271835,Coastal Crusaders Kga Worldwide,Coastal Crusaders Kga Worldwide
+person,MC1,Country_271835,Luis Douglas,Luis Douglas
+company,MC1,Country_271835,Seashell Sanctum SRL Transport,Seashell Sanctum SRL Transport
+person,MC1,Country_271835,Fernando Steele,Fernando Steele
+person,MC1,Country_271835,David Tucker,David Tucker
+company,MC1,Helvoris,Tiao piao AG Delivery,Tiao piao AG Delivery
+location,MC1,,e39609a3-b437-41c2-b114-e21dc69a9bb1,e39609a3-b437-41c2-b114-e21dc69a9bb1
+unknown,MC1,,âeared sealsâ,âeared sealsâ
+person,MC1,Helvoris,Robert Mcintosh,Robert Mcintosh
+person,MC1,Helvoris,Amber Sharp,Amber Sharp
+person,MC1,Country_271835,James Anderson,James Anderson
+organization,MC1,,497,497
+organization,MC1,,7892,7892
+organization,MC1,,8513,8513
+organization,MC1,,1415,1415
+organization,MC1,,3433,3433
+person,MC1,Country_271835,Kara Sullivan,Kara Sullivan
+person,MC1,Kethanor,Teresa Gardner,Teresa Gardner
+person,MC1,Country_271835,Trevor Brown,Trevor Brown
+person,MC1,Country_271835,Kimberly Roberts,Kimberly Roberts
+person,MC1,Country_271835,Ricky Holland,Ricky Holland
+person,MC1,Country_271835,Lydia Day,Lydia Day
+event,MC1,,âit,âit
+person,MC1,Country_271835,Nichole Kline,Nichole Kline
+person,MC1,Country_271835,Ryan Rich,Ryan Rich
+organization,MC1,,650749,650749
+person,MC1,Country_271835,Shawna Welch,Shawna Welch
+person,MC1,Country_271835,Zachary Jordan,Zachary Jordan
+unknown,MC1,,holesâ,holesâ
+organization,MC1,,89526932,89526932
+event,MC1,,âfirst,âfirst
+organization,MC1,,26978247,26978247
+unknown,MC1,,nigeria,nigeria
+vessel,MC1,,boatâs,boatâs
+organization,MC1,,53792,53792
+location,MC1,,c66f5cd5-3891-43ce-a3f8-0147b3d643b1,c66f5cd5-3891-43ce-a3f8-0147b3d643b1
+location,MC1,,032522db-8105-4c26-8142-ae9d5806f7c5,032522db-8105-4c26-8142-ae9d5806f7c5
+person,MC1,Syrithania,Mrs. Melinda Richardson,Mrs. Melinda Richardson
+person,MC1,Country_271835,Frederick Harris,Frederick Harris
+organization,MC1,,30141220,30141220
+organization,MC1,,90192265,90192265
+person,MC1,Country_271835,Natalie Gill,Natalie Gill
+location,MC1,,23f52980-e4f4-43da-ac02-9c1eef637751,23f52980-e4f4-43da-ac02-9c1eef637751
+organization,MC1,,245658,245658
+organization,MC1,,552027385,552027385
+person,MC1,Country_271835,Brian Stevens,Brian Stevens
+unknown,MC1,,âconservativeâ,âconservativeâ
+location,MC1,,e4e5b1ca-e210-4d3f-8cea-fa5c2309340f,e4e5b1ca-e210-4d3f-8cea-fa5c2309340f
+location,MC1,,ce06b4c4-dd19-485d-ad52-f7cd953db1c2,ce06b4c4-dd19-485d-ad52-f7cd953db1c2
+location,MC1,,d2589980-b0c7-4c36-8ddf-8afe554853ea,d2589980-b0c7-4c36-8ddf-8afe554853ea
+person,MC1,Country_271835,Robin Fernandez,Robin Fernandez
+event,MC1,,week,week
+person,MC1,Country_271835,Diana Kelley,Diana Kelley
+person,MC1,Country_271835,Angela Wright,Angela Wright
+person,MC1,Country_271835,Miranda Small,Miranda Small
+person,MC1,Country_271835,Stacey Ortega,Stacey Ortega
+vessel,MC1,,FV,FV
+person,MC1,Country_980042,Gary Crawford PhD,Gary Crawford PhD
+vessel,MC1,,FV Snake,FV Snake
+vessel,MC1,,FV Viking,FV Viking
+vessel,MC1,,FV Thunder,FV Thunder
+unknown,MC1,,Aquacultureâ,Aquacultureâ
+person,MC1,Country_271835,Paul Parker,Paul Parker
+organization,MC1,,4877,4877
+unknown,MC1,,âdiscriminationâ,âdiscriminationâ
+person,MC1,Country_271835,Jessica Gibson,Jessica Gibson
+location,MC1,,da7677f8-d1f0-4e35-afe9-4240613e866b,da7677f8-d1f0-4e35-afe9-4240613e866b
+organization,MC1,,48115,48115
+person,MC1,Mawazam,Rhonda Sullivan,Rhonda Sullivan
+person,MC1,Country_216139,Adam Gutierrez,Adam Gutierrez
+person,MC1,Country_271835,Gregory Carter,Gregory Carter
+person,MC1,Country_271835,Martin Bryant,Martin Bryant
+organization,MC1,,555,555
+organization,MC1,,903311212,903311212
+organization,MC1,,683113035,683113035
+unknown,MC1,,th,th
+person,MC1,Country_271835,Bruce Spears,Bruce Spears
+unknown,MC1,,ItaquaÃ,ItaquaÃ
+location,MC1,,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,1710a32e-7a58-4d7f-9c5e-bf897b7419a3
+person,MC1,Country_271835,Sherry Richmond,Sherry Richmond
+person,MC1,Country_271835,Daniel Shaffer,Daniel Shaffer
+person,MC1,Country_271835,Sierra Vincent,Sierra Vincent
+person,MC1,Country_271835,Margaret Ward,Margaret Ward
+person,MC1,Country_913963,Wendy Crane,Wendy Crane
+person,MC1,Oceanus,Richard Bowers,Richard Bowers
+person,MC1,Country_271835,Joshua Hammond,Joshua Hammond
+person,MC1,Country_230197,Samuel Cross,Samuel Cross
+event,MC1,,âAs,âAs
+organization,MC1,,47698,47698
+unknown,MC1,,DECEUNINCK,DECEUNINCK
+person,MC1,Country_271835,Kristi Ryan,Kristi Ryan
+organization,MC1,,199,199
+organization,MC1,,23990411,23990411
+organization,MC1,,10880329,10880329
+person,MC1,Oceanus,Rhonda Price,Rhonda Price
+location,MC1,,45ff391d-0f6a-4ee4-abe6-8b06d07dbfd6,45ff391d-0f6a-4ee4-abe6-8b06d07dbfd6
+location,MC1,,e941d006-6590-4143-9d0d-12926b0b6f5c,e941d006-6590-4143-9d0d-12926b0b6f5c
+person,MC1,Country_271835,Tyler Blanchard,Tyler Blanchard
+person,MC1,Country_271835,Shawn Cook,Shawn Cook
+location,MC1,,ce2247ab-4922-420f-8d42-504c4ddda305,ce2247ab-4922-420f-8d42-504c4ddda305
+person,MC1,Country_271835,Susan Montoya,Susan Montoya
+person,MC1,Country_271835,William James,William James
+location,MC1,,e0cdfc51-7473-481d-8900-03f66d6e359e,e0cdfc51-7473-481d-8900-03f66d6e359e
+person,MC1,Country_271835,Ricardo Gomez,Ricardo Gomez
+organization,MC1,,75471,75471
+movement,MC1,,14 months,14 months
+organization,MC1,,82408558,82408558
+location,MC1,,f6cca381-c55e-44cc-b685-6c4139459b96,f6cca381-c55e-44cc-b685-6c4139459b96
+location,MC1,,f94bcae5-b023-48f6-a0d5-ff2f01cc00ed,f94bcae5-b023-48f6-a0d5-ff2f01cc00ed
+event,MC1,,âcatch,âcatch
+event,MC1,,âtotal,âtotal
+company,MC1,Country_675160,Manipur Market AG Consultants,Manipur Market AG Consultants
+unknown,MC1,,âMoby-Dickâ,âMoby-Dickâ
+location,MC1,,04eab3c4-ed99-467b-8844-b5279a6b955e,04eab3c4-ed99-467b-8844-b5279a6b955e
+organization,MC1,,5312744,5312744
+person,MC1,Country_271835,Amanda Santana,Amanda Santana
+person,MC1,Country_271835,Dana Macias,Dana Macias
+person,MC1,Country_271835,Helen Chase,Helen Chase
+person,MC1,Country_271835,Candace Burnett,Candace Burnett
+organization,MC1,,34153143,34153143
+unknown,MC1,,âTheoretically,âTheoretically
+person,MC1,Uzilandor,Jonathan Torres,Jonathan Torres
+person,MC1,Country_271835,Gary Dunn,Gary Dunn
+organization,MC1,,721436,721436
+person,MC1,Country_271835,Brittany Frey,Brittany Frey
+person,MC1,Country_271835,Brett Williams,Brett Williams
+unknown,MC1,,Seafreeze Ltd,Seafreeze Ltd
+organization,MC1,,36033030,36033030
+person,MC1,Country_271835,Todd Lane,Todd Lane
+person,MC1,Country_271835,Alicia Lee,Alicia Lee
+organization,MC1,,8112222,8112222
+organization,MC1,,19471,19471
+person,MC1,Country_271835,Linda Holden,Linda Holden
+person,MC1,Country_271835,Donna Romero,Donna Romero
+person,MC1,Country_271835,Amanda Garcia,Amanda Garcia
+company,MC1,Oceanus,Shona Barracuda AB Worldwide,Shona Barracuda AB Worldwide
+organization,MC1,,415053,415053
+unknown,MC1,,âBHFâ,âBHFâ
+person,MC1,Country_271835,Olivia Bradshaw,Olivia Bradshaw
+organization,MC1,,461541,461541
+unknown,MC1,,âProPublicaâ,âProPublicaâ
+unknown,MC1,,âyesterdayâ,âyesterdayâ
+event,MC1,,âlast week,âlast week
+unknown,MC1,,âPortlandâ,âPortlandâ
+vessel,MC1,,watercraft,watercraft
+person,MC1,Country_271835,Bradley Murphy,Bradley Murphy
+person,MC1,Country_271835,Madison Franklin,Madison Franklin
+vessel,MC1,,Rapido beam,Rapido beam
+person,MC1,Country_271835,Mary Montoya,Mary Montoya
+vessel,MC1,,Rapido beam trawler,Rapido beam trawler
+movement,MC1,,ordinary,ordinary
+person,MC1,Country_271835,Kari Zavala,Kari Zavala
+location,MC1,,91a2a8e6-f56f-4663-8be9-0bbfd5440489,91a2a8e6-f56f-4663-8be9-0bbfd5440489
+location,MC1,,40cfcd88-fceb-49bd-a71a-053aacddad42,40cfcd88-fceb-49bd-a71a-053aacddad42
+location,MC1,,cb537677-9d82-4d58-8066-899bdc51c4f1,cb537677-9d82-4d58-8066-899bdc51c4f1
+unknown,MC1,,4âÃâ15â,4âÃâ15â
+unknown,MC1,,â60,â60
+vessel,MC1,,diesel,diesel
+vessel,MC1,,bottom otter trawler,bottom otter trawler
+organization,MC1,,2820033,2820033
+organization,MC1,,1559,1559
+organization,MC1,,495035052,495035052
+organization,MC1,,25,25
+organization,MC1,,96,96
+organization,MC1,,60910422,60910422
+organization,MC1,,285351,285351
+organization,MC1,,75399,75399
+location,MC1,,da91eeb8-11f7-4634-95e7-f9413e9957aa,da91eeb8-11f7-4634-95e7-f9413e9957aa
+organization,MC1,,720,720
+location,MC1,,fdcbe098-dbe6-4e52-8bd7-96cf3ae30101,fdcbe098-dbe6-4e52-8bd7-96cf3ae30101
+organization,MC1,,779,779
+organization,MC1,,2673,2673
+organization,MC1,,6185842,6185842
+organization,MC1,,762165,762165
+organization,MC1,,428,428
+organization,MC1,,4962642,4962642
+unknown,MC1,,93,93
+person,MC1,Country_271835,Olivia Bailey,Olivia Bailey
+unknown,MC1,,96,96
+location,MC1,,ffc679cd-57ac-4846-b023-8be73ca754fa,ffc679cd-57ac-4846-b023-8be73ca754fa
+unknown,MC1,,FlodstrÃ,FlodstrÃ
+organization,MC1,,700,700
+organization,MC1,,941899076,941899076
+organization,MC1,,520,520
+organization,MC1,,85,85
+organization,MC1,,9636,9636
+organization,MC1,,449,449
+unknown,MC1,,âcardingâ,âcardingâ
+person,MC1,Country_271835,Tyler Flores,Tyler Flores
+vessel,MC1,,Michelle,Michelle
+organization,MC1,,2466,2466
+political_organization,MC1,,72212757,72212757
+organization,MC1,,449820,449820
+organization,MC1,,6406914,6406914
+person,MC1,Country_271835,Madeline Collins,Madeline Collins
+organization,MC1,,76609426,76609426
+person,MC1,Country_271835,Mrs. Jessica Meyer,Mrs. Jessica Meyer
+event,MC1,,âMoreover,âMoreover
+person,MC1,Country_271835,Darren Torres,Darren Torres
+person,MC1,Country_271835,Brittany Brewer,Brittany Brewer
+political_organization,MC1,,8651344,8651344
+person,MC1,Country_271835,Daniel Roberts,Daniel Roberts
+location,MC1,,85b8a8cf-7f07-4bab-8b44-1d79940aab8d,85b8a8cf-7f07-4bab-8b44-1d79940aab8d
+organization,MC1,,933754160,933754160
+person,MC1,Country_271835,Tyler Turner,Tyler Turner
+unknown,MC1,,allAfrica,allAfrica
+location,MC1,,933c4581-7ecc-4377-995c-7a200fee617b,933c4581-7ecc-4377-995c-7a200fee617b
+unknown,MC1,,Â£9,Â£9
+person,MC1,Country_462996,Melinda Bentley,Melinda Bentley
+organization,MC1,,41713,41713
+organization,MC1,,900338,900338
+organization,MC1,,665912557,665912557
+organization,MC1,,1341798,1341798
+organization,MC1,,23299,23299
+person,MC1,Country_271835,Danielle Perry,Danielle Perry
+person,MC1,Country_271835,Paula King,Paula King
+person,MC1,Country_271835,Laurie Mclaughlin,Laurie Mclaughlin
+person,MC1,Country_271835,Melinda Williams,Melinda Williams
+organization,MC1,,614,614
+organization,MC1,,802775,802775
+organization,MC1,,5688339,5688339
+event,MC1,,morningâs,morningâs
+person,MC1,Country_271835,Anna Thomas MD,Anna Thomas MD
+person,MC1,Oceanus,Michele Black,Michele Black
+organization,MC1,,3857345,3857345
+person,MC1,Country_271835,Ms. Brittany Murray,Ms. Brittany Murray
+person,MC1,Oceanus,Matthew White,Matthew White
+unknown,MC1,,Â£800,Â£800
+person,MC1,Country_699698,Tonya Key,Tonya Key
+person,MC1,Country_271835,Sara Waller,Sara Waller
+organization,MC1,,99233,99233
+person,MC1,Country_271835,Daniel Middleton,Daniel Middleton
+location,MC1,,813be272-d3de-43c9-90be-ab14231fcf17,813be272-d3de-43c9-90be-ab14231fcf17
+event,MC1,,âSay,âSay
+person,MC1,Country_271835,Stacey Ortiz,Stacey Ortiz
+person,MC1,Oceanus,Scott Simpson,Scott Simpson
+person,MC1,Country_271835,Loretta Harrington,Loretta Harrington
+organization,MC1,,203,203
+organization,MC1,,99661834,99661834
+organization,MC1,,9838,9838
+organization,MC1,,848165,848165
+organization,MC1,,612,612
+organization,MC1,,379284134,379284134
+organization,MC1,,55394387,55394387
+vessel,MC1,,Boston,Boston
+person,MC1,Oceanus,Matthew Pennington,Matthew Pennington
+vessel,MC1,,vesselâs,vesselâs
+vessel,MC1,,waterâs,waterâs
+location,MC1,,950ce1a6-a178-4e3e-9316-91ab7ca88664,950ce1a6-a178-4e3e-9316-91ab7ca88664
+person,MC1,Country_271835,Hannah Brown,Hannah Brown
+person,MC1,Country_271835,Bobby Walker,Bobby Walker
+political_organization,MC1,,221942,221942
+location,MC1,,0d1c7ce3-7243-47c0-9280-a3262b52dc0f,0d1c7ce3-7243-47c0-9280-a3262b52dc0f
+location,MC1,,634ac4e7-12af-494f-95f5-cd853363525f,634ac4e7-12af-494f-95f5-cd853363525f
+organization,MC1,,945632766,945632766
+vessel,MC1,,HMS Montrose,HMS Montrose
+organization,MC1,,80737369,80737369
+vessel,MC1,,Montrose,Montrose
+organization,MC1,,112156579,112156579
+organization,MC1,,64338295,64338295
+organization,MC1,,81,81
+organization,MC1,,73921,73921
+company,MC1,Country_271835,Khundu Ltd. Liability Co,Khundu Ltd. Liability Co
+organization,MC1,,327277616,327277616
+organization,MC1,,637608,637608
+person,MC1,Country_271835,Benjamin Barton,Benjamin Barton
+organization,MC1,,5337,5337
+organization,MC1,,6980,6980
+location,MC1,,f85f009e-0fa0-403a-845e-64198883bf34,f85f009e-0fa0-403a-845e-64198883bf34
+location,MC1,,4562fe84-0188-47fd-8e27-67380da0079c,4562fe84-0188-47fd-8e27-67380da0079c
+person,MC1,Country_271835,Stephanie Brown,Stephanie Brown
+organization,MC1,,33118036,33118036
+organization,MC1,,88813246,88813246
+organization,MC1,,5383294,5383294
+organization,MC1,,9238420,9238420
+political_organization,MC1,,70109,70109
+vessel,MC1,,underwater,underwater
+unknown,MC1,,waterâ,waterâ
+person,MC1,Country_271835,Mrs. Katrina Williams,Mrs. Katrina Williams
+organization,MC1,,73166320,73166320
+location,MC1,,dbb07e32-a8f4-47d0-ae61-c2e9774e9284,dbb07e32-a8f4-47d0-ae61-c2e9774e9284
+organization,MC1,,13249468,13249468
+vessel,MC1,,Aine,Aine
+person,MC1,Country_271835,Anthony Gomez,Anthony Gomez
+person,MC1,Country_271835,Debbie Kelley,Debbie Kelley
+organization,MC1,,77,77
+person,MC1,Country_271835,Eric Hanson,Eric Hanson
+person,MC1,Oceanus,Joshua Haynes,Joshua Haynes
+organization,MC1,,682313,682313
+political_organization,MC1,,300,300
+person,MC1,Country_271835,Krystal Foster,Krystal Foster
+person,MC1,Country_271835,Roger Smith,Roger Smith
+political_organization,MC1,,37992687,37992687
+unknown,MC1,,nationalfisherman,nationalfisherman
+unknown,MC1,,intrafish,intrafish
+organization,MC1,,303934,303934
+unknown,MC1,,choicesmagazine,choicesmagazine
+organization,MC1,,58877070,58877070
+unknown,MC1,,usa,usa
+unknown,MC1,,oceana,oceana
+person,MC1,Country_271835,Blake Smith,Blake Smith
+organization,MC1,,42990314,42990314
+organization,MC1,,1338687,1338687
+organization,MC1,,507684,507684
+unknown,MC1,,ams.usda,ams.usda
+organization,MC1,,1765605,1765605
+unknown,MC1,,âinitiallyâ,âinitiallyâ
+unknown,MC1,,SIMPComplianceGuide,SIMPComplianceGuide
+vessel,MC1,,Cutters,Cutters
+unknown,MC1,,âpoachedâ,âpoachedâ
+person,MC1,Country_271835,Stacy Castillo,Stacy Castillo
+organization,MC1,,34757443,34757443
+person,MC1,Country_271835,Matthew Mack,Matthew Mack
+person,MC1,Country_271835,David Wilson,David Wilson
+location,MC1,,f205ff1a-8798-48b7-b535-ad87b9756220,f205ff1a-8798-48b7-b535-ad87b9756220
+location,MC1,,1a2ebb93-1c85-4f40-abb1-cff639788678,1a2ebb93-1c85-4f40-abb1-cff639788678
+unknown,MC1,,âAccept Allâ,âAccept Allâ
+unknown,MC1,,krxd,krxd
+person,MC1,Country_271835,Zachary Blackburn,Zachary Blackburn
+vessel,MC1,,operated vehicle,operated vehicle
+person,MC1,Country_271835,James Berry,James Berry
+person,MC1,Country_271835,Robert Goodman,Robert Goodman
+vessel,MC1,,Snow Crab,Snow Crab
+person,MC1,Country_271835,Mary Durham,Mary Durham
+person,MC1,Country_271835,Anna Kelly,Anna Kelly
+person,MC1,Country_271835,Clifford Sherman,Clifford Sherman
+person,MC1,Country_271835,Carol Wade,Carol Wade
+organization,MC1,,1576352,1576352
+political_organization,MC1,,59600,59600
+movement,MC1,,Greenwich,Greenwich
+vessel,MC1,,HMS Medway,HMS Medway
+location,MC1,,1dfb2440-85dc-4f0c-914f-e18498e6cd1b,1dfb2440-85dc-4f0c-914f-e18498e6cd1b
+person,MC1,Country_271835,Makayla Anderson,Makayla Anderson
+location,MC1,,92a375a3-0c31-494e-9a56-eeabe3750d90,92a375a3-0c31-494e-9a56-eeabe3750d90
+person,MC1,Country_271835,Kevin Moreno,Kevin Moreno
+organization,MC1,,34285153,34285153
+vessel,MC1,,Talleyâs,Talleyâs
+person,MC1,Country_271835,Brittany Ryan,Brittany Ryan
+person,MC1,Islavaria,Dana Knapp,Dana Knapp
+person,MC1,Country_271835,Jeanette Kim,Jeanette Kim
+organization,MC1,,95743666,95743666
+organization,MC1,,86117,86117
+organization,MC1,,94361818,94361818
+organization,MC1,,40974,40974
+company,MC1,Country_322527,Diao yu bi sai Tidal BV Export,Diao yu bi sai Tidal BV Export
+person,MC1,Oceanus,Patricia Flores,Patricia Flores
+organization,MC1,,74505,74505
+person,MC1,Country_271835,Joshua Roberts,Joshua Roberts
+person,MC1,Country_271835,Denise Moore,Denise Moore
+unknown,MC1,,âseamountâ,âseamountâ
+person,MC1,Country_271835,Lisa Castaneda,Lisa Castaneda
+person,MC1,Country_271835,Christina Abbott,Christina Abbott
+organization,MC1,,4657860,4657860
+political_organization,MC1,,519443204,519443204
+organization,MC1,,3394552,3394552
+organization,MC1,,618,618
+person,MC1,Country_256617,Brittany Kane,Brittany Kane
+unknown,MC1,,Marsâ,Marsâ
+location,MC1,,bd16ff21-2da0-4ad7-8aec-d04a28b61277,bd16ff21-2da0-4ad7-8aec-d04a28b61277
+event,MC1,,past yearâs,past yearâs
+vessel,MC1,,whales,whales
+person,MC1,Country_271835,Michelle Campbell,Michelle Campbell
+organization,MC1,,39995740,39995740
+person,MC1,Country_271835,Lauren Garner,Lauren Garner
+person,MC1,Rio Solovia,Zachary Mclean,Zachary Mclean
+person,MC1,Rio Solovia,Anthony Mendez,Anthony Mendez
+organization,MC1,,806,806
+event,MC1,,Hubble,Hubble
+event,MC1,,event,event
+unknown,MC1,,Launch Loversâ,Launch Loversâ
+location,MC1,,cd2685a2-fce5-49ee-8ca7-b9faa081d190,cd2685a2-fce5-49ee-8ca7-b9faa081d190
+unknown,MC1,,LC,LC
+vessel,MC1,,Spaceflight,Spaceflight
+organization,MC1,,93,93
+location,MC1,,e95a9547-3611-4e86-adbe-9aa55dbff21f,e95a9547-3611-4e86-adbe-9aa55dbff21f
+organization,MC1,,6107715,6107715
+organization,MC1,,2610,2610
+vessel,MC1,,HawkEye,HawkEye
+person,MC1,Country_271835,Jordan Mcbride,Jordan Mcbride
+organization,MC1,,7575,7575
+location,MC1,,d5cbeea1-73ac-4d86-adeb-b609629b12bf,d5cbeea1-73ac-4d86-adeb-b609629b12bf
+location,MC1,,416dab02-bf67-48af-a99b-c691339dc5e0,416dab02-bf67-48af-a99b-c691339dc5e0
+location,MC1,,25a765f4-b6d0-4588-9a7a-0798de847cfd,25a765f4-b6d0-4588-9a7a-0798de847cfd
+location,MC1,,0a715a76-de97-4cc3-80a3-4dcbfa740079,0a715a76-de97-4cc3-80a3-4dcbfa740079
+company,MC1,Country_271835,Madhya Pradesh Market Pic Transportation,Madhya Pradesh Market Pic Transportation
+vessel,MC1,,Manned,Manned
+vessel,MC1,,Aerial,Aerial
+organization,MC1,,34731154,34731154
+organization,MC1,,970786,970786
+person,MC1,Uzilandor,Christian Ashley,Christian Ashley
+organization,MC1,,8967466,8967466
+person,MC1,Orvietea,Benjamin Snyder,Benjamin Snyder
+location,MC1,,b3de0895-285e-4ea8-99bb-ffdc763f7038,b3de0895-285e-4ea8-99bb-ffdc763f7038
+location,MC1,,a8330af0-375f-4fcb-9171-9628b26b1808,a8330af0-375f-4fcb-9171-9628b26b1808
+organization,MC1,,3308429,3308429
+person,MC1,Country_271835,Adam Cook,Adam Cook
+person,MC1,Country_712875,Wendy Miller,Wendy Miller
+vessel,MC1,,Abrams MIA2,Abrams MIA2
+location,MC1,,abb62f7c-234a-46d7-b3bb-8f7b4771618c,abb62f7c-234a-46d7-b3bb-8f7b4771618c
+event,MC1,,Tank,Tank
+person,MC1,Uzilandor,Kelly James,Kelly James
+vessel,MC1,,MBTs,MBTs
+organization,MC1,,418382,418382
+organization,MC1,,16927047,16927047
+organization,MC1,,6471708,6471708
+organization,MC1,,520673,520673
+organization,MC1,,1252007,1252007
+location,MC1,,6c348030-e9d4-4ddc-8ec8-30ac227c6a14,6c348030-e9d4-4ddc-8ec8-30ac227c6a14
+organization,MC1,,565431,565431
+person,MC1,Quandarix,Lisa Rocha,Lisa Rocha
+person,MC1,Country_996415,Danielle Sosa,Danielle Sosa
+person,MC1,Country_271835,James Carr,James Carr
+person,MC1,Country_271835,Daniel Burton,Daniel Burton
+person,MC1,Country_271835,Jerry Miller,Jerry Miller
+organization,MC1,,15758645,15758645
+person,MC1,Country_271835,Dakota Flores,Dakota Flores
+organization,MC1,,204,204
+unknown,MC1,,US Special Operations SOF,US Special Operations SOF
+organization,MC1,,7490484,7490484
+person,MC1,Country_271835,Kari Padilla,Kari Padilla
+person,MC1,Country_198078,Angela Navarro,Angela Navarro
+event,MC1,,âaccelerate,âaccelerate
+political_organization,MC1,,327979,327979
+political_organization,MC1,,414,414
+political_organization,MC1,,28422,28422
+political_organization,MC1,,428949,428949
+political_organization,MC1,,838200939,838200939
+unknown,MC1,,âbossesâ,âbossesâ
+person,MC1,Country_271835,Levi Jones,Levi Jones
+person,MC1,Country_271835,Adriana Rhodes,Adriana Rhodes
+person,MC1,Uzilandor,Kevin Moore,Kevin Moore
+person,MC1,Country_271835,Debra Davis,Debra Davis
+person,MC1,Country_271835,Jennifer Washington,Jennifer Washington
+person,MC1,Country_271835,Peter Bush,Peter Bush
+organization,MC1,,61,61
+organization,MC1,,908,908
+organization,MC1,,2278,2278
+organization,MC1,,3731,3731
+person,MC1,Uzilandor,Sabrina Merritt,Sabrina Merritt
+person,MC1,Country_57382,Justin Fowler,Justin Fowler
+organization,MC1,,120,120
+organization,MC1,,2422788,2422788
+unknown,MC1,,MCDP,MCDP
+location,MC1,,c97073d1-61a4-4a06-a189-8b4642a699e1,c97073d1-61a4-4a06-a189-8b4642a699e1
+political_organization,MC1,,66,66
+location,MC1,,65872b93-db53-4445-a72e-8f84b3d7edfc,65872b93-db53-4445-a72e-8f84b3d7edfc
+event,MC1,,todayâs,todayâs
+organization,MC1,,268393514,268393514
+organization,MC1,,55242,55242
+organization,MC1,,637,637
+person,MC1,Country_271835,Maria Horton,Maria Horton
+person,MC1,Country_271835,Maurice Figueroa,Maurice Figueroa
+vessel,MC1,,Ships,Ships
+organization,MC1,,9697,9697
+organization,MC1,,620019,620019
+organization,MC1,,45361487,45361487
+organization,MC1,,408603,408603
+vessel,MC1,,Vehicle Land,Vehicle Land
+person,MC1,Country_271835,Heather King,Heather King
+person,MC1,Country_271835,Billy Robinson,Billy Robinson
+person,MC1,Country_271835,Austin Miller,Austin Miller
+organization,MC1,,369,369
+organization,MC1,,6204,6204
+location,MC1,,96c31987-d50d-4680-9397-2a9d0e3946e1,96c31987-d50d-4680-9397-2a9d0e3946e1
+vessel,MC1,,sailboat Freeport,sailboat Freeport
+location,MC1,,c0ea9f29-9987-490f-bc96-d2a5718c1636,c0ea9f29-9987-490f-bc96-d2a5718c1636
+organization,MC1,,949,949
+vessel,MC1,,Perch,Perch
+organization,MC1,,576618,576618
+political_organization,MC1,,82357,82357
+person,MC1,Country_271835,Ariel Thornton,Ariel Thornton
+vessel,MC1,,driftnets,driftnets
+organization,MC1,,500633954,500633954
+organization,MC1,,62343,62343
+organization,MC1,,688224,688224
+person,MC1,Country_271835,George Vance,George Vance
+person,MC1,Country_271835,Jason Fleming,Jason Fleming
+unknown,MC1,,âdimersalâ,âdimersalâ
+location,MC1,,c600d751-cc48-4e8e-800e-63ec87a4239f,c600d751-cc48-4e8e-800e-63ec87a4239f
+person,MC1,Country_271835,Cynthia Huff,Cynthia Huff
+person,MC1,Country_271835,Angela Lee,Angela Lee
+location,MC1,,78ec7fd4-82e0-4725-815d-50be0ccee955,78ec7fd4-82e0-4725-815d-50be0ccee955
+vessel,MC1,,CraftâLaw,CraftâLaw
+vessel,MC1,,Ocean Patrol,Ocean Patrol
+vessel,MC1,,ARA Bouchard,ARA Bouchard
+person,MC1,Puerto del Mar,Richard Douglas,Richard Douglas
+person,MC1,Country_271835,Patricia Reyes,Patricia Reyes
+person,MC1,Country_271835,Kristin Dawson,Kristin Dawson
+unknown,MC1,,âAwachaâ,âAwachaâ
+person,MC1,Country_271835,Brandon Hughes,Brandon Hughes
+unknown,MC1,,âSaikoâ,âSaikoâ
+person,MC1,Country_271835,Bethany Lopez,Bethany Lopez
+vessel,MC1,,electric,electric
+vessel,MC1,,wheeler,wheeler
+organization,MC1,,570683,570683
+organization,MC1,,4532329,4532329
+organization,MC1,,98631,98631
+organization,MC1,,2658,2658
+organization,MC1,,5698,5698
+organization,MC1,,3342,3342
+organization,MC1,,354,354
+organization,MC1,,945,945
+event,MC1,,Months,Months
+company,MC1,Country_271835,Tamil Nadu Ltd. Liability Co Express,Tamil Nadu Ltd. Liability Co Express
+unknown,MC1,,âElquiâ,âElquiâ
+location,MC1,,738338ba-deef-4364-bedf-707a8cbf9a55,738338ba-deef-4364-bedf-707a8cbf9a55
+person,MC1,Country_358951,Monica Ramirez,Monica Ramirez
+organization,MC1,,280094,280094
+organization,MC1,,40676,40676
+person,MC1,Country_146155,Tracie Price,Tracie Price
+company,MC1,Country_146155,David Limited Liability Company,David Limited Liability Company
+organization,MC1,,1998,1998
+organization,MC1,,669,669
+person,MC1,Country_271835,Elizabeth Anderson,Elizabeth Anderson
+organization,MC1,,903574229,903574229
+person,MC1,Country_271835,Kenneth Cain,Kenneth Cain
+person,MC1,Country_271835,Carla Perkins,Carla Perkins
+person,MC1,Country_271835,Lindsey Conway,Lindsey Conway
+organization,MC1,,95064,95064
+person,MC1,Country_271835,Ryan Perez,Ryan Perez
+location,MC1,,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5
+organization,MC1,,6567453,6567453
+organization,MC1,,47261702,47261702
+organization,MC1,,730397695,730397695
+organization,MC1,,4086,4086
+vessel,MC1,,Wartsila,Wartsila
+location,MC1,,373a8a11-c7a0-4e9b-8397-9d824974259a,373a8a11-c7a0-4e9b-8397-9d824974259a
+location,MC1,,a0ea93dc-6767-4682-b424-21b5a24ea24b,a0ea93dc-6767-4682-b424-21b5a24ea24b
+vessel,MC1,,bulker,bulker
+company,MC1,Country_271835,Kariba Dam  Corporation Nautical,Kariba Dam  Corporation Nautical
+company,MC1,Country_271835,Benton Ltd. Liability Co,Benton Ltd. Liability Co
+movement,MC1,,ninety,ninety
+event,MC1,,90,90
+organization,MC1,,822596165,822596165
+organization,MC1,,5421,5421
+company,MC1,Country_271835,Pez Dorado BV Logistics,Pez Dorado BV Logistics
+location,MC1,,019d89a8-36be-4402-bf3c-d13cb982cf3f,019d89a8-36be-4402-bf3c-d13cb982cf3f
+location,MC1,,6f59e8d7-8f5d-4a7d-a3a4-50ddcb7ad9ad,6f59e8d7-8f5d-4a7d-a3a4-50ddcb7ad9ad
+person,MC1,Country_271835,Traci Shields,Traci Shields
+person,MC1,Country_271835,Daniel Henderson,Daniel Henderson
+person,MC1,Country_271835,Joseph Smith,Joseph Smith
+person,MC1,Country_271835,Dr. Gregory Rice,Dr. Gregory Rice
+person,MC1,Country_271835,Breanna Welch DDS,Breanna Welch DDS
+person,MC1,Country_271835,Jared Martinez,Jared Martinez
+person,MC1,Country_271835,Darin Torres,Darin Torres
+person,MC1,Country_271835,Tracy Rogers,Tracy Rogers
+person,MC1,Country_271835,Kevin Morris,Kevin Morris
+company,MC1,Country_342065,The Salty Pearl River S.p.A. Export,The Salty Pearl River S.p.A. Export
+location,MC1,,3051e013-9e40-44cc-98e5-740e3238daaa,3051e013-9e40-44cc-98e5-740e3238daaa
+organization,MC1,,9237588,9237588
+location,MC1,,cdc89aad-5d8c-48bf-b155-81d2a932782b,cdc89aad-5d8c-48bf-b155-81d2a932782b
+person,MC1,Country_271835,William Murray,William Murray
+location,MC1,,af9758b0-e4f9-4e08-8dd9-09abc903e4b5,af9758b0-e4f9-4e08-8dd9-09abc903e4b5
+organization,MC1,,4183208,4183208
+company,MC1,Country_271835,Punjab Market Marine sanctuary ship,Punjab Market Marine sanctuary ship
+person,MC1,Country_271835,Robert Edwards,Robert Edwards
+organization,MC1,,322202416,322202416
+location,MC1,,5025f249-0b3c-4741-a7aa-090d93395acf,5025f249-0b3c-4741-a7aa-090d93395acf
+organization,MC1,,969368807,969368807
+organization,MC1,,80276549,80276549
+organization,MC1,,89,89
+organization,MC1,,35282,35282
+organization,MC1,,813,813
+organization,MC1,,62,62
+organization,MC1,,44326992,44326992
+location,MC1,,1416a29d-3719-45d6-95a8-782c4e281908,1416a29d-3719-45d6-95a8-782c4e281908
+event,MC1,,Hunt,Hunt
+location,MC1,,0efa50f3-533d-4775-94fa-54cd1c480587,0efa50f3-533d-4775-94fa-54cd1c480587
+location,MC1,,fd6c1e03-d6f4-421e-a493-cdc56ae000b5,fd6c1e03-d6f4-421e-a493-cdc56ae000b5
+organization,MC1,,869422192,869422192
+organization,MC1,,542341,542341
+organization,MC1,,93252,93252
+organization,MC1,,4627,4627
+organization,MC1,,1719,1719
+person,MC1,Country_271835,Jennifer Parsons,Jennifer Parsons
+organization,MC1,,8876768,8876768
+organization,MC1,,444,444
+person,MC1,Country_271835,Denise Vance,Denise Vance
+person,MC1,Oceanterra,Zachary Perez,Zachary Perez
+person,MC1,Country_271835,Craig Santiago,Craig Santiago
+organization,MC1,,6460,6460
+organization,MC1,,64778548,64778548
+organization,MC1,,493641959,493641959
+organization,MC1,,8980454,8980454
+person,MC1,Country_271835,Jessica Costa,Jessica Costa
+person,MC1,Marebak,Erica Hamilton,Erica Hamilton
+person,MC1,Country_144251,Sandra Martinez,Sandra Martinez
+person,MC1,Country_271835,Austin Welch,Austin Welch
+organization,MC1,,6659,6659
+organization,MC1,,464454263,464454263
+unknown,MC1,,Shipping Corp,Shipping Corp
+organization,MC1,,534,534
+organization,MC1,,4942,4942
+organization,MC1,,884332,884332
+organization,MC1,,982519647,982519647
+organization,MC1,,1354,1354
+organization,MC1,,923825740,923825740
+organization,MC1,,5865,5865
+company,MC1,Country_271835,Malawi Rift  Holdings Navigation,Malawi Rift  Holdings Navigation
+company,MC1,Country_271835,Baha de Coral OJSC Marine,Baha de Coral OJSC Marine
+unknown,MC1,,Navigation Corp,Navigation Corp
+unknown,MC1,,Triton Navigation Corp,Triton Navigation Corp
+unknown,MC1,,Pontus Navigation Corp,Pontus Navigation Corp
+person,MC1,Helixia,John Jensen,John Jensen
+person,MC1,Country_271835,Michael Frederick,Michael Frederick
+organization,MC1,,401289940,401289940
+organization,MC1,,54726,54726
+organization,MC1,,52193,52193
+person,MC1,Country_144251,Laura Joseph,Laura Joseph
+organization,MC1,,697844686,697844686
+organization,MC1,,1555,1555
+organization,MC1,,3669166,3669166
+organization,MC1,,483398,483398
+location,MC1,,111274e2-c155-4640-9a8e-f506f3fbca06,111274e2-c155-4640-9a8e-f506f3fbca06
+political_organization,MC1,,7657424,7657424
+organization,MC1,,2234557,2234557
+organization,MC1,,7125,7125
+person,MC1,Oceanus,Jorge Davidson,Jorge Davidson
+person,MC1,Kethanor,Ruben Fowler,Ruben Fowler
+person,MC1,Country_271835,John Riley,John Riley
+political_organization,MC1,,256659459,256659459
+organization,MC1,,2357762,2357762
+person,MC1,Country_271835,Andrew Graves,Andrew Graves
+person,MC1,Country_271835,Mathew Taylor,Mathew Taylor
+location,MC1,,aac2c35c-d06d-45df-a1f8-a0c4001f3897,aac2c35c-d06d-45df-a1f8-a0c4001f3897
+unknown,MC1,,âHSIâ,âHSIâ
+unknown,MC1,,âNYPDâ,âNYPDâ
+person,MC1,Country_271835,Daniel Obrien,Daniel Obrien
+person,MC1,Country_271835,Jeffrey Hall,Jeffrey Hall
+unknown,MC1,,âbe,âbe
+location,MC1,,8bdf21e8-914b-4fe2-9280-0a69b9b0175d,8bdf21e8-914b-4fe2-9280-0a69b9b0175d
+vessel,MC1,,18 wheelers,18 wheelers
+person,MC1,Country_271835,Michael Vazquez,Michael Vazquez
+person,MC1,Country_167470,Sara Fleming,Sara Fleming
+organization,MC1,,1625166,1625166
+location,MC1,,a325b223-5017-42a8-8eb1-ed7e1a3bbd5b,a325b223-5017-42a8-8eb1-ed7e1a3bbd5b
+political_organization,MC1,,49101570,49101570
+person,MC1,Country_271835,Robert Garcia,Robert Garcia
+location,MC1,,6b19fec0-f5d4-4d31-b461-fef270debb3e,6b19fec0-f5d4-4d31-b461-fef270debb3e
+person,MC1,Country_271835,Brett Lopez,Brett Lopez
+organization,MC1,,42978392,42978392
+location,MC1,,62d39460-2980-4835-91ea-47073f724d3b,62d39460-2980-4835-91ea-47073f724d3b
+location,MC1,,74390fc5-8dc6-4511-a0a8-bc360409b805,74390fc5-8dc6-4511-a0a8-bc360409b805
+person,MC1,Country_271835,Heather Porter,Heather Porter
+person,MC1,Country_271835,Kevin Liu,Kevin Liu
+person,MC1,Country_271835,Katrina Nguyen,Katrina Nguyen
+location,MC1,,0fab17df-2c08-46b6-8ce9-b13b3a60ff3d,0fab17df-2c08-46b6-8ce9-b13b3a60ff3d
+person,MC1,Country_271835,James Horton,James Horton
+person,MC1,Country_271835,Brian Hansen,Brian Hansen
+company,MC1,Country_271835,Rajasthan GmbH & Co. KG,Rajasthan GmbH & Co. KG
+organization,MC1,,858,858
+person,MC1,Oceanus,Rebecca Caldwell,Rebecca Caldwell
+person,MC1,Country_271835,Alyssa Gonzalez,Alyssa Gonzalez
+person,MC1,Country_271835,Michelle Jackson,Michelle Jackson
+location,MC1,,27d0dfe7-186c-4016-8f47-40c71e30f48a,27d0dfe7-186c-4016-8f47-40c71e30f48a
+organization,MC1,,871,871
+person,MC1,Country_271835,James Scott,James Scott
+person,MC1,Country_271835,Krista Harris,Krista Harris
+event,MC1,,âeverything,âeverything
+organization,MC1,,76030,76030
+person,MC1,Country_271835,William Gray,William Gray
+event,MC1,,containers,containers
+organization,MC1,,9098,9098
+person,MC1,Country_271835,Michael Reed,Michael Reed
+political_organization,MC1,,17592,17592
+location,MC1,,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7
+person,MC1,Country_271835,Katherine Chavez,Katherine Chavez
+company,MC1,Country_323509,Nutica del Sol AG,Nutica del Sol AG
+person,MC1,Country_271835,Stephen Marks,Stephen Marks
+location,MC1,,8b8c532f-0ca0-44cc-898c-1d776f2f457a,8b8c532f-0ca0-44cc-898c-1d776f2f457a
+person,MC1,Country_271835,James Stewart,James Stewart
+organization,MC1,,1968776,1968776
+political_organization,MC1,,288971672,288971672
+person,MC1,Country_271835,Anthony Larson,Anthony Larson
+organization,MC1,,845,845
+organization,MC1,,382825160,382825160
+person,MC1,Country_271835,Laura Hughes,Laura Hughes
+person,MC1,Country_271835,Amanda Dean,Amanda Dean
+person,MC1,Country_12955,Debra Hall,Debra Hall
+person,MC1,Country_271835,Kelsey Tucker,Kelsey Tucker
+political_organization,MC1,,460859346,460859346
+organization,MC1,,2793,2793
+person,MC1,Country_271835,Martin Bell,Martin Bell
+person,MC1,Country_271835,Michelle Long,Michelle Long
+unknown,MC1,,âlaughableâ,âlaughableâ
+organization,MC1,,8325,8325
+organization,MC1,,437212,437212
+organization,MC1,,299,299
+person,MC1,Country_271835,Jennifer Barber,Jennifer Barber
+person,MC1,Country_271835,Ryan Hudson,Ryan Hudson
+person,MC1,Country_697428,James Calhoun,James Calhoun
+person,MC1,Country_789455,Harold Strickland,Harold Strickland
+person,MC1,Country_789455,John Hall,John Hall
+person,MC1,Country_925382,Christine Maxwell,Christine Maxwell
+person,MC1,Country_789455,Ashley Lewis,Ashley Lewis
+person,MC1,Country_789455,Sandra Bullock,Sandra Bullock
+location,MC1,,82f2f404-439a-4b2e-b423-726a7f933abf,82f2f404-439a-4b2e-b423-726a7f933abf
+organization,MC1,,298930,298930
+person,MC1,Country_789455,Mark Garcia,Mark Garcia
+location,MC1,,f59ca3ce-7fea-4a6b-893b-486565a8ab18,f59ca3ce-7fea-4a6b-893b-486565a8ab18
+unknown,MC1,,âtoppyâ,âtoppyâ
+unknown,MC1,,âstagâ,âstagâ
+person,MC1,Country_990614,Samuel Dunn,Samuel Dunn
+person,MC1,Country_271835,John Avila,John Avila
+organization,MC1,,2362,2362
+person,MC1,Oceanus,William Palmer,William Palmer
+location,MC1,,7311cf88-bac1-4ac9-a0d2-c55c02497944,7311cf88-bac1-4ac9-a0d2-c55c02497944
+organization,MC1,,9979944,9979944
+organization,MC1,,4396031,4396031
+company,MC1,Country_271835,Simien Mountains  Company Delivery,Simien Mountains  Company Delivery
+organization,MC1,,519852438,519852438
+unknown,MC1,,âlegitimateâ,âlegitimateâ
+person,MC1,Country_271835,William Kim,William Kim
+person,MC1,Country_271835,Jeffrey Strong,Jeffrey Strong
+person,MC1,Country_271835,Susan Williams,Susan Williams
+person,MC1,Country_271835,Margaret Miller,Margaret Miller
+person,MC1,Country_271835,Angela Chang,Angela Chang
+person,MC1,Country_271835,Daniel Chang,Daniel Chang
+person,MC1,Country_271835,Victoria Gonzalez,Victoria Gonzalez
+person,MC1,Country_271835,Jennifer Johnson,Jennifer Johnson
+person,MC1,Country_271835,Jeffrey Mills,Jeffrey Mills
+person,MC1,Country_271835,Jason Brown,Jason Brown
+person,MC1,Country_271835,Jeff Sullivan,Jeff Sullivan
+political_organization,MC1,,6828,6828
+person,MC1,Country_271835,Mr. Eric Logan,Mr. Eric Logan
+person,MC1,Country_271835,William Phillips,William Phillips
+person,MC1,Country_271835,Heather Holmes,Heather Holmes
+person,MC1,Country_271835,Elizabeth Jones,Elizabeth Jones
+person,MC1,Country_271835,Christian Quinn,Christian Quinn
+event,MC1,,âHis,âHis
+organization,MC1,,432526990,432526990
+person,MC1,Country_271835,Kathryn Gomez,Kathryn Gomez
+person,MC1,Country_271835,Stephanie Wiley,Stephanie Wiley
+person,MC1,Nalakond,Lisa Ward,Lisa Ward
+person,MC1,Nalakond,William Fernandez,William Fernandez
+person,MC1,Country_271835,Ryan Lewis,Ryan Lewis
+person,MC1,Country_271835,Christina Chavez,Christina Chavez
+person,MC1,Country_271835,Jessica Figueroa DDS,Jessica Figueroa DDS
+person,MC1,Country_271835,Rebecca Taylor,Rebecca Taylor
+organization,MC1,,463,463
+organization,MC1,,762,762
+event,MC1,,âbelieve,âbelieve
+person,MC1,Country_271835,Dr. Daniel Massey,Dr. Daniel Massey
+event,MC1,,âWhatâs,âWhatâs
+person,MC1,Country_271835,Brooke Hamilton,Brooke Hamilton
+person,MC1,Country_271835,Mrs. Katherine Clark,Mrs. Katherine Clark
+person,MC1,Country_271835,Kathleen Benitez,Kathleen Benitez
+unknown,MC1,,Easterlingsâ,Easterlingsâ
+person,MC1,Country_271835,Seth Peters,Seth Peters
+person,MC1,Country_271835,Kevin Butler,Kevin Butler
+location,MC1,,8851578d-3dd7-4430-8f73-b95305eb1f03,8851578d-3dd7-4430-8f73-b95305eb1f03
+organization,MC1,,82379,82379
+person,MC1,Rio Isla,Daniel Pruitt,Daniel Pruitt
+location,MC1,,bc583d11-794a-4a83-abc8-3daa208e1262,bc583d11-794a-4a83-abc8-3daa208e1262
+person,MC1,Country_271835,Andrew Torres,Andrew Torres
+political_organization,MC1,,8634589,8634589
+organization,MC1,,7260903,7260903
+location,MC1,,a2ac0390-407f-4a94-bc19-6d58d36ea69a,a2ac0390-407f-4a94-bc19-6d58d36ea69a
+company,MC1,Country_271835,su y CJSC Canal,su y CJSC Canal
+location,MC1,,9b5a90cf-e801-46a8-bd50-879ab3862c67,9b5a90cf-e801-46a8-bd50-879ab3862c67
+organization,MC1,,6548672,6548672
+person,MC1,Country_271835,Cheryl Conway,Cheryl Conway
+organization,MC1,,3896,3896
+location,MC1,,76b8e150-91b4-494d-8ef6-6af706b397eb,76b8e150-91b4-494d-8ef6-6af706b397eb
+person,MC1,Country_271835,Lauren Smith,Lauren Smith
+person,MC1,Country_271835,Darrell Lopez,Darrell Lopez
+person,MC1,Oceanus,James Valencia,James Valencia
+organization,MC1,,798,798
+location,MC1,,cc3c9a3e-9226-43e0-9c2e-2cabec77b0fc,cc3c9a3e-9226-43e0-9c2e-2cabec77b0fc
+person,MC1,Country_247330,Barry Harris,Barry Harris
+person,MC1,Country_271835,Philip Murphy,Philip Murphy
+person,MC1,Country_271835,April Perry,April Perry
+organization,MC1,,245484,245484
+organization,MC1,,61679,61679
+organization,MC1,,1983793,1983793
+location,MC1,,73db3de8-b968-40da-875c-7e57c678aa36,73db3de8-b968-40da-875c-7e57c678aa36
+organization,MC1,,800578,800578
+organization,MC1,,254340176,254340176
+unknown,MC1,,Attorneysâ,Attorneysâ
+organization,MC1,,4332001,4332001
+political_organization,MC1,,9345,9345
+person,MC1,Country_271835,Eric Rogers,Eric Rogers
+organization,MC1,,402,402
+person,MC1,Polarisdom,Jon White,Jon White
+person,MC1,Country_614826,Emily Kennedy,Emily Kennedy
+location,MC1,,b1a0ee2a-0e6d-48c2-b639-032e4648fa5c,b1a0ee2a-0e6d-48c2-b639-032e4648fa5c
+person,MC1,Oceanus,Sean Wilson,Sean Wilson
+person,MC1,Country_271835,Kevin Burnett,Kevin Burnett
+organization,MC1,,218148,218148
+person,MC1,Country_271835,Rebecca Walker,Rebecca Walker
+location,MC1,,decfc924-5bdc-4fba-8bbd-bb57d8d478d9,decfc924-5bdc-4fba-8bbd-bb57d8d478d9
+person,MC1,Polarisdom,Amanda Scott,Amanda Scott
+unknown,MC1,,22 Raptor,22 Raptor
+company,MC1,Polarisdom,Estrella del Mar Inc Merchants,Estrella del Mar Inc Merchants
+person,MC1,Country_271835,Gerald Washington,Gerald Washington
+person,MC1,Country_271835,Jessica Kelly,Jessica Kelly
+organization,MC1,,60017,60017
+person,MC1,Country_271835,Annette Barrett,Annette Barrett
+event,MC1,,âknow,âknow
+location,MC1,,0c0ae060-2543-4d7e-bed0-e7fab24ba6a5,0c0ae060-2543-4d7e-bed0-e7fab24ba6a5
+person,MC1,Country_271835,Olivia Garner,Olivia Garner
+person,MC1,Country_271835,Scott Johnson,Scott Johnson
+person,MC1,Country_271835,Melissa Bates,Melissa Bates
+person,MC1,Country_271835,Carlos Rose,Carlos Rose
+location,MC1,,a03df7da-c2cf-476d-a6ea-95c422969df2,a03df7da-c2cf-476d-a6ea-95c422969df2
+person,MC1,Country_271835,Amber Green,Amber Green
+person,MC1,Country_271835,Rodney Compton,Rodney Compton
+organization,MC1,,381051499,381051499
+organization,MC1,,110727,110727
+company,MC1,Country_271835,su y Worldwide Shark,su y Worldwide Shark
+organization,MC1,,4205,4205
+person,MC1,Country_271835,Mary Clements,Mary Clements
+political_organization,MC1,,789040,789040
+organization,MC1,,16306,16306
+person,MC1,Country_271835,Sylvia Johnson,Sylvia Johnson
+person,MC1,Country_271835,Charles Fitzgerald,Charles Fitzgerald
+location,MC1,,6eda4eb1-cdb8-4d61-8c72-fae33deb91a7,6eda4eb1-cdb8-4d61-8c72-fae33deb91a7
+unknown,MC1,,Covid,Covid
+location,MC1,,5fddadd0-71e7-4bdf-a471-daddd5f376b8,5fddadd0-71e7-4bdf-a471-daddd5f376b8
+location,MC1,,7ed038cd-64da-492f-a338-5c4636b91a2b,7ed038cd-64da-492f-a338-5c4636b91a2b
+organization,MC1,,80774,80774
+location,MC1,,4b0f0611-34ce-4733-81af-391943e272c0,4b0f0611-34ce-4733-81af-391943e272c0
+person,MC1,Country_271835,Seth Kelley,Seth Kelley
+unknown,MC1,,âFrontlineâ,âFrontlineâ
+political_organization,MC1,,71084,71084
+person,MC1,Country_271835,Wanda Collins,Wanda Collins
+person,MC1,Country_271835,Miguel Harrison,Miguel Harrison
+unknown,MC1,,ââ¯The,ââ¯The
+location,MC1,,24e1e725-9a8e-489c-bbdd-0ce140fd6e3b,24e1e725-9a8e-489c-bbdd-0ce140fd6e3b
+person,MC1,Country_271835,Zachary Sellers,Zachary Sellers
+location,MC1,,357987c8-3ecb-4e38-9f10-857007f2cd3b,357987c8-3ecb-4e38-9f10-857007f2cd3b
+organization,MC1,,8350379,8350379
+person,MC1,Country_940095,Keith Compton,Keith Compton
+location,MC1,,04943c53-b4ac-4048-8d86-bced4138d7c6,04943c53-b4ac-4048-8d86-bced4138d7c6
+organization,MC1,,59022,59022
+organization,MC1,,1039,1039
+person,MC1,Country_271835,Tyler Anderson,Tyler Anderson
+organization,MC1,,32,32
+political_organization,MC1,,6242224,6242224
+organization,MC1,,88295922,88295922
+organization,MC1,,7830,7830
+location,MC1,,e42f2b19-60d8-4df2-bb01-d2b42d134a26,e42f2b19-60d8-4df2-bb01-d2b42d134a26
+person,MC1,Country_271835,Paul Johnson,Paul Johnson
+location,MC1,,6d0e9c69-47a0-497e-b26e-28755c949385,6d0e9c69-47a0-497e-b26e-28755c949385
+organization,MC1,,54055,54055
+person,MC1,Oceanus,Brett Blair,Brett Blair
+location,MC1,,b840c9bf-2a5b-416c-91d9-1ecdd96425ab,b840c9bf-2a5b-416c-91d9-1ecdd96425ab
+location,MC1,,4eddaaa4-6306-467e-a7f4-27a58559e535,4eddaaa4-6306-467e-a7f4-27a58559e535
+location,MC1,,ea6a6547-c93b-4f17-b037-200fa894289c,ea6a6547-c93b-4f17-b037-200fa894289c
+location,MC1,,57c81b3c-882b-4824-91a0-7114be0fa5c7,57c81b3c-882b-4824-91a0-7114be0fa5c7
+unknown,MC1,,Survivorsâ,Survivorsâ
+unknown,MC1,,Task Force,Task Force
+organization,MC1,,8541598,8541598
+political_organization,MC1,,828063,828063
+organization,MC1,,5362,5362
+person,MC1,Country_271835,Dr. Christina Jensen DDS,Dr. Christina Jensen DDS
+location,MC1,,d025bbec-393d-4f51-94b3-01b77280ef31,d025bbec-393d-4f51-94b3-01b77280ef31
+organization,MC1,,5276019,5276019
+location,MC1,,5e6b70db-a04a-4440-8991-3a92b5c4ac4d,5e6b70db-a04a-4440-8991-3a92b5c4ac4d
+company,MC1,Country_271835,Tshikele Ltd. Liability Co,Tshikele Ltd. Liability Co
+location,MC1,,df76b4cf-1019-4768-93cd-27122ef3bacc,df76b4cf-1019-4768-93cd-27122ef3bacc
+organization,MC1,,111856,111856
+location,MC1,,88b35c10-45ae-4ded-ae4a-6cad038cfd91,88b35c10-45ae-4ded-ae4a-6cad038cfd91
+organization,MC1,,553828215,553828215
+organization,MC1,,663,663
+person,MC1,Country_271835,Lindsey Barr,Lindsey Barr
+unknown,MC1,,Filkinsâ,Filkinsâ
+location,MC1,,90be60b1-61d8-4115-b133-e4c8e09383eb,90be60b1-61d8-4115-b133-e4c8e09383eb
+organization,MC1,,81211950,81211950
+organization,MC1,,52134252,52134252
+organization,MC1,,679399,679399
+organization,MC1,,3436524,3436524
+organization,MC1,,67716449,67716449
+location,MC1,,e2844e89-d2d8-428d-8284-a0f2d9450a14,e2844e89-d2d8-428d-8284-a0f2d9450a14
+organization,MC1,,4406,4406
+location,MC1,,ed114149-9468-41b4-adda-343883e79e04,ed114149-9468-41b4-adda-343883e79e04
+organization,MC1,,7682,7682
+location,MC1,,d6dbac2d-ba76-4503-be09-e0444b936bd0,d6dbac2d-ba76-4503-be09-e0444b936bd0
+organization,MC1,,43223,43223
+organization,MC1,,765078,765078
+organization,MC1,,172279392,172279392
+person,MC1,Country_271835,Diane Hughes,Diane Hughes
+location,MC1,,7f3d323d-54e3-49f8-9c28-7aa5cb4c7248,7f3d323d-54e3-49f8-9c28-7aa5cb4c7248
+person,MC1,Country_271835,Jason Hughes,Jason Hughes
+organization,MC1,,858773,858773
+person,MC1,Country_271835,Amanda Rogers,Amanda Rogers
+organization,MC1,,4852,4852
+vessel,MC1,,electric cars,electric cars
+event,MC1,,past years,past years
+organization,MC1,,33,33
+location,MC1,,14f1538d-29ed-43f4-ac8f-7a6ce01b9c00,14f1538d-29ed-43f4-ac8f-7a6ce01b9c00
+location,MC1,,2e579f6f-eca3-498d-a523-b1da1e85a5cf,2e579f6f-eca3-498d-a523-b1da1e85a5cf
+location,MC1,,06c85abe-f160-4a9f-bfb2-d58099a6be80,06c85abe-f160-4a9f-bfb2-d58099a6be80
+unknown,MC1,,Goliathâ,Goliathâ
+person,MC1,Arreciviento,Joseph Hawkins,Joseph Hawkins
+location,MC1,,b8649055-5b40-43e1-ba33-93182cf978d4,b8649055-5b40-43e1-ba33-93182cf978d4
+person,MC1,Country_945731,Linda Jones,Linda Jones
+unknown,MC1,,estÃ,estÃ
+unknown,MC1,,maÃ±ana asÃ,maÃ±ana asÃ
+person,MC1,Country_271835,Caleb Webster,Caleb Webster
+organization,MC1,,739622,739622
+organization,MC1,,7675191,7675191
+organization,MC1,,4356,4356
+event,MC1,,weeks 55,weeks 55
+person,MC1,Country_760479,Meghan Johnson,Meghan Johnson
+person,MC1,Country_753331,Cody Baird,Cody Baird
+person,MC1,Puerto del Mar,Mark Norton,Mark Norton
+person,MC1,Country_54147,Michael Johnson,Michael Johnson
+organization,MC1,,233,233
+company,MC1,Country_492608,Dutch Herring Inc Transportation,Dutch Herring Inc Transportation
+organization,MC1,,8453714,8453714
+movement,MC1,,60-day,60-day
+organization,MC1,,29167335,29167335
+political_organization,MC1,,73,73
+location,MC1,,b5856109-c5a0-43a6-8c70-ebfe73cc24f1,b5856109-c5a0-43a6-8c70-ebfe73cc24f1
+location,MC1,,092836e4-7218-4d3d-85da-9df420356be7,092836e4-7218-4d3d-85da-9df420356be7
+location,MC1,,3590dd7e-a6cd-416d-9b42-68f692ad83ee,3590dd7e-a6cd-416d-9b42-68f692ad83ee
+person,MC1,Riodelsol,Luis Jones,Luis Jones
+political_organization,MC1,,17232,17232
+organization,MC1,,6070651,6070651
+location,MC1,,c01c6a10-60c9-4f11-9409-aa04c3963826,c01c6a10-60c9-4f11-9409-aa04c3963826
+political_organization,MC1,,156,156
+location,MC1,,1eb512b7-c4ce-4b7e-9965-2236bf1afc9e,1eb512b7-c4ce-4b7e-9965-2236bf1afc9e
+person,MC1,Oceanterra,Timothy Benjamin,Timothy Benjamin
+political_organization,MC1,,51,51
+person,MC1,Oceanterra,Anna Ortiz,Anna Ortiz
+location,MC1,,f810c631-9f7d-4219-ade0-b44c4c9abf62,f810c631-9f7d-4219-ade0-b44c4c9abf62
+person,MC1,Country_214033,William Rivera,William Rivera
+unknown,MC1,,Liibaan General Trading Co,Liibaan General Trading Co
+person,MC1,Country_233547,Christopher Garrett,Christopher Garrett
+location,MC1,,206e3508-bbef-4473-906a-88e3f17c57ae,206e3508-bbef-4473-906a-88e3f17c57ae
+location,MC1,,db83c37f-86e4-4694-a81c-ede2a01aef71,db83c37f-86e4-4694-a81c-ede2a01aef71
+political_organization,MC1,,626,626
+person,MC1,Country_271835,Matthew Fletcher,Matthew Fletcher
+person,MC1,Country_271835,Daniel Mcclain,Daniel Mcclain
+political_organization,MC1,,962534403,962534403
+person,MC1,Country_271835,Michele Taylor,Michele Taylor
+person,MC1,Zambalantis,Michael Andrews,Michael Andrews
+person,MC1,Country_271835,Lisa Gomez,Lisa Gomez
+political_organization,MC1,,431,431
+person,MC1,Zambalantis,Brenda Andrews,Brenda Andrews
+location,MC1,,ee077c79-cc7b-4ac7-8c0b-d48f50538f61,ee077c79-cc7b-4ac7-8c0b-d48f50538f61
+person,MC1,Oceanterra,Mark Hernandez PhD,Mark Hernandez PhD
+unknown,MC1,,RPG,RPG
+person,MC1,Country_271835,Sarah Garcia,Sarah Garcia
+person,MC1,Country_271835,Jessica James,Jessica James
+location,MC1,,26794528-86a5-4b5e-802f-50c3f226c66b,26794528-86a5-4b5e-802f-50c3f226c66b
+organization,MC1,,5700,5700
+organization,MC1,,93380783,93380783
+organization,MC1,,3129,3129
+person,MC1,Country_271835,Jesse Thompson,Jesse Thompson
+location,MC1,,1bf22b98-519c-4131-8bb4-53ecdd193100,1bf22b98-519c-4131-8bb4-53ecdd193100
+organization,MC1,,8503254,8503254
+location,MC1,,c18d0197-c30e-421f-bae3-2f8fa1e9159a,c18d0197-c30e-421f-bae3-2f8fa1e9159a
+person,MC1,Country_271835,Evelyn Pacheco,Evelyn Pacheco
+person,MC1,Country_271835,Brianna Gregory,Brianna Gregory
+organization,MC1,,914,914
+person,MC1,Country_271835,Brooke Collins,Brooke Collins
+unknown,MC1,,Refugee Benefitsâ,Refugee Benefitsâ
+person,MC1,Country_271835,Lori Weeks,Lori Weeks
+organization,MC1,,518323906,518323906
+person,MC1,Country_271835,Karen Burns,Karen Burns
+person,MC1,Country_271835,Randall Newman,Randall Newman
+location,MC1,,f656719b-783e-452b-801f-f60895068b23,f656719b-783e-452b-801f-f60895068b23
+person,MC1,Country_271835,Scott Edwards,Scott Edwards
+unknown,MC1,,âPerlaâ,âPerlaâ
+unknown,MC1,,âEmanuelââif,âEmanuelââif
+person,MC1,Country_271835,Gina Armstrong DDS,Gina Armstrong DDS
+unknown,MC1,,âRestrainâ,âRestrainâ
+person,MC1,Country_271835,Walter Graham,Walter Graham
+person,MC1,Country_907876,Ryan Jones,Ryan Jones
+person,MC1,Country_271835,Gabrielle Wade,Gabrielle Wade
+person,MC1,Country_11605,Patrick Cannon,Patrick Cannon
+person,MC1,Country_907876,Jeanne Mills,Jeanne Mills
+unknown,MC1,,âExploitationâ,âExploitationâ
+person,MC1,Country_271835,Austin Simpson,Austin Simpson
+person,MC1,Country_271835,Sarah Hays,Sarah Hays
+person,MC1,Country_271835,Richard Fleming,Richard Fleming
+person,MC1,Country_271835,Melissa Gomez,Melissa Gomez
+person,MC1,Country_271835,Daniel Frank,Daniel Frank
+location,MC1,,5890393d-3bb2-4f08-a460-4aa025e28de0,5890393d-3bb2-4f08-a460-4aa025e28de0
+location,MC1,,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d
+unknown,MC1,,Feb,Feb
+organization,MC1,,164,164
+unknown,MC1,,âdirect,âdirect
+unknown,MC1,,âdirectlyâ,âdirectlyâ
+event,MC1,,âcriminally,âcriminally
+person,MC1,Country_271835,Terry Mcknight,Terry Mcknight
+person,MC1,Country_271835,David Nielsen,David Nielsen
+person,MC1,Country_271835,John Obrien,John Obrien
+person,MC1,Country_271835,Michael Hansen,Michael Hansen
+person,MC1,Country_271835,Grace Perez,Grace Perez
+person,MC1,Country_271835,Travis Rivera,Travis Rivera
+person,MC1,Country_271835,Larry Morrow,Larry Morrow
+person,MC1,Country_271835,Tammy Martin,Tammy Martin
+organization,MC1,,773,773
+unknown,MC1,,wgbh,wgbh
+political_organization,MC1,,436460757,436460757
+organization,MC1,,93865,93865
+unknown,MC1,,brianbushard,brianbushard
+unknown,MC1,,siladityaray,siladityaray
+political_organization,MC1,,82517,82517
+person,MC1,Country_271835,Robert Shaffer,Robert Shaffer
+person,MC1,Country_663412,Jim Sims,Jim Sims
+person,MC1,Country_663412,Laura Patterson,Laura Patterson
+unknown,MC1,,âPerlaâ,âPerlaâ
+person,MC1,Country_271835,Gary Palmer,Gary Palmer
+organization,MC1,,7674777,7674777
+person,MC1,Country_271835,Jeremy Woodard,Jeremy Woodard
+organization,MC1,,8302,8302
+organization,MC1,,45620,45620
+company,MC1,Country_663412,Jammu & Kashmir ship,Jammu & Kashmir ship
+political_organization,MC1,,6352,6352
+person,MC1,Country_271835,Paul Wiley,Paul Wiley
+person,MC1,Country_271835,Miranda Long,Miranda Long
+person,MC1,Country_271835,Michelle Kelley,Michelle Kelley
+person,MC1,Country_271835,Marvin Everett,Marvin Everett
+person,MC1,Country_271835,Matthew Sutton,Matthew Sutton
+political_organization,MC1,,912077,912077
+person,MC1,Country_271835,Brandon Thomas,Brandon Thomas
+unknown,MC1,,Mexicoââ,Mexicoââ
+person,MC1,Country_271835,Joseph Williams,Joseph Williams
+political_organization,MC1,,176,176
+person,MC1,Country_271835,Scott Anderson,Scott Anderson
+person,MC1,Country_226679,Danielle Jensen,Danielle Jensen
+person,MC1,Country_271835,Brian Brown,Brian Brown
+unknown,MC1,,âenticedâ,âenticedâ
+organization,MC1,,8814,8814
+organization,MC1,,139,139
+organization,MC1,,25851337,25851337
+organization,MC1,,36506,36506
+political_organization,MC1,,150486480,150486480
+organization,MC1,,90831,90831
+organization,MC1,,66820,66820
+person,MC1,Country_271835,Kristen Martin,Kristen Martin
+location,MC1,,da71710a-9b0e-41d8-a9f6-a0b93f1ab772,da71710a-9b0e-41d8-a9f6-a0b93f1ab772
+unknown,MC1,,Ð°Ñ,Ð°Ñ
+unknown,MC1,,ÐœÐ° Ð±ÐŸÑÑ,ÐœÐ° Ð±ÐŸÑÑ
+unknown,MC1,,Ð£ÐºÑÐ°ÑÐœÐž,Ð£ÐºÑÐ°ÑÐœÐž
+person,MC1,Country_271835,Janet Floyd,Janet Floyd
+person,MC1,Country_271835,Richard Anderson,Richard Anderson
+unknown,MC1,,âCompromiseâ,âCompromiseâ
+unknown,MC1,,âPartnersâ,âPartnersâ
+political_organization,MC1,,413760,413760
+political_organization,MC1,,94047,94047
+organization,MC1,,49525439,49525439
+person,MC1,Country_271835,Angela Hernandez,Angela Hernandez
+person,MC1,Country_271835,Randy Logan,Randy Logan
+person,MC1,Country_271835,Elizabeth Martin,Elizabeth Martin
+unknown,MC1,,âtheoriginaldragoncoveâ,âtheoriginaldragoncoveâ
+person,MC1,Country_271835,Aaron Bennett,Aaron Bennett
+person,MC1,Country_271835,Kathleen Rowe,Kathleen Rowe
+person,MC1,Country_821432,Patrick Torres,Patrick Torres
+person,MC1,Country_821432,Scott Jones,Scott Jones
+location,MC1,,5fd0447e-d890-4f62-a411-5fc17c47b969,5fd0447e-d890-4f62-a411-5fc17c47b969
+person,MC1,Country_821432,Scott Villa,Scott Villa
+person,MC1,Country_271835,Connor Ray,Connor Ray
+organization,MC1,,23837996,23837996
+organization,MC1,,82207154,82207154
+person,MC1,Country_271835,Brandon Calderon,Brandon Calderon
+organization,MC1,,740111283,740111283
+organization,MC1,,3657479,3657479
+organization,MC1,,2810009,2810009
+organization,MC1,,129461,129461
+company,MC1,Country_271835,Congo Rapids  Marine sanctuary GmbH & Co. KG Marine sanctuary,Congo Rapids  Marine sanctuary GmbH & Co. KG Marine sanctuary
+unknown,MC1,,âoriginaldragoncoveâ,âoriginaldragoncoveâ
+unknown,MC1,,The Defendantsâ,The Defendantsâ
+location,MC1,,86ac9e66-f9e8-4f2b-ad17-39a52c23288c,86ac9e66-f9e8-4f2b-ad17-39a52c23288c
+organization,MC1,,7443,7443
+location,MC1,,5609469a-5721-4c94-92ed-ce7770055960,5609469a-5721-4c94-92ed-ce7770055960
+organization,MC1,,775841,775841
+person,MC1,Country_246944,Tiffany Stephens,Tiffany Stephens
+person,MC1,Country_271835,Veronica Lowe,Veronica Lowe
+unknown,MC1,,âNinoâ,âNinoâ
+organization,MC1,,803490608,803490608
+location,MC1,,f4e17264-3b3c-48a6-86ba-d65622dc2f13,f4e17264-3b3c-48a6-86ba-d65622dc2f13
+person,MC1,Country_271835,Brent Young,Brent Young
+organization,MC1,,9550,9550
+person,MC1,Country_271835,Sierra Henderson,Sierra Henderson
+person,MC1,Country_271835,Roger Jordan,Roger Jordan
+person,MC1,Country_271835,Matthew Everett,Matthew Everett
+person,MC1,Country_271835,Richard Adams,Richard Adams
+person,MC1,Country_271835,Angel Burnett,Angel Burnett
+person,MC1,Country_271835,Jose Smith,Jose Smith
+person,MC1,Country_271835,Emily Norton,Emily Norton
+location,MC1,,6ffd3349-37f4-48c5-bc9a-1b80e722e939,6ffd3349-37f4-48c5-bc9a-1b80e722e939
+political_organization,MC1,,2745,2745
+location,MC1,,a7479eba-319a-434f-be06-3b1c0cc928ae,a7479eba-319a-434f-be06-3b1c0cc928ae
+vessel,MC1,,trucking,trucking
+location,MC1,,f383ad5f-7949-495e-8427-556b64decaca,f383ad5f-7949-495e-8427-556b64decaca
+person,MC1,Country_271835,Michelle Aguilar,Michelle Aguilar
+company,MC1,Country_271835,Danish Lobster Limited Liability Company Brothers,Danish Lobster Limited Liability Company Brothers
+person,MC1,Country_271835,John Hernandez,John Hernandez
+unknown,MC1,,Texasâ,Texasâ
+unknown,MC1,,Remarkable,Remarkable
+organization,MC1,,46901627,46901627
+organization,MC1,,46319064,46319064
+unknown,MC1,,PÃ,PÃ
+organization,MC1,,82651,82651
+location,MC1,,2ec12718-97bf-45a6-aff5-2d1b9b11d29a,2ec12718-97bf-45a6-aff5-2d1b9b11d29a
+unknown,MC1,,âcommissionâ,âcommissionâ
+person,MC1,Country_271835,Samantha Jackson,Samantha Jackson
+person,MC1,Country_271835,Chelsey Woodard,Chelsey Woodard
+person,MC1,Oceanus,Nichole West,Nichole West
+person,MC1,Country_271835,Michael Alvarez,Michael Alvarez
+person,MC1,Country_271835,Brian Marsh,Brian Marsh
+person,MC1,Country_746165,Timothy Hampton,Timothy Hampton
+organization,MC1,,5007554,5007554
+organization,MC1,,72630,72630
+organization,MC1,,9411155,9411155
+person,MC1,Country_271835,Richard Smith,Richard Smith
+person,MC1,Country_271835,Jennifer Rivera,Jennifer Rivera
+organization,MC1,,2912063,2912063
+person,MC1,Country_271835,Elizabeth Shah,Elizabeth Shah
+person,MC1,Country_271835,Gregory Williams,Gregory Williams
+person,MC1,Country_271835,William Daniel,William Daniel
+person,MC1,Country_271835,Terry Conley,Terry Conley
+person,MC1,Country_271835,Jeremy Jarvis,Jeremy Jarvis
+person,MC1,Country_271835,Ashley Johnson,Ashley Johnson
+company,MC1,Country_271835,Greek Sea Bream and Son's,Greek Sea Bream and Son's
+organization,MC1,,558,558
+person,MC1,Country_271835,Shane Hahn,Shane Hahn
+unknown,MC1,,âundeniableâ,âundeniableâ
+event,MC1,,ârequested,ârequested
+person,MC1,Country_271835,Jeffrey Reed,Jeffrey Reed
+organization,MC1,,55674,55674
+unknown,MC1,,âinconsistenciesâ,âinconsistenciesâ
+person,MC1,Country_271835,Timothy Austin,Timothy Austin
+organization,MC1,,17353795,17353795
+organization,MC1,,540613204,540613204
+person,MC1,Country_271835,Matthew Flores,Matthew Flores
+unknown,MC1,,âadjustingâ,âadjustingâ
+person,MC1,Country_271835,Tammy Garcia,Tammy Garcia
+person,MC1,Country_950691,Jamie Robinson,Jamie Robinson
+organization,MC1,,352,352
+person,MC1,Country_271835,James Knight,James Knight
+organization,MC1,,662290,662290
+movement,MC1,,In month,In month
+company,MC1,Country_271835,Lachlan Enterprises Coral Reef,Lachlan Enterprises Coral Reef
+unknown,MC1,,âDesbloqueio pÃ,âDesbloqueio pÃ
+person,MC1,Country_271835,Brian Dennis,Brian Dennis
+person,MC1,Country_271835,Frederick Kent,Frederick Kent
+person,MC1,Country_271835,Candice Brown,Candice Brown
+unknown,MC1,,âKikoâ,âKikoâ
+organization,MC1,,309535101,309535101
+person,MC1,Country_271835,Nicholas Nguyen,Nicholas Nguyen
+person,MC1,Country_271835,Vincent Cummings,Vincent Cummings
+person,MC1,Country_271835,Tiffany Leonard,Tiffany Leonard
+unknown,MC1,,tio MPFâs Special Action Group Combat Organized Crime,tio MPFâs Special Action Group Combat Organized Crime
+organization,MC1,,51354617,51354617
+organization,MC1,,109071721,109071721
+organization,MC1,,869882172,869882172
+political_organization,MC1,,296837,296837
+person,MC1,Country_271835,Laura Williams,Laura Williams
+person,MC1,Country_271835,Sean George,Sean George
+unknown,MC1,,ExportaÃ,ExportaÃ
+event,MC1,,ParÃ¡âs,ParÃ¡âs
+person,MC1,Arreciviento,Douglas Gordon,Douglas Gordon
+person,MC1,Country_271835,James Thomas,James Thomas
+person,MC1,Country_271835,Kristi Miller,Kristi Miller
+unknown,MC1,,âillegalâ,âillegalâ
+company,MC1,Country_271835,Gambia River  GmbH & Co. KG and,Gambia River  GmbH & Co. KG and
+organization,MC1,,400,400
+organization,MC1,,2430986,2430986
+organization,MC1,,996592,996592
+organization,MC1,,92533,92533
+company,MC1,Country_982684,Olas del Sur Inc,Olas del Sur Inc
+organization,MC1,,5508215,5508215
+organization,MC1,,327572963,327572963
+organization,MC1,,438,438
+unknown,MC1,,Hardwoodsâ,Hardwoodsâ
+person,MC1,Country_746165,John Brown,John Brown
+company,MC1,Country_271835,SeaSelect Foods Corp Dry dock,SeaSelect Foods Corp Dry dock
+person,MC1,Country_271835,Michael Flores,Michael Flores
+person,MC1,Country_746165,Thomas Ramsey,Thomas Ramsey
+unknown,MC1,,Meridaââ,Meridaââ
+unknown,MC1,,meridaâ,meridaâ
+organization,MC1,,8251198,8251198
+organization,MC1,,7914,7914
+person,MC1,Country_271835,Deborah Bell,Deborah Bell
+person,MC1,Country_271835,Jonathan Coleman,Jonathan Coleman
+person,MC1,Country_271835,Luis Rogers,Luis Rogers
+unknown,MC1,,âBanderaâ,âBanderaâ
+unknown,MC1,,âPadre,âPadre
+organization,MC1,,8269,8269
+person,MC1,Arreciviento,Vanessa Chandler,Vanessa Chandler
+organization,MC1,,64545,64545
+organization,MC1,,151159036,151159036
+organization,MC1,,3383,3383
+unknown,MC1,,Menardsâ,Menardsâ
+person,MC1,Country_271835,Jason Garcia,Jason Garcia
+person,MC1,Country_670336,Melissa Gonzalez,Melissa Gonzalez
+company,MC1,Country_246944,Pregolya Delivery Cruise ship,Pregolya Delivery Cruise ship
+unknown,MC1,,Â£103,Â£103
+unknown,MC1,,Â£10,Â£10
+location,MC1,,f64e747e-13de-4628-b939-92a8ff4eb03f,f64e747e-13de-4628-b939-92a8ff4eb03f
+person,MC1,Country_271835,Rachel Arnold,Rachel Arnold
+unknown,MC1,,âtigerâ,âtigerâ
+person,MC1,Country_271835,Sharon Williams,Sharon Williams
+person,MC1,Country_271835,Donald Thomas,Donald Thomas
+person,MC1,Country_271835,Rebecca Anderson,Rebecca Anderson
+organization,MC1,,3328058,3328058
+person,MC1,Country_244549,Julie Callahan,Julie Callahan
+person,MC1,Country_271835,Nathan Murray,Nathan Murray
+person,MC1,Country_271835,Thomas Johnson,Thomas Johnson
+organization,MC1,,176729,176729
+organization,MC1,,958644,958644
+person,MC1,Country_271835,Jonathan Moody,Jonathan Moody
+person,MC1,Puerto del Mar,Kaitlyn Walsh,Kaitlyn Walsh
+person,MC1,Country_271835,Alison Nash,Alison Nash
+person,MC1,Country_271835,Miranda Smith,Miranda Smith
+unknown,MC1,,âminingâ,âminingâ
+person,MC1,Country_271835,Jennifer Wilson MD,Jennifer Wilson MD
+organization,MC1,,6338,6338
+location,MC1,,0d6a2f35-fccd-4cbf-865e-3ed08abb6a95,0d6a2f35-fccd-4cbf-865e-3ed08abb6a95
+location,MC1,,c40a73e5-c1dd-4b85-ac1c-2e6a51546aa7,c40a73e5-c1dd-4b85-ac1c-2e6a51546aa7
+organization,MC1,,3641,3641
+organization,MC1,,200,200
+person,MC1,Country_271835,Nicholas Torres,Nicholas Torres
+organization,MC1,,75360,75360
+location,MC1,,7a58f899-3e43-4b94-a64b-d5ab31a6055b,7a58f899-3e43-4b94-a64b-d5ab31a6055b
+political_organization,MC1,,76104890,76104890
+location,MC1,,68ac10aa-80a3-4b3c-99e5-f5708715ab2c,68ac10aa-80a3-4b3c-99e5-f5708715ab2c
+person,MC1,Country_271835,Christopher Benitez,Christopher Benitez
+event,MC1,,âThis,âThis
+event,MC1,,âSo,âSo
+unknown,MC1,,Pitâ,Pitâ
+person,MC1,Country_271835,John Martin,John Martin
+person,MC1,Country_470077,Christopher Fields,Christopher Fields
+person,MC1,Country_271835,David Romero,David Romero
+location,MC1,,a691bc0a-cfdc-4b2a-a38e-efcd2799ecd1,a691bc0a-cfdc-4b2a-a38e-efcd2799ecd1
+organization,MC1,,28138,28138
+unknown,MC1,,âsnitch,âsnitch
+organization,MC1,,3868221,3868221
+organization,MC1,,79521144,79521144
+person,MC1,Country_271835,Eugene Martin,Eugene Martin
+person,MC1,Country_271835,Emma Jones,Emma Jones
+unknown,MC1,,âbrokerâ,âbrokerâ
+person,MC1,Country_271835,Cassandra Stanley,Cassandra Stanley
+organization,MC1,,198,198
+organization,MC1,,9768,9768
+person,MC1,Country_271835,Tyler Jones,Tyler Jones
+vessel,MC1,,motor,motor
+organization,MC1,,11353,11353
+organization,MC1,,353257,353257
+organization,MC1,,31368,31368
+person,MC1,Country_271835,Colton Olson,Colton Olson
+person,MC1,Country_271835,Tamara Tyler,Tamara Tyler
+person,MC1,Country_271835,Henry Lambert,Henry Lambert
+person,MC1,Country_271835,Elizabeth Armstrong,Elizabeth Armstrong
+person,MC1,Country_271835,Melissa Brock,Melissa Brock
+organization,MC1,,51470600,51470600
+organization,MC1,,719,719
+company,MC1,Country_271835,Sudd Swamp  Wave AS Freight ,Sudd Swamp  Wave AS Freight 
+organization,MC1,,74026296,74026296
+political_organization,MC1,,374585759,374585759
+organization,MC1,,59662085,59662085
+political_organization,MC1,,7423,7423
+organization,MC1,,68273,68273
+organization,MC1,,649,649
+person,MC1,Country_271835,Donna Green,Donna Green
+person,MC1,Country_271835,Dean Reyes,Dean Reyes
+organization,MC1,,96049794,96049794
+vessel,MC1,,truck,truck
+location,MC1,,d6d0741c-39d9-4b94-8b39-b5d2ad1669b9,d6d0741c-39d9-4b94-8b39-b5d2ad1669b9
+political_organization,MC1,,291669,291669
+person,MC1,Country_271835,Thomas Watkins,Thomas Watkins
+company,MC1,Country_271835,Ancla del Mar Kga,Ancla del Mar Kga
+person,MC1,Country_271835,Joshua Park,Joshua Park
+person,MC1,Country_271835,Sergio Ross,Sergio Ross
+unknown,MC1,,Plattsâ,Plattsâ
+person,MC1,Country_271835,Patricia Hunter,Patricia Hunter
+vessel,MC1,,Deepwater Horizon,Deepwater Horizon
+organization,MC1,,455617,455617
+person,MC1,Country_271835,Dale Chandler,Dale Chandler
+person,MC1,Country_271835,Marvin Evans,Marvin Evans
+person,MC1,Country_271835,Jack Bell,Jack Bell
+organization,MC1,,83241316,83241316
+organization,MC1,,940161722,940161722
+organization,MC1,,148766,148766
+organization,MC1,,567857349,567857349
+political_organization,MC1,,836,836
+organization,MC1,,507470,507470
+organization,MC1,,98,98
+political_organization,MC1,,12358151,12358151
+organization,MC1,,8127,8127
+organization,MC1,,18668050,18668050
+organization,MC1,,39033859,39033859
+organization,MC1,,62532,62532
+organization,MC1,,649009867,649009867
+organization,MC1,,43454,43454
+person,MC1,Country_19028,Carmen Mendez,Carmen Mendez
+location,MC1,,a51f21a5-b410-4000-ada4-086bd2e65cb6,a51f21a5-b410-4000-ada4-086bd2e65cb6
+organization,MC1,,359755772,359755772
+political_organization,MC1,,7577,7577
+location,MC1,,dffd75ca-7510-403d-a6a0-f904b0c7b41d,dffd75ca-7510-403d-a6a0-f904b0c7b41d
+location,MC1,,61208e37-a326-4cf5-a571-f8bdd6f2dbf7,61208e37-a326-4cf5-a571-f8bdd6f2dbf7
+movement,MC1,,30 days,30 days
+location,MC1,,9ce492a2-de6e-4231-a018-318fc929908b,9ce492a2-de6e-4231-a018-318fc929908b
+location,MC1,,ffb63251-ebdc-4346-b3a4-ef1515310806,ffb63251-ebdc-4346-b3a4-ef1515310806
+location,MC1,,675d95eb-69b7-4f8a-bd4e-af2cf4def162,675d95eb-69b7-4f8a-bd4e-af2cf4def162
+political_organization,MC1,,54056,54056
+unknown,MC1,,âDuare Rationâ,âDuare Rationâ
+person,MC1,Country_271835,Robert Rodriguez,Robert Rodriguez
+person,MC1,Country_271835,Leslie Williams,Leslie Williams
+location,MC1,,da243ebe-ea98-4510-a6a8-add6679f9d1a,da243ebe-ea98-4510-a6a8-add6679f9d1a
+vessel,MC1,,Bulk Carrier,Bulk Carrier
+location,MC1,,b400d237-4d56-4de8-917a-8e7654ccf315,b400d237-4d56-4de8-917a-8e7654ccf315
+organization,MC1,,18404231,18404231
+location,MC1,,2eeca6e0-f5a7-4b9d-8b3e-ada56d140e36,2eeca6e0-f5a7-4b9d-8b3e-ada56d140e36
+person,MC1,Country_271835,Jose Parker,Jose Parker
+organization,MC1,,4711730,4711730
+location,MC1,,cd7cb49f-0021-4fe9-a3a9-cc8b3fce0c57,cd7cb49f-0021-4fe9-a3a9-cc8b3fce0c57
+organization,MC1,,959344,959344
+company,MC1,Country_271835,James Limited Liability Company Logistics,James Limited Liability Company Logistics
+organization,MC1,,951187691,951187691
+person,MC1,Country_271835,Andrew Harrison,Andrew Harrison
+organization,MC1,,18403617,18403617
+organization,MC1,,365,365
+organization,MC1,,404,404
+location,MC1,,569767ed-015f-4cb9-a316-2db45fbf6cf3,569767ed-015f-4cb9-a316-2db45fbf6cf3
+location,MC1,,9a3fecdc-0696-4b53-979c-8ac021f24910,9a3fecdc-0696-4b53-979c-8ac021f24910
+location,MC1,,899ccad6-2380-4e2c-aa57-d7f487964993,899ccad6-2380-4e2c-aa57-d7f487964993
+person,MC1,Country_271835,Eddie Alexander,Eddie Alexander
+person,MC1,Country_271835,David Schwartz,David Schwartz
+organization,MC1,,33560,33560
+person,MC1,Country_271835,David Santiago,David Santiago
+event,MC1,,Fridayâs,Fridayâs
+person,MC1,Country_271835,Hannah Little,Hannah Little
+political_organization,MC1,,92616021,92616021
+person,MC1,Country_271835,Scott Dougherty,Scott Dougherty
+person,MC1,Country_271835,Juan Mckinney,Juan Mckinney
+location,MC1,,0223707c-6754-4419-acb2-510377eadd60,0223707c-6754-4419-acb2-510377eadd60
+location,MC1,,d37a5a00-fca1-4753-890c-6975c311dc3f,d37a5a00-fca1-4753-890c-6975c311dc3f
+person,MC1,Country_271835,Michelle Herring,Michelle Herring
+location,MC1,,011ad1ae-ae1b-4c74-9f58-c020e6a3e836,011ad1ae-ae1b-4c74-9f58-c020e6a3e836
+person,MC1,Country_271835,Bryan King,Bryan King
+location,MC1,,6083f325-5f17-4d41-9c22-f188f55ea9f3,6083f325-5f17-4d41-9c22-f188f55ea9f3
+location,MC1,,c2478e4c-2a8c-4d34-a5d5-fd46c66b5e67,c2478e4c-2a8c-4d34-a5d5-fd46c66b5e67
+person,MC1,Country_271835,Daniel Vasquez,Daniel Vasquez
+person,MC1,Country_271835,Kevin Daniel,Kevin Daniel
+person,MC1,Country_271835,Lucas Williamson,Lucas Williamson
+person,MC1,Country_271835,Daniel Butler,Daniel Butler
+political_organization,MC1,,2330,2330
+organization,MC1,,386,386
+location,MC1,,d09a6a69-eed5-4057-9f96-dcf4c9cf4d88,d09a6a69-eed5-4057-9f96-dcf4c9cf4d88
+person,MC1,Ivarisia,Lisa Lewis,Lisa Lewis
+location,MC1,,3882e922-25e9-446d-8e04-97e8875fceb2,3882e922-25e9-446d-8e04-97e8875fceb2
+location,MC1,,ba790a77-b0f3-4c1f-8d42-3d2bddbc1893,ba790a77-b0f3-4c1f-8d42-3d2bddbc1893
+political_organization,MC1,,878521,878521
+person,MC1,Country_271835,Robert Chang,Robert Chang
+person,MC1,Country_271835,Manuel Hess,Manuel Hess
+person,MC1,Country_271835,Brandon Stone,Brandon Stone
+person,MC1,Country_271835,Seth Benjamin,Seth Benjamin
+person,MC1,Rio Isla,Tom Bauer,Tom Bauer
+person,MC1,Country_271835,Leslie Wood,Leslie Wood
+person,MC1,Country_271835,Donna Davis,Donna Davis
+organization,MC1,,7810241,7810241
+organization,MC1,,34487,34487
+organization,MC1,,83951569,83951569
+organization,MC1,,4524860,4524860
+movement,MC1,,three-hour,three-hour
+political_organization,MC1,,59409,59409
+person,MC1,Country_271835,Amanda Jenkins,Amanda Jenkins
+vessel,MC1,,23,23
+vessel,MC1,,Motor Vessel,Motor Vessel
+organization,MC1,,24996,24996
+organization,MC1,,90411963,90411963
+location,MC1,,114d2882-b620-4098-bb56-d865bbb85339,114d2882-b620-4098-bb56-d865bbb85339
+person,MC1,Country_271835,Christopher Moore,Christopher Moore
+person,MC1,Country_271835,Sarah Williams,Sarah Williams
+vessel,MC1,,Kenworth 18-wheeler,Kenworth 18-wheeler
+unknown,MC1,,âsatisfactoryâ,âsatisfactoryâ
+organization,MC1,,25777,25777
+organization,MC1,,825,825
+organization,MC1,,63548588,63548588
+organization,MC1,,69007292,69007292
+company,MC1,Country_271835,David Seabed Inc Consulting,David Seabed Inc Consulting
+organization,MC1,,28890617,28890617
+organization,MC1,,492220197,492220197
+location,MC1,,662bfccd-798d-4e60-b308-2cb2918e3dd2,662bfccd-798d-4e60-b308-2cb2918e3dd2
+organization,MC1,,14636,14636
+person,MC1,Marebak,Maria Jackson,Maria Jackson
+person,MC1,Country_271835,Deborah Carson,Deborah Carson
+location,MC1,,d0842009-cbf1-4df2-adfa-121a82160a05,d0842009-cbf1-4df2-adfa-121a82160a05
+political_organization,MC1,,3105981,3105981
+location,MC1,,449856a6-3b60-46ca-b825-f9499558fa3a,449856a6-3b60-46ca-b825-f9499558fa3a
+location,MC1,,16778128-07fa-46dd-b229-b0c2e2233602,16778128-07fa-46dd-b229-b0c2e2233602
+person,MC1,Country_271835,Elizabeth Mccarty,Elizabeth Mccarty
+person,MC1,Country_271835,Gregory Bowers,Gregory Bowers
+person,MC1,Country_271835,Nicole Marshall,Nicole Marshall
+organization,MC1,,207618139,207618139
+person,MC1,Country_271835,Gina Knox,Gina Knox
+organization,MC1,,3874,3874
+person,MC1,Country_271835,Tonya Frazier,Tonya Frazier
+political_organization,MC1,,80,80
+person,MC1,Country_271835,Charles Duke,Charles Duke
+person,MC1,Country_271835,Dennis Payne,Dennis Payne
+person,MC1,Country_271835,Ashley Boyer,Ashley Boyer
+person,MC1,Country_271835,Darin Taylor,Darin Taylor
+person,MC1,Country_271835,Larry Cisneros,Larry Cisneros
+person,MC1,Country_271835,Teresa Hansen,Teresa Hansen
+person,MC1,Country_271835,Ethan Walsh,Ethan Walsh
+person,MC1,Country_271835,Michael Evans,Michael Evans
+person,MC1,Country_271835,Alexandra Jackson,Alexandra Jackson
+person,MC1,Country_271835,Lauren Sanchez,Lauren Sanchez
+person,MC1,Country_271835,Crystal Hunter,Crystal Hunter
+person,MC1,Country_271835,Christopher Berry,Christopher Berry
+person,MC1,Country_271835,James Patterson,James Patterson
+person,MC1,Country_271835,Jon Johnson,Jon Johnson
+person,MC1,Country_271835,Andrea White,Andrea White
+person,MC1,Country_271835,Emily Smith,Emily Smith
+person,MC1,Country_271835,Megan Gonzales,Megan Gonzales
+person,MC1,Country_271835,Kenneth Warren,Kenneth Warren
+person,MC1,Country_271835,Edward Winters,Edward Winters
+person,MC1,Country_271835,Emily Stevens,Emily Stevens
+person,MC1,Country_271835,Gabrielle Wright,Gabrielle Wright
+person,MC1,Country_271835,Erika Carter,Erika Carter
+person,MC1,Country_271835,James Johnson,James Johnson
+person,MC1,Country_271835,Brandi Johnson,Brandi Johnson
+event,MC1,,Storm,Storm
+organization,MC1,,91810266,91810266
+vessel,MC1,,HMS,HMS
+person,MC1,Country_271835,John Campbell,John Campbell
+person,MC1,Country_271835,Diane Forbes,Diane Forbes
+person,MC1,Country_271835,Dawn Robinson,Dawn Robinson
+organization,MC1,,19285,19285
+person,MC1,Country_271835,Kimberly Williams,Kimberly Williams
+person,MC1,Country_271835,John Murray,John Murray
+person,MC1,Country_271835,Nathaniel Shah,Nathaniel Shah
+person,MC1,Country_271835,Stephen Peterson,Stephen Peterson
+person,MC1,Country_271835,Eric Roman,Eric Roman
+company,MC1,Country_271835,Playa del Cielo  Marine,Playa del Cielo  Marine
+organization,MC1,,99,99
+location,MC1,,1f8c20da-5f20-4116-907a-a653089bb8a0,1f8c20da-5f20-4116-907a-a653089bb8a0
+organization,MC1,,8832615,8832615
+organization,MC1,,5199,5199
+unknown,MC1,,âoverwhelmedâ,âoverwhelmedâ
+location,MC1,,14525ad3-213a-406d-8e3e-64213f0be171,14525ad3-213a-406d-8e3e-64213f0be171
+person,MC1,Country_271835,Rachel Campbell,Rachel Campbell
+person,MC1,Country_271835,Gregory Marsh,Gregory Marsh
+person,MC1,Country_271835,Sarah Allen,Sarah Allen
+person,MC1,Country_271835,Brittney Rice,Brittney Rice
+person,MC1,Country_271835,Ashley Long,Ashley Long
+person,MC1,Country_271835,Jessica Hernandez,Jessica Hernandez
+organization,MC1,,419,419
+location,MC1,,577a9358-a718-4d90-a90e-88f88c58160d,577a9358-a718-4d90-a90e-88f88c58160d
+location,MC1,,17de5508-cf65-4e04-9bdd-acba951afe7a,17de5508-cf65-4e04-9bdd-acba951afe7a
+location,MC1,,ca87f68d-1df8-4746-a8af-8d810f49e783,ca87f68d-1df8-4746-a8af-8d810f49e783
+organization,MC1,,33210,33210
+location,MC1,,88d63621-4f58-4c7e-a02d-589cefb3a6be,88d63621-4f58-4c7e-a02d-589cefb3a6be
+person,MC1,Country_271835,Diane Young,Diane Young
+person,MC1,Country_271835,Traci Elliott,Traci Elliott
+company,MC1,Oceanus,hi xng BV Carriers,hi xng BV Carriers
+person,MC1,Country_271835,Lucas Adams,Lucas Adams
+person,MC1,Country_271835,Rebecca Jordan,Rebecca Jordan
+person,MC1,Oceanus,Scott Day,Scott Day
+person,MC1,Country_271835,Colin Hunter,Colin Hunter
+location,MC1,,b9faf7c4-f237-4112-91bd-71fa0cf8571a,b9faf7c4-f237-4112-91bd-71fa0cf8571a
+organization,MC1,,135338,135338
+event,MC1,,âStuff,âStuff
+person,MC1,Country_271835,William Lopez,William Lopez
+person,MC1,Country_271835,Warren Schwartz,Warren Schwartz
+organization,MC1,,72092,72092
+location,MC1,,b605391a-2c84-4d59-98f0-d12fd185ec64,b605391a-2c84-4d59-98f0-d12fd185ec64
+person,MC1,Country_271835,Amy Mcclure,Amy Mcclure
+person,MC1,Country_271835,Jessica Mullins,Jessica Mullins
+person,MC1,Country_271835,Randall Martinez,Randall Martinez
+vessel,MC1,,Vessels,Vessels
+organization,MC1,,511915273,511915273
+organization,MC1,,435,435
+location,MC1,,b03a6fc7-507a-4328-9814-57561acb4fc6,b03a6fc7-507a-4328-9814-57561acb4fc6
+organization,MC1,,71608,71608
+person,MC1,Country_271835,Martin Jones,Martin Jones
+location,MC1,,d4b66d04-ad3c-425a-a123-00e589b86a52,d4b66d04-ad3c-425a-a123-00e589b86a52
+organization,MC1,,95850,95850
+person,MC1,Country_532332,Danny Walker,Danny Walker
+person,MC1,Country_532332,Paul Hoover,Paul Hoover
+political_organization,MC1,,45310570,45310570
+person,MC1,Country_271835,Aaron Cruz,Aaron Cruz
+political_organization,MC1,,598,598
+location,MC1,,928896ee-0c39-4b2c-aee6-910dc225513e,928896ee-0c39-4b2c-aee6-910dc225513e
+organization,MC1,,442,442
+location,MC1,,18139144-efbe-4540-8e65-fde29def1993,18139144-efbe-4540-8e65-fde29def1993
+organization,MC1,,826749274,826749274
+person,MC1,Country_271835,Michael Wright,Michael Wright
+organization,MC1,,753,753
+person,MC1,Country_271835,Chad Ruiz,Chad Ruiz
+organization,MC1,,687878,687878
+organization,MC1,,368951,368951
+location,MC1,,c0ce6d15-622b-42a3-b892-f5efe5b4d00c,c0ce6d15-622b-42a3-b892-f5efe5b4d00c
+location,MC1,,a086a63d-19c7-4241-845a-f82c628d09a2,a086a63d-19c7-4241-845a-f82c628d09a2
+person,MC1,Country_271835,Brett Lee,Brett Lee
+person,MC1,Country_271835,Noah Mitchell,Noah Mitchell
+location,MC1,,037acfda-0d33-4ce8-8907-fe7da3e27dff,037acfda-0d33-4ce8-8907-fe7da3e27dff
+person,MC1,Country_271835,Ronnie Gates,Ronnie Gates
+unknown,MC1,,âexemplaryâ,âexemplaryâ
+location,MC1,,b120bc86-764c-4e2b-9f36-1587f91a20e3,b120bc86-764c-4e2b-9f36-1587f91a20e3
+location,MC1,,4843b052-8f18-4298-9464-d780feb5ddad,4843b052-8f18-4298-9464-d780feb5ddad
+vessel,MC1,,scooter,scooter
+location,MC1,,7cc6a1fe-59b5-491c-8985-bf6d77836092,7cc6a1fe-59b5-491c-8985-bf6d77836092
+political_organization,MC1,,8084530,8084530
+location,MC1,,ce8495cf-fe04-40b3-aaa2-d0bc29131f92,ce8495cf-fe04-40b3-aaa2-d0bc29131f92
+organization,MC1,,6071877,6071877
+location,MC1,,93ac5fec-5f52-4431-a3ff-91430a8062f6,93ac5fec-5f52-4431-a3ff-91430a8062f6
+organization,MC1,,422,422
+organization,MC1,,753589537,753589537
+company,MC1,Country_984172,Spanish Co & Son's,Spanish Co & Son's
+person,MC1,Country_271835,Matthew Anderson,Matthew Anderson
+location,MC1,,332bb88e-0a63-41e3-8a27-87795fd552e9,332bb88e-0a63-41e3-8a27-87795fd552e9
+event,MC1,,course years,course years
+location,MC1,,2ade0908-d1c9-45de-9dbb-3dfec75d9317,2ade0908-d1c9-45de-9dbb-3dfec75d9317
+company,MC1,Country_271835,Portuguese Sardines GmbH & Co. KG Line,Portuguese Sardines GmbH & Co. KG Line
+company,MC1,Country_271835,Lake Nyasa Ltd. Corporation,Lake Nyasa Ltd. Corporation
+person,MC1,Country_271835,Joshua Huang,Joshua Huang
+organization,MC1,,3740,3740
+organization,MC1,,440,440
+organization,MC1,,601882545,601882545
+organization,MC1,,88651,88651
+person,MC1,Country_271835,William Taylor,William Taylor
+location,MC1,,4294544a-9643-4cfd-97a0-ac656cb17e60,4294544a-9643-4cfd-97a0-ac656cb17e60
+person,MC1,Country_271835,Hannah Ray,Hannah Ray
+location,MC1,,c495290e-2de7-487d-a139-f273c4974539,c495290e-2de7-487d-a139-f273c4974539
+organization,MC1,,353361057,353361057
+unknown,MC1,,Amstel Inc,Amstel Inc
+unknown,MC1,,âHelpâ,âHelpâ
+organization,MC1,,35829746,35829746
+person,MC1,Country_271835,Charlotte Lopez,Charlotte Lopez
+person,MC1,Country_271835,Mark Scott,Mark Scott
+organization,MC1,,86034444,86034444
+person,MC1,Country_271835,Nicholas King,Nicholas King
+person,MC1,Country_271835,James Andrews,James Andrews
+person,MC1,Country_271835,Joshua Wright,Joshua Wright
+person,MC1,Country_271835,Mary Harrington,Mary Harrington
+unknown,MC1,,âsleepy,âsleepy
+political_organization,MC1,,67745773,67745773
+organization,MC1,,214883455,214883455
+person,MC1,Country_271835,Brett Moss,Brett Moss
+location,MC1,,e69d4cb2-8bec-4496-8518-7426c6b9da65,e69d4cb2-8bec-4496-8518-7426c6b9da65
+company,MC1,Country_271835,Kagera River  GmbH & Co. KG Delivery,Kagera River  GmbH & Co. KG Delivery
+unknown,MC1,,16,16
+person,MC1,Country_271835,Holly Donaldson,Holly Donaldson
+location,MC1,,c8026923-944a-4155-b2ec-e160135e0c47,c8026923-944a-4155-b2ec-e160135e0c47
+location,MC1,,58cf758d-a6f2-48ba-ac0c-89581ae6b4a5,58cf758d-a6f2-48ba-ac0c-89581ae6b4a5
+organization,MC1,,313441257,313441257
+organization,MC1,,222079892,222079892
+organization,MC1,,2919,2919
+person,MC1,Country_271835,Dana Montes,Dana Montes
+organization,MC1,,1518,1518
+organization,MC1,,9820523,9820523
+person,MC1,Country_271835,Bryce Chavez,Bryce Chavez
+location,MC1,,90c3cb48-8060-4a55-804c-710044d19487,90c3cb48-8060-4a55-804c-710044d19487
+person,MC1,Country_271835,Brittany Rivers,Brittany Rivers
+location,MC1,,2ed68d75-994e-43dd-b326-a2adfa540562,2ed68d75-994e-43dd-b326-a2adfa540562
+person,MC1,Country_271835,Michelle Evans,Michelle Evans
+location,MC1,,05d471b4-0e8c-4879-80b2-ef600220e09d,05d471b4-0e8c-4879-80b2-ef600220e09d
+person,MC1,Country_271835,James Garcia,James Garcia
+person,MC1,Country_271835,Kendra Owens,Kendra Owens
+organization,MC1,,15,15
+organization,MC1,,805275,805275
+location,MC1,,fcef975b-e382-4c81-8160-41bf9e5bf937,fcef975b-e382-4c81-8160-41bf9e5bf937
+unknown,MC1,,âPublic Loaders,âPublic Loaders
+organization,MC1,,715490,715490
+organization,MC1,,14952,14952
+unknown,MC1,,âEQUIPMENTâ,âEQUIPMENTâ
+organization,MC1,,353642,353642
+person,MC1,Country_193919,Ronald Gray,Ronald Gray
+person,MC1,Country_928409,Debbie Ayala,Debbie Ayala
+person,MC1,Country_271835,Terri Rodriguez,Terri Rodriguez
+organization,MC1,,6457,6457
+organization,MC1,,6513816,6513816
+organization,MC1,,43797101,43797101
+organization,MC1,,535955126,535955126
+organization,MC1,,8211361,8211361
+company,MC1,Country_271835,Scania Seafaring SRL Express,Scania Seafaring SRL Express
+company,MC1,Country_271835,Estrella del Sol LLC,Estrella del Sol LLC
+political_organization,MC1,,73470062,73470062
+person,MC1,Country_271835,Kenneth Fox,Kenneth Fox
+organization,MC1,,777,777
+unknown,MC1,,âshabuâ,âshabuâ
+person,MC1,Country_271835,Rebecca Coleman,Rebecca Coleman
+organization,MC1,,868626239,868626239
+organization,MC1,,573756802,573756802
+person,MC1,Country_271835,Margaret Hodges,Margaret Hodges
+organization,MC1,,7680453,7680453
+location,MC1,,64c45541-e00b-423c-bc7d-238aa3a4d3ad,64c45541-e00b-423c-bc7d-238aa3a4d3ad
+movement,MC1,,thirty days,thirty days
+location,MC1,,c2d2e029-6f38-4148-9079-15615103cea6,c2d2e029-6f38-4148-9079-15615103cea6
+organization,MC1,,186,186
+person,MC1,Country_271835,Kristin Johnston,Kristin Johnston
+unknown,MC1,,âcrisisâ,âcrisisâ
+organization,MC1,,812137,812137
+location,MC1,,961bafd7-8d2b-405a-9c79-0f5345498cab,961bafd7-8d2b-405a-9c79-0f5345498cab
+organization,MC1,,5334,5334
+political_organization,MC1,,35679,35679
+person,MC1,Country_271835,Jason Neal,Jason Neal
+person,MC1,Country_271835,Diana Dawson,Diana Dawson
+person,MC1,Marebak,Courtney Johnson,Courtney Johnson
+organization,MC1,,613556,613556
+organization,MC1,,353,353
+unknown,MC1,,Aicrowe Biotech Co,Aicrowe Biotech Co
+location,MC1,,0f952ad7-6ecb-472e-8a30-895501a0e8c8,0f952ad7-6ecb-472e-8a30-895501a0e8c8
+organization,MC1,,9507963,9507963
+organization,MC1,,979294,979294
+organization,MC1,,25222883,25222883
+unknown,MC1,,Gaosheng Biotechnology Co,Gaosheng Biotechnology Co
+location,MC1,,d2948905-9121-400b-905f-e449bf8ca35e,d2948905-9121-400b-905f-e449bf8ca35e
+vessel,MC1,,AirPods,AirPods
+organization,MC1,,5246016,5246016
+organization,MC1,,64863263,64863263
+company,MC1,Country_271835,Danish Lobster Ltd. Liability Co,Danish Lobster Ltd. Liability Co
+unknown,MC1,,076,076
+unknown,MC1,,vansâ,vansâ
+organization,MC1,,36868,36868
+organization,MC1,,3127062,3127062
+organization,MC1,,3369,3369
+organization,MC1,,30880,30880
+unknown,MC1,,âDisastrousâ,âDisastrousâ
+company,MC1,Country_271835,Lake Manyara  SRL Brothers,Lake Manyara  SRL Brothers
+location,MC1,,8ce9074f-2904-41ea-896a-5d932e06f54c,8ce9074f-2904-41ea-896a-5d932e06f54c
+location,MC1,,3d009ee1-0d95-4516-802f-8a5110bde01e,3d009ee1-0d95-4516-802f-8a5110bde01e
+organization,MC1,,64667049,64667049
+organization,MC1,,1303,1303
+location,MC1,,dbeb3e02-dc0c-4455-a16b-2d0b9cb2c65a,dbeb3e02-dc0c-4455-a16b-2d0b9cb2c65a
+location,MC1,,601e76fd-8517-4269-b976-2743987a49f3,601e76fd-8517-4269-b976-2743987a49f3
+organization,MC1,,67261634,67261634
+organization,MC1,,344,344
+location,MC1,,ba0514a3-9c57-4b04-a7c5-89fc0463fdda,ba0514a3-9c57-4b04-a7c5-89fc0463fdda
+organization,MC1,,60197861,60197861
+organization,MC1,,8978,8978
+person,MC1,Country_271835,Sharon Townsend,Sharon Townsend
+person,MC1,Country_271835,Travis Sparks,Travis Sparks
+person,MC1,Country_271835,Deborah Porter DDS,Deborah Porter DDS
+location,MC1,,d4291c4b-873e-4830-b44a-85227fde3ee2,d4291c4b-873e-4830-b44a-85227fde3ee2
+person,MC1,Country_271835,Amanda Clayton,Amanda Clayton
+unknown,MC1,,âshark finâ,âshark finâ
+organization,MC1,,70720996,70720996
+organization,MC1,,95291001,95291001
+organization,MC1,,42627990,42627990
+company,MC1,Country_271835,Mar de Estrellas Oyj Carriers,Mar de Estrellas Oyj Carriers
+location,MC1,,6d345854-f864-4194-85d2-047e66332dca,6d345854-f864-4194-85d2-047e66332dca
+person,MC1,Oceanus,Christopher Cunningham,Christopher Cunningham
+person,MC1,Country_271835,Erica Parks,Erica Parks
+location,MC1,,df26d11f-ed87-4a19-b9e8-18e9783c00f5,df26d11f-ed87-4a19-b9e8-18e9783c00f5
+movement,MC1,,2028,2028
+location,MC1,,bc507d7c-29c9-4b0d-909e-52dd450a25d3,bc507d7c-29c9-4b0d-909e-52dd450a25d3
+event,MC1,,entire 2036,entire 2036
+person,MC1,Country_271835,Brenda Cox,Brenda Cox
+person,MC1,Country_271835,Suzanne Reed,Suzanne Reed
+person,MC1,Country_271835,Cody Lewis,Cody Lewis
+organization,MC1,,1263250,1263250
+person,MC1,Country_271835,Chris Booth,Chris Booth
+movement,MC1,,July 2036,July 2036
+person,MC1,Country_271835,Lisa Henderson,Lisa Henderson
+person,MC1,Country_271835,Karen Delgado,Karen Delgado
+unknown,MC1,,13d79d632036,13d79d632036
+unknown,MC1,,2037/09,2037/09
+person,MC1,Country_615819,Melissa Norman,Melissa Norman
+person,MC1,Country_271835,Jennifer Andrade,Jennifer Andrade
+person,MC1,Country_271835,Lori Cummings,Lori Cummings
+event,MC1,,2032s,2032s
+person,MC1,Country_271835,Damon Nelson,Damon Nelson
+person,MC1,Country_271835,Laura Jimenez,Laura Jimenez
+political_organization,MC1,,687028,687028
+person,MC1,Country_271835,Susan Mendoza,Susan Mendoza
+person,MC1,Country_271835,Alexis Smith,Alexis Smith
+person,MC1,Country_271835,Laura Smith,Laura Smith
+person,MC1,Country_271835,Samantha Manning,Samantha Manning
+location,MC1,,6ed1a821-e669-41f4-8a02-df4c818ff22e,6ed1a821-e669-41f4-8a02-df4c818ff22e
+unknown,MC1,,2038650116,2038650116
+location,MC1,,f1e84016-0f09-4907-a777-a6bb02b5f419,f1e84016-0f09-4907-a777-a6bb02b5f419
+location,MC1,,e916e286-85e5-4a43-b2ef-89ad5260ebdc,e916e286-85e5-4a43-b2ef-89ad5260ebdc
+unknown,MC1,,sectors sectors 2033,sectors sectors 2033
+unknown,MC1,,yearbook2034,yearbook2034
+unknown,MC1,,20370602035941,20370602035941
+unknown,MC1,,yearbook2036,yearbook2036
+location,MC1,,b8567859-bf54-49fd-8332-5775e19c65af,b8567859-bf54-49fd-8332-5775e19c65af
+unknown,MC1,,2036-06,2036-06
+person,MC1,Country_271835,Hannah Walter,Hannah Walter
+unknown,MC1,,2035/03,2035/03
+location,MC1,,b8f8208c-0388-484e-a700-b4c265170827,b8f8208c-0388-484e-a700-b4c265170827
+location,MC1,,1aa47ffc-05a8-4edd-a8e0-94c10b650bd8,1aa47ffc-05a8-4edd-a8e0-94c10b650bd8
+person,MC1,Country_271835,Kelly Mccarthy,Kelly Mccarthy
+person,MC1,Country_271835,Frederick Taylor,Frederick Taylor
+location,MC1,,ec4af8c8-1ff1-4aaa-9431-7697d930b3f4,ec4af8c8-1ff1-4aaa-9431-7697d930b3f4
+person,MC1,Country_271835,Ray Howard,Ray Howard
+event,MC1,,2036âs,2036âs
+unknown,MC1,,faf.20363,faf.20363
+person,MC1,Country_271835,Joshua Landry,Joshua Landry
+person,MC1,Country_271835,Joy Anderson,Joy Anderson
+location,MC1,,3eed159b-e98e-4f8a-98c2-c34341435411,3eed159b-e98e-4f8a-98c2-c34341435411
+political_organization,MC1,,3190258,3190258
+person,MC1,Country_271835,David Frederick,David Frederick
+person,MC1,Country_271835,Curtis Grant,Curtis Grant
+location,MC1,,4f533d76-17d7-4b95-86b5-106503c99b0c,4f533d76-17d7-4b95-86b5-106503c99b0c
+unknown,MC1,,2030â,2030â
+person,MC1,Country_271835,Lindsay Bennett,Lindsay Bennett
+location,MC1,,e631b105-4953-43e1-8d37-a3ab5dd3d860,e631b105-4953-43e1-8d37-a3ab5dd3d860
+location,MC1,,f514483d-fb5f-4cb2-bb8d-b616b10336d8,f514483d-fb5f-4cb2-bb8d-b616b10336d8
+person,MC1,Country_271835,Laura Ballard,Laura Ballard
+location,MC1,,165e0fe7-6725-4f4c-abc1-3ef485a939b0,165e0fe7-6725-4f4c-abc1-3ef485a939b0
+location,MC1,,e3431d4d-79df-4da9-b8cb-a4d05a8aa474,e3431d4d-79df-4da9-b8cb-a4d05a8aa474
+location,MC1,,39c767d3-a9b4-41f4-8a5d-e14b6c20a2d2,39c767d3-a9b4-41f4-8a5d-e14b6c20a2d2
+person,MC1,Country_271835,Sarah Sandoval,Sarah Sandoval
+person,MC1,Country_271835,Raymond Howell,Raymond Howell
+person,MC1,Country_271835,Jason Huff,Jason Huff
+organization,MC1,,FishEye International,FishEye International
+company,MC1,Country_286580,AquaFresh Foods CJSC -,AquaFresh Foods CJSC -
+unknown,MC1,,Ancla Azul Company Solutions,Ancla Azul Company Solutions
+unknown,MC1,,âpair,âpair
+unknown,MC1,,Guessl,Guessl
+unknown,MC1,,Federated,Federated
+unknown,MC1,,FinestSea Ltd. Corporation Enterprises,FinestSea Ltd. Corporation Enterprises
+unknown,MC1,,Icelandic Shrimp Corporation Transport,Icelandic Shrimp Corporation Transport
+unknown,MC1,,Lake Mweru A/S Carriers,Lake Mweru A/S Carriers
+unknown,MC1,,Playa de la Felicidad Oyj Cargo,Playa de la Felicidad Oyj Cargo
+unknown,MC1,,l y S.A. de C.V. International,l y S.A. de C.V. International
+unknown,MC1,,SeaSpray Wave SRL Solutions,SeaSpray Wave SRL Solutions
+unknown,MC1,,Ocean Fisheries Llc,Ocean Fisheries Llc
+unknown,MC1,,Ancla del Mar Ltd. Corporation,Ancla del Mar Ltd. Corporation
+unknown,MC1,,Tamil Nadu S.p.A.,Tamil Nadu S.p.A.
+unknown,MC1,,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Fisherman'sFriend Charter Boat S.A. de C.V. Freight 
+unknown,MC1,,FiTI,FiTI
+unknown,MC1,,Victoria,Victoria
+unknown,MC1,,Master,Master
+unknown,MC1,,Faurtil FÃ¡brica Urnas TietÃª,Faurtil FÃ¡brica Urnas TietÃª
+unknown,MC1,,Turkish Mussels Ltd. Liability Co Marine biology,Turkish Mussels Ltd. Liability Co Marine biology
+unknown,MC1,,Mar del Paraso SRL Shipping,Mar del Paraso SRL Shipping
+unknown,MC1,,New Bedford Light,New Bedford Light
+unknown,MC1,,Sonia Fisheries Pvt,Sonia Fisheries Pvt
+unknown,MC1,,Pesquera,Pesquera
+unknown,MC1,,DOFâs,DOFâs
+unknown,MC1,,Irish Sea Seaside GmbH & Co. KG Distribution,Irish Sea Seaside GmbH & Co. KG Distribution
+unknown,MC1,,Uttar Pradesh Sp,Uttar Pradesh Sp
+unknown,MC1,,Estrella de Coral Ltd. Corporation Logistics,Estrella de Coral Ltd. Corporation Logistics
+unknown,MC1,,Gulf of Guinea  Corporation,Gulf of Guinea  Corporation
+unknown,MC1,,Seabreeze Foods Corporation Logistics,Seabreeze Foods Corporation Logistics
+unknown,MC1,,âDo,âDo
+unknown,MC1,,Dry Creek S.p.A. Overseas,Dry Creek S.p.A. Overseas
+unknown,MC1,,Meere Delpeuch,Meere Delpeuch
+unknown,MC1,,Kerala Market Limited Liability Company,Kerala Market Limited Liability Company
+unknown,MC1,,Pasture Petfoods New Zealand Ltd,Pasture Petfoods New Zealand Ltd
+unknown,MC1,,Tanzania,Tanzania
+unknown,MC1,,Reunion,Reunion
+unknown,MC1,,Ht Shipping,Ht Shipping
+unknown,MC1,,Selena Building,Selena Building
+unknown,MC1,,Playa de la Felicidad NV,Playa de la Felicidad NV
+unknown,MC1,,âIllegal,âIllegal
+unknown,MC1,,IMPORT,IMPORT
+unknown,MC1,,Fishing International,Fishing International
+unknown,MC1,,âVirginia,âVirginia
+unknown,MC1,,Electronic,Electronic
+unknown,MC1,,Fish Sea,Fish Sea
+unknown,MC1,,Sea Products,Sea Products
+unknown,MC1,,W Appliance,W Appliance
+unknown,MC1,,McLeanâs,McLeanâs
+unknown,MC1,,American,American
+unknown,MC1,,Finest Ltd. Liability Co United,Finest Ltd. Liability Co United
+unknown,MC1,,Ex-Lax,Ex-Lax
+unknown,MC1,,Fishisland,Fishisland
+unknown,MC1,,Jammu & Kashmir Limited Liability Company Delivery,Jammu & Kashmir Limited Liability Company Delivery
+unknown,MC1,,heâs,heâs
+unknown,MC1,,ânoncitizen,ânoncitizen
+unknown,MC1,,âGenev,âGenev
+unknown,MC1,,Oceanfront Oasis Inc Carriers,Oceanfront Oasis Inc Carriers
+unknown,MC1,,Qingdao Kaiyuan Seafoods,Qingdao Kaiyuan Seafoods
+unknown,MC1,,West Bengal SRL Marine conservation,West Bengal SRL Marine conservation
+unknown,MC1,,Platts Oilgram,Platts Oilgram
+unknown,MC1,,Kerala Market Corp Consulting,Kerala Market Corp Consulting
+unknown,MC1,,Mar de la Vida OJSC,Mar de la Vida OJSC
+unknown,MC1,,America,America
+unknown,MC1,,Portuguese Octopus S.p.A. Cargo,Portuguese Octopus S.p.A. Cargo
+unknown,MC1,,Surf and Sand Ltd. Liability Co,Surf and Sand Ltd. Liability Co
+unknown,MC1,,West Bengal S.A. de C.V.,West Bengal S.A. de C.V.
+unknown,MC1,,Partnership satellite,Partnership satellite
+unknown,MC1,,Seafood,Seafood
+unknown,MC1,,Caribbean,Caribbean
+unknown,MC1,,XUAR,XUAR
+unknown,MC1,,Fisheries Inc,Fisheries Inc
+unknown,MC1,,Getis-Ord,Getis-Ord
+unknown,MC1,,World Church Power God,World Church Power God
+unknown,MC1,,Rama Overseas,Rama Overseas
+unknown,MC1,,Estrella de Mar Limited Liability Company Delivery,Estrella de Mar Limited Liability Company Delivery
+unknown,MC1,,Bergmanâs,Bergmanâs
+unknown,MC1,,Conduct Joint,Conduct Joint
+unknown,MC1,,Seabreeze Foods Ltd. Corporation United,Seabreeze Foods Ltd. Corporation United
+unknown,MC1,,Kilimanjaro fishery Ltd. Liability Co Transport,Kilimanjaro fishery Ltd. Liability Co Transport
+unknown,MC1,,Isa,Isa
+unknown,MC1,,Barco de Plata Ltd Logistics,Barco de Plata Ltd Logistics
+unknown,MC1,,Lake Malawi LC Forwading,Lake Malawi LC Forwading
+unknown,MC1,,Water World LLC Express,Water World LLC Express
+unknown,MC1,,âTrials,âTrials
+unknown,MC1,,BPâs,BPâs
+unknown,MC1,,FLIP MCGYVER Tradema,FLIP MCGYVER Tradema
+unknown,MC1,,Shellfish Chile SA,Shellfish Chile SA
+unknown,MC1,,IPOS0000DOP,IPOS0000DOP
+unknown,MC1,,Temuâs,Temuâs
+unknown,MC1,,Firearms Explosives,Firearms Explosives
+unknown,MC1,,IAVMs,IAVMs
+unknown,MC1,,Cartel Emergent Weaponry Use,Cartel Emergent Weaponry Use
+unknown,MC1,,Ejintex International,Ejintex International
+unknown,MC1,,Asia Seafood,Asia Seafood
+unknown,MC1,,Andhra Pradesh  S.A. de C.V.,Andhra Pradesh  S.A. de C.V.
+unknown,MC1,,AtlantoâScandian,AtlantoâScandian
+unknown,MC1,,Trammellâs,Trammellâs
+unknown,MC1,,Moo,Moo
+unknown,MC1,,Eva,Eva
+unknown,MC1,,Salles Operation Handroanthus,Salles Operation Handroanthus
+unknown,MC1,,Blue Water Ventures Ltd. Liability Co,Blue Water Ventures Ltd. Liability Co
+unknown,MC1,,Mar de Cristalino Co,Mar de Cristalino Co
+unknown,MC1,,SaltwaterSavor Shipyard LC Merchants,SaltwaterSavor Shipyard LC Merchants
+unknown,MC1,,OceanKings Sailor Corp Logistics,OceanKings Sailor Corp Logistics
+unknown,MC1,,Debit Cards Autopay,Debit Cards Autopay
+unknown,MC1,,Mar de la Costa Ges.m.b.H.,Mar de la Costa Ges.m.b.H.
+unknown,MC1,,âsuffered,âsuffered
+unknown,MC1,,Orient,Orient
+unknown,MC1,,OceanicHarvest Dry dock N.V. Delivery,OceanicHarvest Dry dock N.V. Delivery
+unknown,MC1,,itâs,itâs
+unknown,MC1,,Rafaelâs,Rafaelâs
+unknown,MC1,,Madhya Pradesh Market BV,Madhya Pradesh Market BV
+unknown,MC1,,âCompliance,âCompliance
+unknown,MC1,,Blue Bay,Blue Bay
+unknown,MC1,,Innovative,Innovative
+unknown,MC1,,Lake Malawi SE Freight ,Lake Malawi SE Freight 
+unknown,MC1,,Caspian Sea  Sea Corporation Freight ,Caspian Sea  Sea Corporation Freight 
+unknown,MC1,,Yu gan BV Investment,Yu gan BV Investment
+unknown,MC1,,Thai Union Seafood,Thai Union Seafood
+unknown,MC1,,Okavango Delta Seaside Limited Liability Company Logistics,Okavango Delta Seaside Limited Liability Company Logistics
+unknown,MC1,,sh rn y Corporation,sh rn y Corporation
+unknown,MC1,,Ocean Trawlers,Ocean Trawlers
+unknown,MC1,,Belgian Scallop Limited Liability Company Krill,Belgian Scallop Limited Liability Company Krill
+unknown,MC1,,Sea Harvest,Sea Harvest
+unknown,MC1,,SMILE,SMILE
+unknown,MC1,,Haryana s Co Transit,Haryana s Co Transit
+unknown,MC1,,â¢,â¢
+unknown,MC1,,DOFâs Long Xing,DOFâs Long Xing
+unknown,MC1,,Insung,Insung
+unknown,MC1,,Chuan gou Company Overseas,Chuan gou Company Overseas
+unknown,MC1,,Petroleum Vapor Intrusion,Petroleum Vapor Intrusion
+unknown,MC1,,Energotrade Plus,Energotrade Plus
+unknown,MC1,,Intrepid Navigators,Intrepid Navigators
+unknown,MC1,,Blue Venturew,Blue Venturew
+unknown,MC1,,The Salty Dog Tidepool Kga Transport,The Salty Dog Tidepool Kga Transport
+unknown,MC1,,Madhya Pradesh Market Ltd Solutions,Madhya Pradesh Market Ltd Solutions
+unknown,MC1,,Scottish Trout Limited Liability Company Transit,Scottish Trout Limited Liability Company Transit
+unknown,MC1,,Gen International,Gen International
+unknown,MC1,,MeWe Vimeo,MeWe Vimeo
+unknown,MC1,,Four,Four
+unknown,MC1,,II,II
+unknown,MC1,,Bloomberg,Bloomberg
+unknown,MC1,,Ntaco,Ntaco
+unknown,MC1,,SVBâs,SVBâs
+unknown,MC1,,United Bankx,United Bankx
+unknown,MC1,,Golden Titana,Golden Titana
+unknown,MC1,,Sea Breezes GmbH & Co. KG Lighthouse,Sea Breezes GmbH & Co. KG Lighthouse
+unknown,MC1,,Mar de Plata Corp and Son's,Mar de Plata Corp and Son's
+unknown,MC1,,Rs,Rs
+unknown,MC1,,Irish Sea SRL Brothers,Irish Sea SRL Brothers
+unknown,MC1,,Barco de Plata Plc,Barco de Plata Plc
+unknown,MC1,,Thomas Corp Cargo ship,Thomas Corp Cargo ship
+unknown,MC1,,Blue Lagoon Sailor Limited Liability Company Worldwide,Blue Lagoon Sailor Limited Liability Company Worldwide
+unknown,MC1,,Amorim Flooring,Amorim Flooring
+unknown,MC1,,Edward Ferry SE Transportation,Edward Ferry SE Transportation
+unknown,MC1,,Â£1,Â£1
+unknown,MC1,,Stock SA,Stock SA
+unknown,MC1,,Forwading S.A. de C.V.,Forwading S.A. de C.V.
+unknown,MC1,,OceanicOrigin Foods River AG Marine ecology,OceanicOrigin Foods River AG Marine ecology
+unknown,MC1,,Ware,Ware
+unknown,MC1,,Arctic,Arctic
+unknown,MC1,,Niger River Delta Ges.m.b.H. Services,Niger River Delta Ges.m.b.H. Services
+unknown,MC1,,ROBYN BECK,ROBYN BECK
+unknown,MC1,,Bay of Bengal's Incorporated,Bay of Bengal's Incorporated
+unknown,MC1,,Aqua Ambassadors Limited Liability Company,Aqua Ambassadors Limited Liability Company
+unknown,MC1,,Sea Luxe Oceanography Kga Transportation,Sea Luxe Oceanography Kga Transportation
+unknown,MC1,,Mongabayâs,Mongabayâs
+unknown,MC1,,Fresh Atlantic,Fresh Atlantic
+unknown,MC1,,Sunâs,Sunâs
+unknown,MC1,,Costa del Mar S.p.A.,Costa del Mar S.p.A.
+unknown,MC1,,OJSC Ltd. Liability Co,OJSC Ltd. Liability Co
+unknown,MC1,,Mount Kenya Estuary Sp Holdings,Mount Kenya Estuary Sp Holdings
+unknown,MC1,,âPokÃ©mon,âPokÃ©mon
+unknown,MC1,,Ryabikova,Ryabikova
+unknown,MC1,,âbracatinga,âbracatinga
+unknown,MC1,,I6aE01vDFm,I6aE01vDFm
+unknown,MC1,,Puerta,Puerta
+unknown,MC1,,Next Day,Next Day
+unknown,MC1,,Seaside Sojourns A/S Shipping,Seaside Sojourns A/S Shipping
+unknown,MC1,,Food,Food
+unknown,MC1,,Guaranteed Income Program New Parents 2035,Guaranteed Income Program New Parents 2035
+unknown,MC1,,Image ArtTower,Image ArtTower
+unknown,MC1,,Nile Crocodile Deep-sea Oyj Brothers,Nile Crocodile Deep-sea Oyj Brothers
+unknown,MC1,,VyoummBnVY,VyoummBnVY
+unknown,MC1,,Blue Water Ventures Kga,Blue Water Ventures Kga
+unknown,MC1,,Bloomberg Law,Bloomberg Law
+unknown,MC1,,âCinder,âCinder
+unknown,MC1,,Kariba Dam  N.V. Brothers,Kariba Dam  N.V. Brothers
+unknown,MC1,,Mitsubishi,Mitsubishi
+unknown,MC1,,Tuna Vietnam,Tuna Vietnam
+unknown,MC1,,Estrella del Mar Plc,Estrella del Mar Plc
+unknown,MC1,,Marine Foods,Marine Foods
+unknown,MC1,,Agua TransiciÃ³n EcolÃ³gica,Agua TransiciÃ³n EcolÃ³gica
+unknown,MC1,,Arunachal Pradesh Sp Marine mist,Arunachal Pradesh Sp Marine mist
+unknown,MC1,,Chuan gou Corporation Transportation,Chuan gou Corporation Transportation
+unknown,MC1,,Nautical Navigators Kga United,Nautical Navigators Kga United
+unknown,MC1,,3 Ltd. Liability Co,3 Ltd. Liability Co
+unknown,MC1,,Lf Beauty,Lf Beauty
+unknown,MC1,,Playa de Coral Oyj International,Playa de Coral Oyj International
+unknown,MC1,,Metro Marinen,Metro Marinen
+unknown,MC1,,Surf and Sea International Tidepool,Surf and Sea International Tidepool
+unknown,MC1,,The Salty Dog CJSC,The Salty Dog CJSC
+unknown,MC1,,Paul S.A. de C.V.,Paul S.A. de C.V.
+unknown,MC1,,Comei&Co,Comei&Co
+unknown,MC1,,Rickard shrimp,Rickard shrimp
+unknown,MC1,,Hudsons Bay,Hudsons Bay
+unknown,MC1,,Group Co Marine life,Group Co Marine life
+unknown,MC1,,STL,STL
+unknown,MC1,,Odisha Sea Dry dock LLC Consultants,Odisha Sea Dry dock LLC Consultants
+unknown,MC1,,USINC,USINC
+unknown,MC1,,The Ashey,The Ashey
+unknown,MC1,,Green,Green
+unknown,MC1,,Dark Web Vendor Illegal Narcotics,Dark Web Vendor Illegal Narcotics
+unknown,MC1,,Heroin Cocaine Exchange Bitcoin,Heroin Cocaine Exchange Bitcoin
+unknown,MC1,,Farmers,Farmers
+unknown,MC1,,FiTIâs,FiTIâs
+unknown,MC1,,Jharkhand s GmbH & Co. KG,Jharkhand s GmbH & Co. KG
+unknown,MC1,,Phillips,Phillips
+unknown,MC1,,6 Ray LLC Enterprises,6 Ray LLC Enterprises
+unknown,MC1,,Prod,Prod
+unknown,MC1,,Pinduoduoâs,Pinduoduoâs
+unknown,MC1,,Auraâs,Auraâs
+unknown,MC1,,McGovern BBB,McGovern BBB
+unknown,MC1,,Rose,Rose
+unknown,MC1,,drayage companies,drayage companies
+unknown,MC1,,Savaneta Corporation Marine life,Savaneta Corporation Marine life
+unknown,MC1,,Michael Limited Liability Company,Michael Limited Liability Company
+unknown,MC1,,Irtysh - Inc Distribution,Irtysh - Inc Distribution
+unknown,MC1,,East,East
+unknown,MC1,,Fresh On Time Seafood,Fresh On Time Seafood
+unknown,MC1,,MAT,MAT
+unknown,MC1,,Faroe Islands Halibut A/S,Faroe Islands Halibut A/S
+unknown,MC1,,Teion Internationala,Teion Internationala
+unknown,MC1,,Single Seafood,Single Seafood
+unknown,MC1,,âUS,âUS
+unknown,MC1,,Welding,Welding
+unknown,MC1,,Basketball,Basketball
+unknown,MC1,,Ocean Packers,Ocean Packers
+unknown,MC1,,Improvised Anti,Improvised Anti
+unknown,MC1,,Orange River  AS Logistics,Orange River  AS Logistics
+unknown,MC1,,Ste,Ste
+unknown,MC1,,French Ltd. Corporation Surfboard,French Ltd. Corporation Surfboard
+unknown,MC1,,Andhra Pradesh  Investment Dry dock,Andhra Pradesh  Investment Dry dock
+unknown,MC1,,Uber Connect,Uber Connect
+unknown,MC1,,Pb Brasil Industries,Pb Brasil Industries
+unknown,MC1,,Deep Sea Atlantic NV,Deep Sea Atlantic NV
+unknown,MC1,,Supreme GmbH & Co. KG Consulting,Supreme GmbH & Co. KG Consulting
+unknown,MC1,,gu y LC Shipping,gu y LC Shipping
+unknown,MC1,,Ningbo China Base Landhau Foreign,Ningbo China Base Landhau Foreign
+unknown,MC1,,Estrella del Mar Pic,Estrella del Mar Pic
+unknown,MC1,,Artemovâs Ava Petroleum,Artemovâs Ava Petroleum
+unknown,MC1,,Spanish Red Snapper GmbH Shipping,Spanish Red Snapper GmbH Shipping
+unknown,MC1,,Officer Pleads Guilty,Officer Pleads Guilty
+unknown,MC1,,Bribes Exchange Smuggling Contraband,Bribes Exchange Smuggling Contraband
+unknown,MC1,,Sp,Sp
+unknown,MC1,,Memphis Women,Memphis Women
+unknown,MC1,,One Hongn,One Hongn
+unknown,MC1,,Evergreen,Evergreen
+unknown,MC1,,Himachal Pradesh Aquatic Plc Brothers,Himachal Pradesh Aquatic Plc Brothers
+unknown,MC1,,Lake Tanganyika Sea AS Shipping,Lake Tanganyika Sea AS Shipping
+unknown,MC1,,Nagaland Sea Ltd. Liability Co &,Nagaland Sea Ltd. Liability Co &
+unknown,MC1,,Estrella de la Costa  Consultants,Estrella de la Costa  Consultants
+unknown,MC1,,Kores De Venezuela C A,Kores De Venezuela C A
+unknown,MC1,,CP World,CP World
+unknown,MC1,,Tombow,Tombow
+unknown,MC1,,Gelita Gelatine,Gelita Gelatine
+unknown,MC1,,Yale,Yale
+unknown,MC1,,Faroe Islands Plc Investment,Faroe Islands Plc Investment
+unknown,MC1,,East Ltd. Corporation Investment,East Ltd. Corporation Investment
+unknown,MC1,,Logistics,Logistics
+unknown,MC1,,Dispenseroo,Dispenseroo
+unknown,MC1,,80 Percent Arms,80 Percent Arms
+unknown,MC1,,CM Nationali,CM Nationali
+unknown,MC1,,Anthony Sailboat Co Shipping,Anthony Sailboat Co Shipping
+unknown,MC1,,MV,MV
+unknown,MC1,,Costa de Coral Charter Boat Oyj Overseas,Costa de Coral Charter Boat Oyj Overseas
+unknown,MC1,,Warner,Warner
+unknown,MC1,,Alpha Brokersa,Alpha Brokersa
+unknown,MC1,,Viktorâs,Viktorâs
+unknown,MC1,,Sea Seekers Merchants Cruise ship,Sea Seekers Merchants Cruise ship
+unknown,MC1,,NFTs,NFTs
+unknown,MC1,,Cargo Systemsi,Cargo Systemsi
+unknown,MC1,,Ocano del Este Corp Freight ,Ocano del Este Corp Freight 
+unknown,MC1,,Ronald,Ronald
+unknown,MC1,,C Express,C Express
+unknown,MC1,,Znamensk Eel LLC United,Znamensk Eel LLC United
+unknown,MC1,,Sisdof/Sinaflor,Sisdof/Sinaflor
+unknown,MC1,,Spanish Shrimp Sp Brothers,Spanish Shrimp Sp Brothers
+unknown,MC1,,Tajima Industrues Ltd,Tajima Industrues Ltd
+unknown,MC1,,Zerzaâs,Zerzaâs
+unknown,MC1,,IndÃºstria Madeireira Uliana,IndÃºstria Madeireira Uliana
+unknown,MC1,,Sms,Sms
+unknown,MC1,,Semas 260 Rural,Semas 260 Rural
+unknown,MC1,,Dolphin Dreams S.A. de C.V. Seafood,Dolphin Dreams S.A. de C.V. Seafood
+unknown,MC1,,All,All
+unknown,MC1,,Cab Incorportated,Cab Incorportated
+unknown,MC1,,Sikkim S.A. de C.V.,Sikkim S.A. de C.V.
+unknown,MC1,,Yeezy,Yeezy
+unknown,MC1,,Kagera River  Company Solutions,Kagera River  Company Solutions
+unknown,MC1,,Marmooska Shipyard Sagl United,Marmooska Shipyard Sagl United
+unknown,MC1,,Leo,Leo
+unknown,MC1,,W&O Supply,W&O Supply
+unknown,MC1,,Greek Sea Bream Limited Liability Company Transit,Greek Sea Bream Limited Liability Company Transit
+unknown,MC1,,David S.A. de C.V. Brothers,David S.A. de C.V. Brothers
+unknown,MC1,,Haryana s Ltd. Corporation Carriers,Haryana s Ltd. Corporation Carriers
+unknown,MC1,,Coral Reef Sagl Transport,Coral Reef Sagl Transport
+unknown,MC1,,Felbab-Brown,Felbab-Brown
+unknown,MC1,,OzonActionâs,OzonActionâs
+unknown,MC1,,âEntirely,âEntirely
+unknown,MC1,,Ocano del Este SE,Ocano del Este SE
+unknown,MC1,,Norwegian Shrimp N.V. -,Norwegian Shrimp N.V. -
+unknown,MC1,,Malabar Sea Catch Sp,Malabar Sea Catch Sp

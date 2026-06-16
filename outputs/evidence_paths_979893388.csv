@@ -1,0 +1,21 @@
+﻿target_keyword_node,target_type,path_length,path,relation_steps
+Faroe Islands Shrimp Shark,company,1,979893388 -> Faroe Islands Shrimp Shark,"family_relationship, partnership"
+Irish Sea SRL Brothers,unknown,1,979893388 -> Irish Sea SRL Brothers,membership
+Lake Tanganyika Sea AS Shipping,unknown,1,979893388 -> Lake Tanganyika Sea AS Shipping,family_relationship
+Ocean Fisheries Llc,unknown,1,979893388 -> Ocean Fisheries Llc,"family_relationship, ownership"
+Oceanfront Oasis Inc Carriers,unknown,1,979893388 -> Oceanfront Oasis Inc Carriers,ownership
+Sea Harvest,unknown,1,979893388 -> Sea Harvest,family_relationship
+SeaSpray Wave SRL Solutions,unknown,1,979893388 -> SeaSpray Wave SRL Solutions,"family_relationship, membership"
+Seafood,unknown,1,979893388 -> Seafood,family_relationship
+Sonia Fisheries Pvt,unknown,1,979893388 -> Sonia Fisheries Pvt,family_relationship
+oceana,unknown,1,979893388 -> oceana,membership
+AND fisheryâ,unknown,2,979893388 -> Benton Ltd. Liability Co -> AND fisheryâ,partnership -> membership
+Costa de Coral Charter Boat Oyj Overseas,unknown,2,979893388 -> b1a0ee2a-0e6d-48c2-b639-032e4648fa5c -> Costa de Coral Charter Boat Oyj Overseas,membership -> membership
+Dry Creek S.p.A. Overseas,unknown,2,979893388 -> ad8fe467-3759-4f53-bf6a-896a237d187f -> Dry Creek S.p.A. Overseas,family_relationship -> ownership
+EBSCOhostâsearched âoctopus,unknown,2,979893388 -> Benton Ltd. Liability Co -> EBSCOhostâsearched âoctopus,partnership -> membership
+FinestSea Ltd. Corporation Enterprises,unknown,2,979893388 -> png xi  Line -> FinestSea Ltd. Corporation Enterprises,"family_relationship, membership -> partnership"
+FishEye International,organization,2,979893388 -> 8814 -> FishEye International,membership -> membership
+Fisheries Animal Industriesâ,unknown,2,979893388 -> b8567859-bf54-49fd-8332-5775e19c65af -> Fisheries Animal Industriesâ,family_relationship -> family_relationship
+Fisheries Inc,unknown,2,979893388 -> 903311212 -> Fisheries Inc,"family_relationship, membership -> membership"
+Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,unknown,2,979893388 -> 4 -> Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,family_relationship -> membership
+Fishing International,unknown,2,979893388 -> Mar del Oeste Pic -> Fishing International,"family_relationship, membership, ownership -> family_relationship"

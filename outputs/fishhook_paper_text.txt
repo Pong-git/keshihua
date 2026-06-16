@@ -1,0 +1,180 @@
+FishHook: A Visual Analytics System for Tracing Suspicious Entities in the
+Fisheries Domain Using Knowledge Graphs
+Jingfu Wu*
+Southern University of
+Science and T echnology
+Diyun Lu†
+Southern University of
+Science and T echnology
+Lei Chen‡
+Southern University of
+Science and T echnology
+Ningyi Peng§
+Southern University of
+Science and T echnology
+Fan Y ang¶
+Southern University of
+Science and T echnology
+Xinyu T ang||
+Southern University of
+Science and T echnology
+Y uxin Ma**
+Southern University of
+Science and T echnology
+Figure 1: System overview. (A) Ego Net. (B) Unity Net. (C) Hierarchy T ree. (D) Parallel Coordinates.
+ABSTRACT
+Undertaking the visual exploration of a large knowledge graph in the
+domain of illegal ﬁshery activities, FishHook offers an interactive
+visual analytics solution for scrutinizing individual entities via four
+distinct views: the Ego Net view, the Hierarchical Tree view, the
+Unity Net view, and the Parallel Coordinates view. The system
+incorporates an anomalous pattern detection mechanism, which is
+designed to address the challenges detailed in the 2023 IEEE V AST
+Challenge MC1. This integrated solution not only demonstrates
+robustness and scalability but also provides a powerful tool for
+comprehending large-scale knowledge graph datasets.
+Index Terms: Visual analytics, knowledge graph, anomaly detec-
+tion, illegal ﬁshing.
+1I NTRODUCTION
+The V AST Challenge 2023 Mini-Challenge 1 provides a knowl-
+edge graph generated using Natural Language Processing (NLP)
+*E-mail: wujingf25@163.com
+† E-mail: lululudiyun@gmail.com
+‡ E-mail: chenlei762475593@qq.com
+§E-mail: pengningyi2001@gmail.com
+¶E-mail: 12010715@mail.sustech.edu.cn
+||E-mail: tangxinyu2002@gmail.com
+**E-mail: mayx@sustech.edu.cn
+tools extracting entities and relationships from text articles, which
+is a directed multi-graph consisting of 3721 nodes and 7422 edges,
+requiring the participants to ﬁgure out entities involved in Unfortu-
+nately, illegal, unreported, and unregulated ﬁshing (IUU) and extract
+their patterns.
+We addressed the problem using graph embedding techniques,
+supply chain cycle detection, and interactive statistical visualizations.
+Our system, FishHook, consists of four views: 1) the Ego Net view
+which enables exploration around speciﬁc entities with conclusive
+information cards added, 2) the Unity Net view that merges linked
+homogeneous entities into unities, 3) the Hierarchy Tree view which
+presents the overarching ownership streams, and 4) the Parallel
+Coordinates view comparing behavioral patterns between entities.
+2V ISUAL ANAL YTICS SYSTEM
+2.1 Ego Net
+The Ego Net view plays a central role in our system, which begins
+from an ego node and extends to two tiers of neighboring nodes,
+where colors represent relationships and icons denote node types. As
+shown in Figure 1 (A), it consists of four coordinated sub-modules:
+ﬁlters for node and connection types (a1), history breadcrumbs for
+ego-switching paths (a2), a statistical message card for speciﬁc
+node data (a3), and a global anomaly list for sorting node based on
+suspicion levels (a4).
+Filter Module (a1). Directly searching and submitting any targeted
+node’s ID switches the center of the Ego Net view. Nodes’ types
+and countries as well as edges’ types together with in and out degree
+ﬁltering are enabled.
+1
+2023 VAST Challenge
+979-8-3503-0866-2/23/$31.00 ©2023 IEEE
+DOI 10.1109/VASTChallenge60523.2023.00006
+2023 VAST Challenge | 979-8-3503-0866-2/23/$31.00 ©2023 IEEE | DOI: 10.1109/VASTCHALLENGE60523.2023.00006
+Authorized licensed use limited to: BEIJING INSTITUTE OF TECHNOLOGY. Downloaded on June 15,2026 at 08:20:43 UTC from IEEE Xplore.  Restrictions apply. 
+History Breadcrumbs (a2). Double-click a node switches the
+view to the center of the Ego Net and immediately update the node
+ID here for future stepping back.
+Message Card (a3). Single-clicking on any node highlights it
+in yellow, and the message card will be updated, whose content is
+illustrated below:
+• ID Panel: This panel shows connected vessels, neighboring nodes
+with the largest edge count, and the distance to the anomalies
+identiﬁed by the LINE algorithm in the feature space [2].
+• Statistics Panel: Numerical information about the neighbors and
+edges are displayed in this panel, which corresponds to the content
+of the Parallel Coordinate view (D).
+• Cycles Panel: Regarding the anomaly cycle of supply chains as
+potential IUU behaviors, this panel displays the number of cycles
+passing through both the selected node and the anomalies with
+the length between 2 and 6. Checking the box in the panel will
+highlight the related cycles in the Ego Net.
+Anomaly List (a4). This is a global list showing nodes with high
+anomaly scores under the mathematical model to be introduced in
+Section 3.
+Figure 2: The triggered anomaly list.
+When switching to the “Show in Net” mode, Figure 2, nodes in
+the list will be marked in the red color. Anomaly scores of the nodes
+are linearly mapped to the lightness of the red colors. The list also
+allows adding new nodes by right-clicking on an individual node in
+the node-link diagram and removal by clicking the delete button.
+2.2 Unity Net
+The Unity Net view represents merged connections among entities
+of the same type across different families, ownership-related com-
+panies, ownership-related political organizations, and various other
+entities, Figure 1 (B). It assists users in comprehending relationships
+and structures by showcasing robust connections between nodes,
+while also providing the option to delve deeper into ego networks
+for more information through a double-click interaction.
+2.3 Hierarchy Tree
+The hierarchy Tree view, Figure 1 (C), is generated by traversing
+directional ownerships. The goal of designing this view is to link
+suspicious nodes through ownership, enabling the observation of
+organizational business structure and the upstream and downstream
+of the supply chain.
+2.4 Parallel Coordinate
+In the Parallel Coordinates view shown in Figure 1 (D), each edge
+represents a feature vector of an entity’s statistical and structural
+factors. Nodes of the same types are placed together for comparison,
+where the selected node is colored blue and the suspected entities
+red. A pair of green threshold lines representing the 3-sigma values
+are also rendered for outlier identiﬁcation.
+3A NOMAL Y PATTERNS
+Based on previous observations and conclusions, we model an
+anomaly score to measure entities’ anomaly degree as follows:
+S = Rv − ˆRv + 0.1 × F12 + P12 − 0.5 × (dist(nnow ,979893388))
++ dist(nnow ,Ocean f ront) +C (1)
+Rv = vwcc
+nwcc
+(2)
+In the equations, V stands for vessels, n for nodes, dist for the Eu-
+clidean distance function. In addition, Oceanfront is short for Ocean-
+front Oasis Inc Carriers, and wcc for weakly connected component s.
+The computation takes the following aspects into account [1]:
+• The difference of vessels ratio in a wcc and its average value,
+which indicates the role of the entity in the ﬁshery supply chain;
+• Number of family relationships of the ﬁrst and second-order neigh-
+bors, which represents the correlation between entity and family
+forces;
+• Number of political organizations in the ﬁrst and second-order
+neighbors, which represents the correlation between the entity and
+political organizations;
+• Number of cycles going through current nodes and illegal nodes,
+which represents the possibility of its involvement in the supply
+chain of the suspected entity;
+• The Euclidean distance between the current node and two ille-
+gal nodes calculated by LINE and t-SNE algorithms [2], which
+represents the similarity between the entity and illegal nodes.
+According to the large sample theory, considering the number of
+entities in this network, we may consider the distribution of anomaly
+scores as a normal distribution. We normalize the scores using the
+formula of (x − min)/max × 100, and the top-10 largest scores will
+be displayed as the anomaly entity to make the threshold adaptive
+to speciﬁc network. The coefﬁcient is speciﬁed as to unify the
+methods we used to detect suspect entities. The weight of each
+method mainly depends on its contribution of differentiating the
+entities. Since we speciﬁed the coefﬁcient of each score-term to
+unify their contribution to detect suspected entities, thus deleting
+one score-term does not affect the overall performance of the scoring
+mechanism.
+4C ONCLUSION
+FishHook contextualizes both structural and intrinsic information
+of any speciﬁc nodes in knowledge graphs, which enables explo-
+ration on statistical and behavioral patterns of the entities together
+with anomaly detection. In the future, we will explore how can
+FishHook be generalized to handle other knowledge-graph-based
+analysis scenarios.
+REFERENCES
+[1] Directorate-General for Maritime Affairs and Fisheries. Illegal ﬁshing.
+European Commision, 2010.
+[2] J. Tang, M. Qu, M. Wang, M. Zhang, J. Yan, and Q. Mei. LINE: Large-
+scale information network embedding. Proceedings of the International
+Conference on World Wide Web, 24:1067–1077, 2015.
+2
+Authorized licensed use limited to: BEIJING INSTITUTE OF TECHNOLOGY. Downloaded on June 15,2026 at 08:20:43 UTC from IEEE Xplore.  Restrictions apply. 

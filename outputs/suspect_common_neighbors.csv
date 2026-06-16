@@ -1,0 +1,7 @@
+﻿entity_a,entity_b,common_neighbor_count,common_neighbor_types,examples
+Mar de la Vida OJSC,979893388,2,location:1; political_organization:1,9345 (political_organization); b8567859-bf54-49fd-8332-5775e19c65af (location)
+Mar de la Vida OJSC,Oceanfront Oasis Inc Carriers,1,organization:1,FishEye International (organization)
+979893388,8327,1,organization:1,435054320 (organization)
+Mar de la Vida OJSC,8327,0,,
+979893388,Oceanfront Oasis Inc Carriers,0,,
+Oceanfront Oasis Inc Carriers,8327,0,,

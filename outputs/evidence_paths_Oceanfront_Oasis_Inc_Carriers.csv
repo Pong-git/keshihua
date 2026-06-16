@@ -1,0 +1,21 @@
+﻿target_keyword_node,target_type,path_length,path,relation_steps
+FishEye International,organization,1,Oceanfront Oasis Inc Carriers -> FishEye International,membership
+Faroe Islands Shrimp Shark,company,2,Oceanfront Oasis Inc Carriers -> 979893388 -> Faroe Islands Shrimp Shark,"ownership -> family_relationship, partnership"
+Irish Sea SRL Brothers,unknown,2,Oceanfront Oasis Inc Carriers -> 979893388 -> Irish Sea SRL Brothers,ownership -> membership
+Lake Tanganyika Sea AS Shipping,unknown,2,Oceanfront Oasis Inc Carriers -> 979893388 -> Lake Tanganyika Sea AS Shipping,ownership -> family_relationship
+Ocean Fisheries Llc,unknown,2,Oceanfront Oasis Inc Carriers -> 979893388 -> Ocean Fisheries Llc,"ownership -> family_relationship, ownership"
+Qingdao Kaiyuan Seafoods,unknown,2,Oceanfront Oasis Inc Carriers -> 2262 -> Qingdao Kaiyuan Seafoods,family_relationship -> family_relationship
+Sea Harvest,unknown,2,Oceanfront Oasis Inc Carriers -> 979893388 -> Sea Harvest,ownership -> family_relationship
+SeaSpray Wave SRL Solutions,unknown,2,Oceanfront Oasis Inc Carriers -> 979893388 -> SeaSpray Wave SRL Solutions,"ownership -> family_relationship, membership"
+Seabreeze Foods Ltd. Corporation United,unknown,2,Oceanfront Oasis Inc Carriers -> FishEye International -> Seabreeze Foods Ltd. Corporation United,membership -> membership
+Seafood,unknown,2,Oceanfront Oasis Inc Carriers -> 979893388 -> Seafood,ownership -> family_relationship
+Sonia Fisheries Pvt,unknown,2,Oceanfront Oasis Inc Carriers -> 8787 -> Sonia Fisheries Pvt,family_relationship -> membership
+Spanish Shrimp  Carriers,company,2,Oceanfront Oasis Inc Carriers -> 2262 -> Spanish Shrimp  Carriers,"family_relationship -> family_relationship, partnership"
+ocean,vessel,2,Oceanfront Oasis Inc Carriers -> 8787 -> ocean,family_relationship -> membership
+oceana,unknown,2,Oceanfront Oasis Inc Carriers -> 979893388 -> oceana,ownership -> membership
+AND fisheryâ,unknown,3,Oceanfront Oasis Inc Carriers -> 979893388 -> Benton Ltd. Liability Co -> AND fisheryâ,ownership -> partnership -> membership
+Asia Seafood,unknown,3,Oceanfront Oasis Inc Carriers -> 2262 -> Playa del Cielo Kga -> Asia Seafood,"family_relationship -> family_relationship, membership -> partnership"
+Catchâ,unknown,3,Oceanfront Oasis Inc Carriers -> FishEye International -> 58623386 -> Catchâ,membership -> membership -> membership
+Costa de Coral Charter Boat Oyj Overseas,unknown,3,Oceanfront Oasis Inc Carriers -> FishEye International -> 8814 -> Costa de Coral Charter Boat Oyj Overseas,membership -> membership -> membership
+Deep Sea Atlantic NV,unknown,3,Oceanfront Oasis Inc Carriers -> 2262 -> 60806 -> Deep Sea Atlantic NV,family_relationship -> family_relationship -> membership
+Dry Creek S.p.A. Overseas,unknown,3,Oceanfront Oasis Inc Carriers -> 979893388 -> ad8fe467-3759-4f53-bf6a-896a237d187f -> Dry Creek S.p.A. Overseas,ownership -> family_relationship -> ownership
