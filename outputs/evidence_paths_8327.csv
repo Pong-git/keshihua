@@ -17,5 +17,5 @@ Asia Seafood,unknown,3,8327 -> 160 -> Playa del Cielo Kga -> Asia Seafood,member
 Catchâ,unknown,3,8327 -> Seabreeze Foods Ltd. Corporation United -> 58623386 -> Catchâ,ownership -> ownership -> membership
 Costa de Coral Charter Boat Oyj Overseas,unknown,3,8327 -> 160 -> b1a0ee2a-0e6d-48c2-b639-032e4648fa5c -> Costa de Coral Charter Boat Oyj Overseas,membership -> membership -> membership
 Dry Creek S.p.A. Overseas,unknown,3,8327 -> 160 -> Playa del Cielo Kga -> Dry Creek S.p.A. Overseas,membership -> ownership -> ownership
-Faroe Islands Shrimp Shark,company,3,8327 -> 160 -> png xi  Line -> Faroe Islands Shrimp Shark,"membership -> membership, ownership -> family_relationship, membership, ownership"
-FinestSea Ltd. Corporation Enterprises,unknown,3,8327 -> 160 -> png xi  Line -> FinestSea Ltd. Corporation Enterprises,"membership -> membership, ownership -> partnership"
+Faroe Islands Shrimp Shark,company,3,8327 -> 160 -> 34 -> Faroe Islands Shrimp Shark,membership -> ownership -> partnership
+FinestSea Ltd. Corporation Enterprises,unknown,3,8327 -> 160 -> Spanish Shrimp  Carriers -> FinestSea Ltd. Corporation Enterprises,"membership -> ownership, partnership -> family_relationship"

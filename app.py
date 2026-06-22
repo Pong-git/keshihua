@@ -29,6 +29,22 @@ except ModuleNotFoundError as exc:
     ) from exc
 
 
+THEME = {
+    "bg": "#f6f8fb",
+    "surface": "#ffffff",
+    "ink": "#1f2937",
+    "muted": "#667085",
+    "line": "#e5e7eb",
+    "blue": "#2563eb",
+    "cyan": "#0891b2",
+    "green": "#059669",
+    "amber": "#d97706",
+    "red": "#dc2626",
+    "purple": "#7c3aed",
+    "slate": "#475569",
+}
+
+
 @st.cache_data(show_spinner=False)
 def cached_data() -> tuple[pd.DataFrame, pd.DataFrame]:
     return load_nodes_edges()
@@ -59,6 +75,451 @@ def short_label(value: object, max_len: int = 24) -> str:
     return text if len(text) <= max_len else text[: max_len - 3] + "..."
 
 
+def page_style() -> None:
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background:
+                radial-gradient(circle at 18% 0%, rgba(37, 99, 235, 0.09), transparent 28rem),
+                linear-gradient(180deg, #f8fafc 0%, {THEME["bg"]} 42%, #ffffff 100%);
+            color: {THEME["ink"]};
+        }}
+        section[data-testid="stSidebar"] {{
+            background: linear-gradient(180deg, #eef4ff 0%, #f8fafc 70%);
+            border-right: 1px solid #dbe4f0;
+        }}
+        h1, h2, h3 {{
+            letter-spacing: 0;
+            color: #111827;
+        }}
+        .block-container {{
+            padding-top: 2rem;
+            max-width: 1500px;
+        }}
+        div[data-testid="stMetric"] {{
+            background: rgba(255,255,255,0.88);
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 16px 18px;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+        }}
+        div[data-testid="stMetricLabel"] p {{
+            color: {THEME["muted"]};
+            font-size: 0.95rem;
+        }}
+        div[data-testid="stMetricValue"] {{
+            color: #0f172a;
+            font-weight: 760;
+        }}
+        .viz-card {{
+            background: rgba(255,255,255,0.92);
+            border: 1px solid #e5e7eb;
+            border-radius: 16px;
+            padding: 18px 20px;
+            box-shadow: 0 16px 40px rgba(15, 23, 42, 0.07);
+            margin-bottom: 16px;
+        }}
+        .section-note {{
+            color: {THEME["muted"]};
+            font-size: 0.96rem;
+            margin-top: -0.35rem;
+            margin-bottom: 0.65rem;
+        }}
+        .entity-chip {{
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            color: #1d4ed8;
+            font-weight: 650;
+            margin: 0 8px 8px 0;
+        }}
+        .small-muted {{
+            color: {THEME["muted"]};
+            font-size: 0.88rem;
+        }}
+        div[data-testid="stDataFrame"] {{
+            border-radius: 12px;
+            overflow: hidden;
+        }}
+        div[data-testid="stButton"] > button {{
+            border-radius: 999px;
+            min-height: 2.35rem;
+            width: 100%;
+            padding: 0.35rem 0.55rem;
+            font-weight: 650;
+            border: 1px solid #d0d7e2;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }}
+        div[data-testid="stButton"] > button:hover {{
+            border-color: #93c5fd;
+            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.14);
+        }}
+        div[data-testid="stButton"] > button p {{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 0.9rem;
+        }}
+        .edge-control-strip {{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 10px;
+            margin: 12px 0 14px 0;
+            overflow-x: auto;
+            padding-bottom: 2px;
+        }}
+        .edge-control-strip a {{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 118px;
+            height: 42px;
+            padding: 0 18px;
+            border-radius: 999px;
+            border: 1px solid #cbd5e1;
+            background: #ffffff;
+            color: #1f2937;
+            font-weight: 720;
+            text-decoration: none;
+            white-space: nowrap;
+            box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+            transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
+        }}
+        .edge-control-strip a:hover {{
+            transform: translateY(-1px);
+            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);
+            filter: brightness(0.98);
+        }}
+        .edge-control-strip a.edge-action {{
+            min-width: 106px;
+            background: #ffffff;
+            color: #334155;
+        }}
+        .edge-control-strip a.edge-on {{
+            background: var(--edge-color);
+            border-color: var(--edge-color);
+            color: #ffffff;
+        }}
+        .edge-control-strip a.edge-off {{
+            background: #f1f5f9;
+            border-color: #cbd5e1;
+            color: #64748b;
+        }}
+        div[data-testid="stElementContainer"]:has(.edge-control-token) {{
+            display: none;
+            height: 0;
+            margin: 0;
+            padding: 0;
+        }}
+        .summary-chart-gap {{
+            height: 36px;
+        }}
+        .stTabs [data-baseweb="tab-list"] {{
+            display: flex;
+            gap: 8px;
+            width: 100%;
+        }}
+        div[data-testid="stTabs"], div[data-testid="stTabs"] > div {{
+            width: 100%;
+        }}
+        .stTabs [data-baseweb="tab"] {{
+            flex: 1 1 0;
+            justify-content: center;
+            min-width: 0;
+            background: rgba(255,255,255,0.75);
+            border-radius: 999px;
+            padding: 8px 10px;
+            text-align: center;
+        }}
+        .stTabs [data-baseweb="tab"] p {{
+            width: 100%;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def plot_layout(fig: go.Figure, height: int = 420) -> go.Figure:
+    fig.update_layout(
+        height=height,
+        margin=dict(l=20, r=20, t=40, b=30),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="Microsoft YaHei, Arial", size=13, color=THEME["ink"]),
+        hoverlabel=dict(bgcolor="#111827", font_color="#ffffff"),
+    )
+    return fig
+
+
+def horizontal_bar_figure(
+    df: pd.DataFrame,
+    label_col: str,
+    value_col: str,
+    title_text: str,
+    color: str = THEME["blue"],
+    top_n: int = 10,
+) -> go.Figure:
+    if df.empty or label_col not in df.columns or value_col not in df.columns:
+        return go.Figure()
+    plot_df = df[[label_col, value_col]].copy()
+    plot_df[value_col] = pd.to_numeric(plot_df[value_col], errors="coerce").fillna(0)
+    plot_df["label_text"] = plot_df[label_col].map(lambda value: str(short_label(value, 34)))
+    plot_df = plot_df.sort_values(value_col, ascending=False).head(top_n).sort_values(value_col)
+    fig = go.Figure(
+        go.Bar(
+            x=plot_df[value_col],
+            y=plot_df["label_text"],
+            orientation="h",
+            marker=dict(color=color, line=dict(color="rgba(255,255,255,0.9)", width=1)),
+            text=plot_df[value_col].map(lambda value: f"{value:.1f}" if isinstance(value, float) else str(value)),
+            textposition="outside",
+            hovertemplate="%{y}<br>数值：%{x}<extra></extra>",
+        )
+    )
+    fig.update_layout(title=dict(text=title_text, x=0.02, font=dict(size=18)))
+    fig.update_xaxes(showgrid=True, gridcolor="#e5e7eb", zeroline=False)
+    fig.update_yaxes(type="category", showgrid=False, categoryorder="array", categoryarray=plot_df["label_text"].tolist())
+    return plot_layout(fig, height=max(360, 42 * len(plot_df) + 90))
+
+
+def donut_figure(counts: dict[str, int], title_text: str, color_map: dict[str, str] | None = None) -> go.Figure:
+    labels = list(counts.keys())
+    values = list(counts.values())
+    colors = [(color_map or {}).get(label, NODE_TYPE_COLORS.get(label, EDGE_TYPE_COLORS.get(label, "#94a3b8"))) for label in labels]
+    fig = go.Figure(
+        go.Pie(
+            labels=labels,
+            values=values,
+            hole=0.58,
+            marker=dict(colors=colors, line=dict(color="#ffffff", width=2)),
+            textinfo="label+percent",
+            textposition="auto",
+            textfont=dict(size=14),
+            insidetextorientation="radial",
+            automargin=True,
+            hovertemplate="%{label}<br>数量：%{value}<extra></extra>",
+        )
+    )
+    fig.update_layout(
+        title=dict(text=title_text, x=0.02, font=dict(size=18)),
+        showlegend=False,
+        uniformtext=dict(minsize=11, mode="show"),
+    )
+    fig = plot_layout(fig, height=360)
+    fig.update_layout(margin=dict(l=92, r=92, t=68, b=72))
+    return fig
+
+
+def candidate_bubble_figure(candidates: pd.DataFrame) -> go.Figure:
+    if candidates.empty:
+        return go.Figure()
+    plot_df = candidates.copy().head(70)
+    plot_df["min_distance_to_suspect"] = pd.to_numeric(plot_df["min_distance_to_suspect"], errors="coerce").fillna(0)
+    plot_df["connected_suspect_count"] = pd.to_numeric(plot_df["connected_suspect_count"], errors="coerce").fillna(0)
+    plot_df["vessel_links"] = pd.to_numeric(plot_df["vessel_links"], errors="coerce").fillna(0)
+    plot_df["priority_score"] = (
+        plot_df["connected_suspect_count"] * 100
+        - plot_df["min_distance_to_suspect"] * 20
+        + plot_df["vessel_links"].map(lambda value: math.log1p(max(value, 0)) * 8)
+    )
+    plot_df = plot_df.sort_values(
+        ["connected_suspect_count", "min_distance_to_suspect", "vessel_links", "priority_score"],
+        ascending=[False, True, False, False],
+    ).reset_index(drop=True)
+    offsets = [-0.16, -0.09, -0.03, 0.04, 0.11, 0.17]
+    plot_df["x_plot"] = plot_df["min_distance_to_suspect"] + [offsets[idx % len(offsets)] for idx in range(len(plot_df))]
+    plot_df["y_plot"] = plot_df["connected_suspect_count"] + [offsets[(idx * 2) % len(offsets)] for idx in range(len(plot_df))]
+    plot_df["marker_size"] = plot_df["vessel_links"].map(lambda value: min(52, max(18, 18 + math.log1p(max(value, 0)) * 11)))
+    type_values = sorted(plot_df["type"].fillna("unknown").astype(str).unique())
+    color_lookup = {value: NODE_TYPE_COLORS.get(value, "#94a3b8") for value in type_values}
+    fig = go.Figure()
+    for type_name, group in plot_df.groupby(plot_df["type"].fillna("unknown").astype(str)):
+        fig.add_trace(
+            go.Scatter(
+                x=group["x_plot"],
+                y=group["y_plot"],
+                mode="markers",
+                name=type_name,
+                marker=dict(
+                    size=group["marker_size"],
+                    color=color_lookup[type_name],
+                    opacity=0.76,
+                    line=dict(color="#ffffff", width=2),
+                ),
+                hovertext=group["candidate"].map(lambda value: short_label(value, 42)),
+                customdata=group[["min_distance_to_suspect", "connected_suspect_count", "vessel_links", "path_examples"]].values,
+                hovertemplate=(
+                    "<b>%{hovertext}</b><br>"
+                    "最近距离：%{customdata[0]} 跳<br>"
+                    "连接可疑实体：%{customdata[1]} 个<br>"
+                    "船只连接：%{customdata[2]}<br>"
+                    "<extra></extra>"
+                ),
+            )
+        )
+    min_distance = float(plot_df["min_distance_to_suspect"].min())
+    max_distance = float(plot_df["min_distance_to_suspect"].max())
+    min_connected = float(plot_df["connected_suspect_count"].min())
+    max_connected = float(plot_df["connected_suspect_count"].max())
+    fig.add_annotation(
+        x=0.01,
+        y=1.15,
+        xref="paper",
+        yref="paper",
+        text="读法：左上角优先；气泡越大，船只连接越多",
+        showarrow=False,
+        align="left",
+        font=dict(size=12, color=THEME["muted"]),
+    )
+    fig.update_layout(
+        title=dict(
+            text="扩展候选分布：左上角优先查看",
+            x=0.02,
+            font=dict(size=18),
+        ),
+        legend=dict(title="实体类型", orientation="h", yanchor="bottom", y=1.06, xanchor="right", x=1),
+    )
+    tick_values = sorted(plot_df["min_distance_to_suspect"].dropna().unique().tolist())
+    fig.update_xaxes(
+        title="到官方可疑实体的最近距离",
+        tickmode="array",
+        tickvals=tick_values,
+        ticktext=[f"{int(value)}跳" if float(value).is_integer() else f"{value:g}跳" for value in tick_values],
+        range=[min_distance - 0.58, max_distance + 0.58],
+        showgrid=True,
+        gridcolor="#e5e7eb",
+        zeroline=False,
+    )
+    fig.update_yaxes(
+        title="连接到的官方可疑实体数量",
+        dtick=1,
+        range=[max(0, min_connected - 0.62), max_connected + 0.72],
+        showgrid=True,
+        gridcolor="#e5e7eb",
+        zeroline=False,
+    )
+    fig = plot_layout(fig, height=520)
+    fig.update_layout(margin=dict(l=78, r=72, t=132, b=72))
+    return fig
+
+
+def feature_radar_figure(row: pd.Series) -> go.Figure:
+    dimensions = [
+        ("short_cycle_count", "短环路"),
+        ("connected_suspect_count", "关联嫌疑"),
+        ("vessel_links", "船只连接"),
+        ("ownership_edges", "所有权"),
+        ("membership_edges", "成员关系"),
+        ("family_edges_1_2_hop", "家族关系"),
+        ("political_nodes_1_2_hop", "政治组织"),
+    ]
+    values = [float(pd.to_numeric(row.get(col, 0), errors="coerce") or 0) for col, _ in dimensions]
+    max_value = max(values) if values else 1
+    if max_value > 0:
+        scaled = [
+            max(12, math.log1p(value) / math.log1p(max_value) * 100) if value > 0 else 0
+            for value in values
+        ]
+    else:
+        scaled = [0 for _ in values]
+    labels = [label for _, label in dimensions]
+    hover_values = [f"{value:.2f}".rstrip("0").rstrip(".") for value in values]
+    fig = go.Figure(
+        go.Scatterpolar(
+            r=scaled + [scaled[0]],
+            theta=labels + [labels[0]],
+            customdata=hover_values + [hover_values[0]],
+            fill="toself",
+            fillcolor="rgba(37, 99, 235, 0.22)",
+            line=dict(color=THEME["blue"], width=3),
+            marker=dict(size=8, color=THEME["blue"], line=dict(color="#ffffff", width=1.5)),
+            hovertemplate="%{theta}<br>原始值：%{customdata}<br>均衡强度：%{r:.1f}<extra></extra>",
+        )
+    )
+    fig.update_layout(
+        polar=dict(
+            radialaxis=dict(
+                visible=True,
+                range=[0, 100],
+                tickvals=[0, 25, 50, 75, 100],
+                ticktext=["0", "低", "中", "高", "峰值"],
+                tickfont=dict(size=10),
+                gridcolor="#e5e7eb",
+            ),
+            angularaxis=dict(gridcolor="#e5e7eb", tickfont=dict(size=13)),
+        ),
+        showlegend=False,
+        title=dict(text="当前实体结构画像", x=0.02, font=dict(size=18)),
+    )
+    return plot_layout(fig, height=360)
+
+
+def suspect_compare_figure(suspects: pd.DataFrame) -> go.Figure:
+    if suspects.empty:
+        return go.Figure()
+    plot_df = suspects.copy()
+    plot_df["entity_label"] = plot_df["entity"].map(lambda value: short_label(value, 26))
+    fig = go.Figure()
+    for col_name, label, color in [
+        ("fishhook_anomaly_score", "FishHook分", THEME["blue"]),
+        ("vessel_links", "船只连接", THEME["cyan"]),
+        ("short_cycle_count", "短环路", THEME["red"]),
+        ("ownership_edges", "所有权边", THEME["amber"]),
+    ]:
+        if col_name in plot_df.columns:
+            fig.add_trace(
+                go.Bar(
+                    x=plot_df["entity_label"],
+                    y=pd.to_numeric(plot_df[col_name], errors="coerce").fillna(0),
+                    name=label,
+                    marker_color=color,
+                    hovertemplate=f"{label}：%{{y}}<extra></extra>",
+                )
+            )
+    fig.update_layout(title=dict(text="官方可疑实体特征对比", x=0.02, font=dict(size=18)), barmode="group")
+    fig.update_yaxes(showgrid=True, gridcolor="#e5e7eb")
+    return plot_layout(fig, height=420)
+
+
+def feature_strip_figure(features: pd.DataFrame) -> go.Figure:
+    cols = [
+        ("fishhook_anomaly_score", "FishHook分"),
+        ("vessel_links", "船只"),
+        ("ownership_edges", "所有权"),
+        ("membership_edges", "成员"),
+        ("short_cycle_count", "短环路"),
+        ("connected_suspect_count", "关联嫌疑"),
+    ]
+    row = features.iloc[0]
+    labels = [label for col_name, label in cols if col_name in features.columns]
+    values = [float(pd.to_numeric(row.get(col_name, 0), errors="coerce") or 0) for col_name, _ in cols if col_name in features.columns]
+    fig = go.Figure(
+        go.Bar(
+            x=labels,
+            y=values,
+            marker=dict(color=[THEME["blue"], THEME["cyan"], THEME["amber"], THEME["green"], THEME["red"], THEME["purple"]][: len(values)]),
+            hovertemplate="%{x}<br>数值：%{y}<extra></extra>",
+        )
+    )
+    fig.update_layout(title=dict(text="当前实体关键特征", x=0.02, font=dict(size=18)))
+    fig.update_yaxes(showgrid=True, gridcolor="#e5e7eb")
+    return plot_layout(fig, height=320)
+
+
 def find_entity_matches(query: str, entities: list[object], limit: int = 20) -> list[object]:
     normalized_query = normalize_search_text(query)
     compact_query = compact_search_text(query)
@@ -77,6 +538,19 @@ def find_entity_matches(query: str, entities: list[object], limit: int = 20) -> 
     entity_labels = {str(entity): entity for entity in entities}
     close_labels = get_close_matches(str(query), list(entity_labels), n=limit, cutoff=0.62)
     return [entity_labels[label] for label in close_labels]
+
+
+def set_edge_type_visibility(state_key: str, edge_types: list[str], visible: bool) -> None:
+    current_state = dict(st.session_state.get(state_key, {}))
+    for edge_type in edge_types:
+        current_state[edge_type] = visible
+    st.session_state[state_key] = current_state
+
+
+def toggle_edge_type_visibility(state_key: str, edge_type: str) -> None:
+    current_state = dict(st.session_state.get(state_key, {}))
+    current_state[edge_type] = not bool(current_state.get(edge_type, True))
+    st.session_state[state_key] = current_state
 
 
 def relation_summary_figure(nodes: pd.DataFrame, edges: pd.DataFrame, center_id: object) -> go.Figure:
@@ -430,94 +904,154 @@ def evidence_sankey_figure(paths: pd.DataFrame, limit: int = 10) -> go.Figure:
 
 
 def common_neighbor_heatmap(common: pd.DataFrame) -> go.Figure:
-    entities = sorted(set(common["entity_a"].astype(str)) | set(common["entity_b"].astype(str)))
-    matrix = pd.DataFrame(0, index=entities, columns=entities)
-    for row in common.to_dict(orient="records"):
-        a = str(row["entity_a"])
-        b = str(row["entity_b"])
-        count = int(row["common_neighbor_count"])
-        matrix.loc[a, b] = count
-        matrix.loc[b, a] = count
+    if common.empty:
+        return go.Figure()
+    plot_df = common.copy()
+    plot_df["common_neighbor_count"] = pd.to_numeric(plot_df["common_neighbor_count"], errors="coerce").fillna(0)
+    plot_df = plot_df[plot_df["common_neighbor_count"] > 0].copy()
+    if plot_df.empty:
+        fig = go.Figure()
+        fig.add_annotation(
+            text="当前选择的实体之间没有共同邻居",
+            x=0.5,
+            y=0.5,
+            xref="paper",
+            yref="paper",
+            showarrow=False,
+            font=dict(size=16, color=THEME["muted"]),
+        )
+        return plot_layout(fig, height=420)
+    plot_df["pair_label"] = plot_df.apply(
+        lambda row: f"{short_label(row['entity_a'], 18)}  ↔  {short_label(row['entity_b'], 18)}",
+        axis=1,
+    )
+    plot_df = plot_df.sort_values("common_neighbor_count", ascending=True).tail(10)
     fig = go.Figure(
-        data=go.Heatmap(
-            z=matrix.values,
-            x=[short_label(item, 24) for item in matrix.columns],
-            y=[short_label(item, 24) for item in matrix.index],
-            colorscale="Reds",
-            text=matrix.values,
-            texttemplate="%{text}",
-            hovertemplate="%{y} 与 %{x}<br>共同邻居：%{z}<extra></extra>",
+        go.Bar(
+            x=plot_df["common_neighbor_count"],
+            y=plot_df["pair_label"],
+            orientation="h",
+            marker=dict(
+                color=plot_df["common_neighbor_count"],
+                colorscale=[[0, "#dbeafe"], [1, "#2563eb"]],
+                line=dict(color="#ffffff", width=1),
+            ),
+            text=plot_df["common_neighbor_count"].map(lambda value: f"{int(value)} 个"),
+            textposition="outside",
+            customdata=plot_df[["common_neighbor_types", "examples"]].values,
+            hovertemplate=(
+                "%{y}<br>"
+                "共同邻居：%{x} 个<br>"
+                "类型：%{customdata[0]}<br>"
+                "示例：%{customdata[1]}<extra></extra>"
+            ),
         )
     )
-    fig.update_layout(height=420, margin=dict(l=130, r=30, t=30, b=90))
+    fig.update_layout(title=dict(text="实体对共享邻居数量", x=0.02, font=dict(size=18)), showlegend=False)
+    fig.update_xaxes(title="共同邻居数量", dtick=1, showgrid=True, gridcolor="#e5e7eb", zeroline=False)
+    fig.update_yaxes(title="", showgrid=False)
+    fig = plot_layout(fig, height=440)
+    fig.update_layout(margin=dict(l=170, r=70, t=70, b=50))
     return fig
 
 
 def common_neighbor_network_figure(common: pd.DataFrame) -> go.Figure:
     suspect_nodes = sorted(set(common["entity_a"].astype(str)) | set(common["entity_b"].astype(str)))
-    neighbor_nodes: list[str] = []
-    edges: list[tuple[str, str]] = []
+    neighbor_to_suspects: dict[str, set[str]] = {}
+    neighbor_types: dict[str, str] = {}
 
     for row in common.to_dict(orient="records"):
         examples = [item.strip() for item in str(row.get("examples", "")).split(";") if item.strip()]
         for example in examples[:5]:
             neighbor = example.rsplit(" (", 1)[0]
-            neighbor_nodes.append(neighbor)
-            edges.append((str(row["entity_a"]), neighbor))
-            edges.append((str(row["entity_b"]), neighbor))
+            neighbor_type = "unknown"
+            if " (" in example and example.endswith(")"):
+                neighbor_type = example.rsplit(" (", 1)[1][:-1]
+            neighbor_types[neighbor] = neighbor_type
+            neighbor_to_suspects.setdefault(neighbor, set()).update([str(row["entity_a"]), str(row["entity_b"])])
 
-    neighbor_nodes = sorted(set(neighbor_nodes), key=str)[:30]
-    allowed = set(suspect_nodes) | set(neighbor_nodes)
-    edges = [(source, target) for source, target in edges if source in allowed and target in allowed]
+    neighbor_nodes = sorted(
+        neighbor_to_suspects,
+        key=lambda item: (-len(neighbor_to_suspects[item]), str(item)),
+    )[:18]
 
     positions = {}
+    suspect_count = max(len(suspect_nodes) - 1, 1)
     for idx, node in enumerate(suspect_nodes):
-        positions[node] = (0, -idx)
+        positions[node] = (0, 1 - 2 * idx / suspect_count)
+    neighbor_count = max(len(neighbor_nodes) - 1, 1)
     for idx, node in enumerate(neighbor_nodes):
-        positions[node] = (1.6, -idx * max(1, len(suspect_nodes) / max(1, len(neighbor_nodes))))
+        positions[node] = (1.7, 1 - 2 * idx / neighbor_count if len(neighbor_nodes) > 1 else 0)
 
     edge_x: list[float | None] = []
     edge_y: list[float | None] = []
-    for source, target in edges:
-        if source not in positions or target not in positions:
-            continue
-        x0, y0 = positions[source]
-        x1, y1 = positions[target]
-        edge_x.extend([x0, x1, None])
-        edge_y.extend([y0, y1, None])
+    for target in neighbor_nodes:
+        for source in sorted(neighbor_to_suspects.get(target, []), key=str):
+            if source not in positions or target not in positions:
+                continue
+            x0, y0 = positions[source]
+            x1, y1 = positions[target]
+            edge_x.extend([x0, x1, None])
+            edge_y.extend([y0, y1, None])
 
-    node_x = []
-    node_y = []
-    node_text = []
-    node_color = []
-    node_size = []
-    for node, (x, y) in positions.items():
-        node_x.append(x)
-        node_y.append(y)
-        node_text.append(short_label(node, 22))
-        is_suspect = node in suspect_nodes
-        node_color.append("#dc2626" if is_suspect else "#60a5fa")
-        node_size.append(18 if is_suspect else 12)
+    suspect_x = []
+    suspect_y = []
+    suspect_text = []
+    for node in suspect_nodes:
+        x0, y0 = positions[node]
+        suspect_x.append(x0)
+        suspect_y.append(y0)
+        suspect_text.append(short_label(node, 22))
+
+    neighbor_x = []
+    neighbor_y = []
+    neighbor_text = []
+    neighbor_hover = []
+    neighbor_size = []
+    neighbor_color = []
+    for node in neighbor_nodes:
+        x, y = positions[node]
+        linked = sorted(neighbor_to_suspects.get(node, []), key=str)
+        neighbor_x.append(x)
+        neighbor_y.append(y)
+        neighbor_text.append(short_label(node, 22))
+        neighbor_hover.append(f"{node}<br>连接实体：{'; '.join(linked)}")
+        neighbor_size.append(12 + 4 * len(linked))
+        neighbor_color.append(NODE_TYPE_COLORS.get(neighbor_types.get(node, "unknown"), "#60a5fa"))
 
     fig = go.Figure(
         data=[
-            go.Scatter(x=edge_x, y=edge_y, mode="lines", line=dict(color="#cbd5e1", width=1), hoverinfo="skip"),
+            go.Scatter(x=edge_x, y=edge_y, mode="lines", line=dict(color="#cbd5e1", width=1.4), hoverinfo="skip", name="共享连接"),
             go.Scatter(
-                x=node_x,
-                y=node_y,
+                x=suspect_x,
+                y=suspect_y,
                 mode="markers+text",
-                marker=dict(size=node_size, color=node_color, line=dict(color="#ffffff", width=1)),
-                text=node_text,
-                textposition="middle right",
-                hovertext=list(positions.keys()),
+                marker=dict(size=20, color="#ef4444", line=dict(color="#ffffff", width=2)),
+                text=suspect_text,
+                textposition="middle left",
+                hovertext=suspect_nodes,
                 hoverinfo="text",
+                name="可疑实体",
+            ),
+            go.Scatter(
+                x=neighbor_x,
+                y=neighbor_y,
+                mode="markers+text",
+                marker=dict(size=neighbor_size, color=neighbor_color, line=dict(color="#ffffff", width=2)),
+                text=neighbor_text,
+                textposition="middle right",
+                hovertext=neighbor_hover,
+                hoverinfo="text",
+                name="共同邻居",
             ),
         ]
     )
     fig.update_layout(
-        height=460,
-        margin=dict(l=20, r=20, t=20, b=20),
-        showlegend=False,
+        height=440,
+        margin=dict(l=30, r=30, t=70, b=30),
+        showlegend=True,
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
+        title=dict(text="共享邻居连接图", x=0.02, font=dict(size=18)),
         xaxis=dict(visible=False),
         yaxis=dict(visible=False),
         plot_bgcolor="#ffffff",
@@ -528,7 +1062,12 @@ def common_neighbor_network_figure(common: pd.DataFrame) -> go.Figure:
 
 def main() -> None:
     st.set_page_config(page_title="VAST 2023 MC1 可视分析", layout="wide")
+    page_style()
     st.title("VAST Challenge 2023 MC1 非法捕鱼知识图谱可视分析")
+    st.markdown(
+        '<div class="section-note">围绕官方可疑实体，进行上下文网络、FishHook 异常评分、候选扩展和证据链可视分析。</div>',
+        unsafe_allow_html=True,
+    )
 
     nodes, edges = cached_data()
     all_entities = nodes["id"].tolist()
@@ -576,16 +1115,169 @@ def main() -> None:
     if len(sub_nodes) >= max_nodes:
         st.info(f"当前子图已经达到显示上限：{max_nodes} 个节点。")
 
-    left, right = st.columns([2, 1])
+    st.markdown(
+        f"""
+        <div class="viz-card">
+          <span class="entity-chip">当前实体：{short_label(selected, 60)}</span>
+          <span class="entity-chip">类型：{fishhook_selected.iloc[0].get("type", "unknown")}</span>
+          <span class="entity-chip">FishHook：{fishhook_selected.iloc[0]["fishhook_anomaly_score"]}</span>
+          <div class="small-muted">分数表示调查优先级，不等于违法定论。建议结合关系网络、路径证据和共同邻居一起判断。</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    left, right = st.columns([1.72, 1.08])
     with left:
+        st.markdown('<div class="viz-card">', unsafe_allow_html=True)
         st.subheader("上下文关系网络")
         edge_type_options = sorted(sub_edges["type"].dropna().astype(str).unique().tolist())
-        selected_graph_edge_types = st.multiselect(
-            "显示关系类型",
-            edge_type_options,
-            default=edge_type_options,
-            help="取消某种关系类型后，对应边和只由这些边连接的节点会一起隐藏。",
+        st.caption("关系类型图层：点击按钮切换显示/隐藏。隐藏某种关系后，对应边和只由这些边连接的节点会一起隐藏。")
+        edge_state_key = "graph_edge_type_visible"
+        current_edge_state = st.session_state.get(edge_state_key, {})
+        edge_label_map = {
+            "family_relationship": "family",
+            "membership": "member",
+            "ownership": "owner",
+            "partnership": "partner",
+            "unknown": "unknown",
+        }
+        edge_class_map = {
+            "family_relationship": "edge-family",
+            "membership": "edge-member",
+            "ownership": "edge-owner",
+            "partnership": "edge-partner",
+            "unknown": "edge-unknown",
+        }
+        preferred_edge_order = ["family_relationship", "membership", "ownership", "partnership", "unknown"]
+        edge_type_options = [edge_type for edge_type in preferred_edge_order if edge_type in edge_type_options] + [
+            edge_type for edge_type in edge_type_options if edge_type not in preferred_edge_order
+        ]
+        edge_state = {
+            edge_type: bool(current_edge_state.get(edge_type, True))
+            for edge_type in edge_type_options
+        }
+        st.session_state[edge_state_key] = edge_state
+
+        color_rules = []
+        for edge_type in edge_type_options:
+            visible = edge_state.get(edge_type, True)
+            color = EDGE_TYPE_COLORS.get(edge_type, EDGE_TYPE_COLORS["unknown"])
+            background = color if visible else "#f1f5f9"
+            border = color if visible else "#cbd5e1"
+            text = "#ffffff" if visible else "#64748b"
+            key_class = "st-key-edge_toggle_" + re.sub(r"[^a-zA-Z0-9_]+", "_", edge_type)
+            color_rules.append(
+                f"""
+                div.{key_class} div[data-testid="stButton"] > button {{
+                    background: {background} !important;
+                    border-color: {border} !important;
+                    color: {text} !important;
+                    min-height: 2.65rem;
+                    font-size: 0.96rem;
+                    font-weight: 760;
+                }}
+                div.{key_class} div[data-testid="stButton"] > button p {{
+                    color: {text} !important;
+                    font-size: 0.96rem;
+                    font-weight: 760;
+                }}
+                """
+            )
+        st.markdown(
+            f"""
+            <style>
+            div[data-testid="stElementContainer"]:has(.edge-control-anchor)
+            + div[data-testid="stLayoutWrapper"] > div[data-testid="stHorizontalBlock"] {{
+                gap: 0.55rem;
+                align-items: center;
+                margin: 0.25rem 0 0.5rem 0;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                padding-bottom: 0.25rem;
+            }}
+            div[data-testid="stElementContainer"]:has(.edge-control-anchor)
+            + div[data-testid="stLayoutWrapper"] > div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"] {{
+                flex: 0 0 118px;
+                min-width: 118px;
+                width: 118px;
+            }}
+            div[data-testid="stElementContainer"]:has(.edge-control-anchor)
+            + div[data-testid="stLayoutWrapper"] > div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:nth-child(n+3) {{
+                flex-basis: 132px;
+                min-width: 132px;
+                width: 132px;
+            }}
+            div[data-testid="stElementContainer"]:has(.edge-control-anchor)
+            + div[data-testid="stLayoutWrapper"] > div[data-testid="stHorizontalBlock"] div[data-testid="stButton"] > button {{
+                min-height: 2.65rem;
+                border-radius: 999px;
+                font-size: 0.96rem;
+                font-weight: 720;
+            }}
+            div.st-key-edge_show_all div[data-testid="stButton"] > button {{
+                background: #2563eb !important;
+                border-color: #2563eb !important;
+                color: #ffffff !important;
+            }}
+            div.st-key-edge_show_all div[data-testid="stButton"] > button p {{
+                color: #ffffff !important;
+            }}
+            div.st-key-edge_hide_all div[data-testid="stButton"] > button {{
+                background: #64748b !important;
+                border-color: #64748b !important;
+                color: #ffffff !important;
+            }}
+            div.st-key-edge_hide_all div[data-testid="stButton"] > button p {{
+                color: #ffffff !important;
+            }}
+            {''.join(color_rules)}
+            </style>
+            <div class="edge-control-anchor"></div>
+            """,
+            unsafe_allow_html=True,
         )
+
+        control_columns = st.columns([1.05, 1.05] + [1.18] * len(edge_type_options), gap="small")
+        with control_columns[0]:
+            st.button(
+                "全部显示",
+                key="edge_show_all",
+                use_container_width=True,
+                on_click=set_edge_type_visibility,
+                args=(edge_state_key, edge_type_options, True),
+            )
+        with control_columns[1]:
+            st.button(
+                "全部隐藏",
+                key="edge_hide_all",
+                use_container_width=True,
+                on_click=set_edge_type_visibility,
+                args=(edge_state_key, edge_type_options, False),
+            )
+        for idx, edge_type in enumerate(edge_type_options, start=2):
+            label = edge_label_map.get(edge_type, short_label(edge_type, 10))
+            marker_class = "edge-control-" + re.sub(r"[^a-zA-Z0-9_]+", "_", edge_type)
+            with control_columns[idx]:
+                st.markdown(f'<span class="edge-control-token {marker_class}"></span>', unsafe_allow_html=True)
+                st.button(
+                    str(label),
+                    key=f"edge_toggle_{re.sub(r'[^a-zA-Z0-9_]+', '_', edge_type)}",
+                    use_container_width=True,
+                    on_click=toggle_edge_type_visibility,
+                    args=(edge_state_key, edge_type),
+                )
+
+        edge_state = {
+            edge_type: bool(st.session_state[edge_state_key].get(edge_type, True))
+            for edge_type in edge_type_options
+        }
+        st.session_state[edge_state_key] = edge_state
+        selected_graph_edge_types = [
+            edge_type
+            for edge_type in edge_type_options
+            if edge_state.get(edge_type, True)
+        ]
         if graph_mode == "简洁圆形图":
             st.caption("该图保留原来的圆形节点网络形式，只显示当前实体的直接关系；二跳节点作为外层背景点，减少交叉线。")
             st.plotly_chart(
@@ -609,31 +1301,48 @@ def main() -> None:
                 ),
                 use_container_width=True,
             )
+        st.markdown("</div>", unsafe_allow_html=True)
 
     with right:
+        st.markdown('<div class="viz-card">', unsafe_allow_html=True)
         st.subheader("实体摘要")
-        st.write("邻居类型分布")
-        st.dataframe(pd.DataFrame(stats["neighbor_types"].items(), columns=["类型", "数量"]))
-        st.write("关系类型分布")
-        st.dataframe(pd.DataFrame(stats["edge_types"].items(), columns=["关系", "数量"]))
+        st.plotly_chart(donut_figure(stats["neighbor_types"], "邻居类型分布", NODE_TYPE_COLORS), use_container_width=True)
+        st.markdown('<div class="summary-chart-gap"></div>', unsafe_allow_html=True)
+        st.plotly_chart(donut_figure(stats["edge_types"], "关系类型分布", EDGE_TYPE_COLORS), use_container_width=True)
+        st.markdown("</div>", unsafe_allow_html=True)
 
     st.subheader("当前实体 FishHook 特征")
-    st.dataframe(fishhook_selected, use_container_width=True)
+    feature_cols = st.columns([1, 1])
+    with feature_cols[0]:
+        st.plotly_chart(feature_strip_figure(fishhook_selected), use_container_width=True)
+    with feature_cols[1]:
+        st.plotly_chart(feature_radar_figure(fishhook_selected.iloc[0]), use_container_width=True)
+    with st.expander("查看当前实体特征明细"):
+        st.dataframe(fishhook_selected, use_container_width=True)
 
-    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
+    (
+        tab_suspects,
+        tab_evidence,
+        tab_neighbors,
+        tab_expansion,
+        tab_ranking,
+        tab_parallel,
+        tab_recommend,
+        tab_subgraph,
+    ) = st.tabs(
         [
-            "FishHook候选排名",
-            "平行坐标对比",
-            "从可疑实体扩展",
+            "已知可疑",
             "证据路径",
-            "共同邻居分析",
-            "官方可疑实体",
-            "推荐调查公司",
-            "当前子图数据",
+            "共同邻居",
+            "扩展候选",
+            "FishHook排名",
+            "平行对比",
+            "推荐公司",
+            "子图数据",
         ]
     )
 
-    with tab1:
+    with tab_ranking:
         st.caption("综合考虑：靠近官方可疑实体、弱连通分量船只比例、1-2跳家族/政治关系、短环路和结构连接。")
         ranking = cached_fishhook_ranking()
         type_options = sorted(ranking["type"].fillna("unknown").astype(str).unique().tolist())
@@ -656,40 +1365,51 @@ def main() -> None:
             "vessel_links",
             "path_examples",
         ]
-        st.dataframe(show_ranking[[col for col in display_cols if col in show_ranking.columns]], use_container_width=True)
+        chart_cols = st.columns([1.35, 1])
+        with chart_cols[0]:
+            st.plotly_chart(
+                horizontal_bar_figure(
+                    show_ranking,
+                    "candidate",
+                    "fishhook_anomaly_score",
+                    "FishHook 候选排名 Top 10",
+                    THEME["blue"],
+                    top_n=10,
+                ),
+                use_container_width=True,
+            )
+        with chart_cols[1]:
+            type_counts = show_ranking["type"].fillna("unknown").value_counts().to_dict()
+            st.plotly_chart(donut_figure(type_counts, "候选实体类型构成", NODE_TYPE_COLORS), use_container_width=True)
+        with st.expander("查看候选排名明细"):
+            st.dataframe(show_ranking[[col for col in display_cols if col in show_ranking.columns]], use_container_width=True)
 
-    with tab2:
+    with tab_parallel:
         st.caption("每条折线代表一个候选实体。高分实体如果在多个轴上同时偏高，说明它具有多种异常结构特征。")
         ranking = cached_fishhook_ranking()
         top_n = st.slider("平行坐标显示实体数", min_value=8, max_value=40, value=20, step=4)
         features = ranking.rename(columns={"candidate": "entity"}).loc[:, lambda df: ~df.columns.duplicated()].copy()
         st.plotly_chart(parallel_coordinates_figure(features, top_n=top_n), use_container_width=True)
-        with st.expander("这个图怎么看？", expanded=True):
-            st.write(
-                "平行坐标用于比较多个候选实体的异常模式。横向每一根轴是一个指标，例如异常分、短环路、"
-                "关联官方嫌疑实体数量、船只连接、所有权边等；一条线是一名候选实体。"
-                "如果某条线在多个关键轴上都靠上，说明它不只是单项指标高，而是在多个结构维度上都可疑。"
-                "这适合用来挑选优先调查对象，而不是直接证明违法。"
+        with st.expander("查看平行坐标对应数据"):
+            st.dataframe(
+                features[
+                    [
+                        "entity",
+                        "type",
+                        "fishhook_anomaly_score",
+                        "component_vessel_ratio",
+                        "family_edges_1_2_hop",
+                        "political_nodes_1_2_hop",
+                        "short_cycle_count",
+                        "connected_suspect_count",
+                        "cycle_examples",
+                        "suspect_path_examples",
+                    ]
+                ].head(top_n),
+                use_container_width=True,
             )
-        st.dataframe(
-            features[
-                [
-                    "entity",
-                    "type",
-                    "fishhook_anomaly_score",
-                    "component_vessel_ratio",
-                    "family_edges_1_2_hop",
-                    "political_nodes_1_2_hop",
-                    "short_cycle_count",
-                    "connected_suspect_count",
-                    "cycle_examples",
-                    "suspect_path_examples",
-                ]
-            ].head(top_n),
-            use_container_width=True,
-        )
 
-    with tab3:
+    with tab_expansion:
         st.caption("从官方 4 个可疑实体出发，寻找 1-3 跳内的其他实体。")
         candidates = cached_suspect_expansion(expansion_depth)
         type_options = sorted(candidates["type"].dropna().astype(str).unique().tolist())
@@ -701,26 +1421,51 @@ def main() -> None:
         )
         if selected_types:
             candidates = candidates[candidates["type"].isin(selected_types)]
-        st.dataframe(candidates, use_container_width=True)
+        st.plotly_chart(candidate_bubble_figure(candidates), use_container_width=True)
+        expand_cols = st.columns([1, 1])
+        with expand_cols[0]:
+            st.plotly_chart(
+                horizontal_bar_figure(
+                    candidates,
+                    "candidate",
+                    "connected_suspect_count",
+                    "连接官方可疑实体数量 Top 10",
+                    THEME["green"],
+                    top_n=10,
+                ),
+                use_container_width=True,
+            )
+        with expand_cols[1]:
+            st.plotly_chart(donut_figure(candidates["type"].fillna("unknown").value_counts().to_dict(), "扩展候选类型构成", NODE_TYPE_COLORS), use_container_width=True)
+        with st.expander("查看扩展候选明细"):
+            st.dataframe(candidates, use_container_width=True)
 
-    with tab4:
+    with tab_evidence:
         st.caption("当前实体到非法捕鱼相关关键词节点的短路径。关键词路径只是辅助线索，不是单独证据。")
         evidence_paths = keyword_evidence_paths(nodes, edges, selected, max_depth=evidence_depth, limit=20)
         if evidence_paths.empty:
             st.info("在当前最大深度内没有找到关键词证据路径。")
         else:
-            st.plotly_chart(evidence_sankey_figure(evidence_paths), use_container_width=True)
-            with st.expander("这个证据路径图怎么看？", expanded=True):
-                st.write(
-                    "这个图从左到右读。最左侧通常是当前分析实体或官方可疑实体，中间是路径经过的实体，"
-                    "最右侧是命中非法捕鱼相关关键词的目标节点。连线表示路径中的一步关系，线越粗表示同一段路径在多条证据路径中出现次数越多。"
-                    "它适合说明“该实体通过哪些中间对象接近非法捕鱼语义线索”，但关键词路径只是辅助证据，"
-                    "需要结合 ownership、membership、船只连接、共同邻居和 FishHook 候选排名一起判断。"
+            path_cols = st.columns([1.5, 1])
+            with path_cols[0]:
+                st.plotly_chart(evidence_sankey_figure(evidence_paths), use_container_width=True)
+            with path_cols[1]:
+                st.plotly_chart(
+                    horizontal_bar_figure(
+                        evidence_paths,
+                        "target_keyword_node",
+                        "path_length",
+                        "关键词路径长度",
+                        THEME["amber"],
+                        top_n=10,
+                    ),
+                    use_container_width=True,
                 )
-            st.dataframe(evidence_paths, use_container_width=True)
+            with st.expander("查看证据路径明细"):
+                st.dataframe(evidence_paths, use_container_width=True)
 
-    with tab5:
-        st.caption("共同邻居用于发现可疑实体是否共享中介、组织或地点。颜色越深，两个实体共享邻居越多。")
+    with tab_neighbors:
+        st.caption("共同邻居用于发现可疑实体是否共享中介、组织或地点。先看左侧实体对排名，再看右侧共享到了哪些邻居。")
         comparison_entities = list(SUSPECT_ENTITIES)
         if selected not in comparison_entities:
             comparison_entities = [selected] + comparison_entities
@@ -730,9 +1475,10 @@ def main() -> None:
             st.plotly_chart(common_neighbor_heatmap(overlap), use_container_width=True)
         with col2:
             st.plotly_chart(common_neighbor_network_figure(overlap), use_container_width=True)
-        st.dataframe(overlap, use_container_width=True)
+        with st.expander("查看共同邻居明细"):
+            st.dataframe(overlap, use_container_width=True)
 
-    with tab6:
+    with tab_suspects:
         st.caption(
             "该表用于解释官方给出的 4 个已知可疑实体在 FishHook 特征上的差异。"
             "其中“连通分量”类字段是整片网络组件的属性，不是单个实体独有属性。"
@@ -772,12 +1518,14 @@ def main() -> None:
             "component_vessel_ratio": "分量船只比例",
             "vessel_ratio_delta": "船只比例偏离",
         }
-        st.dataframe(
-            suspect_features[[col for col in suspect_display_cols if col in suspect_features.columns]].rename(
-                columns=suspect_column_names
-            ),
-            use_container_width=True,
-        )
+        st.plotly_chart(suspect_compare_figure(suspect_features), use_container_width=True)
+        with st.expander("查看官方可疑实体特征明细"):
+            st.dataframe(
+                suspect_features[[col for col in suspect_display_cols if col in suspect_features.columns]].rename(
+                    columns=suspect_column_names
+                ),
+                use_container_width=True,
+            )
         with st.expander("为什么有些字段四个实体都相同？", expanded=True):
             st.write(
                 "因为这些字段描述的是“实体所在的弱连通分量”，不是实体本身。"
@@ -787,7 +1535,7 @@ def main() -> None:
                 "1-2跳家族关系、1-2跳政治组织、到其他官方可疑实体的距离等实体级字段。"
             )
 
-    with tab7:
+    with tab_recommend:
         st.caption("该表从 FishHook 候选排名中筛选 company 类型实体，推荐顺序统一由 FishHook 异常分数决定。")
         company_cols = [
             "candidate",
@@ -800,12 +1548,38 @@ def main() -> None:
             "path_examples",
         ]
         company_recommendations = recommend_companies(nodes, edges, limit=20)
-        st.dataframe(
-            company_recommendations[[col for col in company_cols if col in company_recommendations.columns]],
-            use_container_width=True,
+        rec_cols = st.columns([1.4, 1])
+        with rec_cols[0]:
+            st.plotly_chart(
+                horizontal_bar_figure(
+                    company_recommendations,
+                    "candidate",
+                    "fishhook_anomaly_score",
+                    "推荐调查公司 Top 10",
+                    THEME["purple"],
+                    top_n=10,
+                ),
+                use_container_width=True,
+            )
+        with rec_cols[1]:
+            st.plotly_chart(
+                horizontal_bar_figure(
+                    company_recommendations,
+                    "candidate",
+                    "short_cycle_count",
+                    "推荐公司短环路对比",
+                    THEME["red"],
+                    top_n=10,
+                ),
+                use_container_width=True,
+            )
+        with st.expander("查看推荐公司明细"):
+            st.dataframe(
+                company_recommendations[[col for col in company_cols if col in company_recommendations.columns]],
+                use_container_width=True,
         )
 
-    with tab8:
+    with tab_subgraph:
         st.write("节点")
         st.dataframe(sub_nodes, use_container_width=True)
         st.write("边")

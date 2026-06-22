@@ -1,6 +1,6 @@
 ﻿target_keyword_node,target_type,path_length,path,relation_steps
 FishEye International,organization,1,Mar de la Vida OJSC -> FishEye International,membership
-Faroe Islands Shrimp Shark,company,2,Mar de la Vida OJSC -> b8567859-bf54-49fd-8332-5775e19c65af -> Faroe Islands Shrimp Shark,"family_relationship -> family_relationship, partnership"
+Faroe Islands Shrimp Shark,company,2,Mar de la Vida OJSC -> Ancla Azul Company Solutions -> Faroe Islands Shrimp Shark,membership -> family_relationship
 Fisheries Animal Industriesâ,unknown,2,Mar de la Vida OJSC -> b8567859-bf54-49fd-8332-5775e19c65af -> Fisheries Animal Industriesâ,family_relationship -> family_relationship
 Nagaland Sea Ltd. Liability Co &,unknown,2,Mar de la Vida OJSC -> b8567859-bf54-49fd-8332-5775e19c65af -> Nagaland Sea Ltd. Liability Co &,family_relationship -> membership
 Ocean Fisheries Llc,unknown,2,Mar de la Vida OJSC -> âHe -> Ocean Fisheries Llc,membership -> membership
@@ -15,7 +15,7 @@ Catchâ,unknown,3,Mar de la Vida OJSC -> FishEye International -> 58623386 -> Ca
 Costa de Coral Charter Boat Oyj Overseas,unknown,3,Mar de la Vida OJSC -> Jon White -> b1a0ee2a-0e6d-48c2-b639-032e4648fa5c -> Costa de Coral Charter Boat Oyj Overseas,ownership -> membership -> membership
 Dark Web Vendor Illegal Narcotics,unknown,3,Mar de la Vida OJSC -> 9345 -> d4947401-8ec7-48b9-a66f-45d983d59e0a -> Dark Web Vendor Illegal Narcotics,membership -> membership -> ownership
 Dry Creek S.p.A. Overseas,unknown,3,Mar de la Vida OJSC -> b8567859-bf54-49fd-8332-5775e19c65af -> Playa del Cielo Kga -> Dry Creek S.p.A. Overseas,"family_relationship -> family_relationship, membership -> ownership"
-FinestSea Ltd. Corporation Enterprises,unknown,3,Mar de la Vida OJSC -> b8567859-bf54-49fd-8332-5775e19c65af -> png xi  Line -> FinestSea Ltd. Corporation Enterprises,family_relationship -> partnership -> partnership
+FinestSea Ltd. Corporation Enterprises,unknown,3,Mar de la Vida OJSC -> Ancla Azul Company Solutions -> Spanish Shrimp  Carriers -> FinestSea Ltd. Corporation Enterprises,membership -> membership -> family_relationship
 Fish Sea,unknown,3,Mar de la Vida OJSC -> b8567859-bf54-49fd-8332-5775e19c65af -> 3506021 -> Fish Sea,family_relationship -> membership -> membership
-Fisheries Inc,unknown,3,Mar de la Vida OJSC -> âHe -> 903311212 -> Fisheries Inc,membership -> membership -> membership
-Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,unknown,3,Mar de la Vida OJSC -> b8567859-bf54-49fd-8332-5775e19c65af -> Faroe Islands Shrimp Shark -> Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,"family_relationship -> family_relationship, partnership -> membership"
+Fisheries Inc,unknown,3,Mar de la Vida OJSC -> FishEye International -> 83 -> Fisheries Inc,membership -> membership -> family_relationship
+Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,unknown,3,Mar de la Vida OJSC -> Ancla Azul Company Solutions -> Faroe Islands Shrimp Shark -> Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,membership -> family_relationship -> membership

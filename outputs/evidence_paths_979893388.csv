@@ -10,12 +10,12 @@ Seafood,unknown,1,979893388 -> Seafood,family_relationship
 Sonia Fisheries Pvt,unknown,1,979893388 -> Sonia Fisheries Pvt,family_relationship
 oceana,unknown,1,979893388 -> oceana,membership
 AND fisheryâ,unknown,2,979893388 -> Benton Ltd. Liability Co -> AND fisheryâ,partnership -> membership
-Costa de Coral Charter Boat Oyj Overseas,unknown,2,979893388 -> b1a0ee2a-0e6d-48c2-b639-032e4648fa5c -> Costa de Coral Charter Boat Oyj Overseas,membership -> membership
+Costa de Coral Charter Boat Oyj Overseas,unknown,2,979893388 -> 8814 -> Costa de Coral Charter Boat Oyj Overseas,membership -> membership
 Dry Creek S.p.A. Overseas,unknown,2,979893388 -> ad8fe467-3759-4f53-bf6a-896a237d187f -> Dry Creek S.p.A. Overseas,family_relationship -> ownership
 EBSCOhostâsearched âoctopus,unknown,2,979893388 -> Benton Ltd. Liability Co -> EBSCOhostâsearched âoctopus,partnership -> membership
 FinestSea Ltd. Corporation Enterprises,unknown,2,979893388 -> png xi  Line -> FinestSea Ltd. Corporation Enterprises,"family_relationship, membership -> partnership"
 FishEye International,organization,2,979893388 -> 8814 -> FishEye International,membership -> membership
 Fisheries Animal Industriesâ,unknown,2,979893388 -> b8567859-bf54-49fd-8332-5775e19c65af -> Fisheries Animal Industriesâ,family_relationship -> family_relationship
 Fisheries Inc,unknown,2,979893388 -> 903311212 -> Fisheries Inc,"family_relationship, membership -> membership"
-Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,unknown,2,979893388 -> 4 -> Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,family_relationship -> membership
-Fishing International,unknown,2,979893388 -> Mar del Oeste Pic -> Fishing International,"family_relationship, membership, ownership -> family_relationship"
+Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,unknown,2,979893388 -> Faroe Islands Shrimp Shark -> Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,"family_relationship, partnership -> membership"
+Fishing International,unknown,2,979893388 -> 9067 -> Fishing International,family_relationship -> membership
