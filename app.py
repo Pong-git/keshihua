@@ -14,6 +14,7 @@ from src.risk_model import (
     fishhook_candidate_ranking,
     fishhook_feature_table,
     keyword_evidence_paths,
+    official_suspect_paths,
     recommend_companies,
     suspect_expansion_candidates,
     suspect_summary,
@@ -327,7 +328,7 @@ def donut_figure(counts: dict[str, int], title_text: str, color_map: dict[str, s
 def candidate_bubble_figure(candidates: pd.DataFrame) -> go.Figure:
     if candidates.empty:
         return go.Figure()
-    plot_df = candidates.copy().head(70)
+    plot_df = candidates.copy()
     plot_df["min_distance_to_suspect"] = pd.to_numeric(plot_df["min_distance_to_suspect"], errors="coerce").fillna(0)
     plot_df["connected_suspect_count"] = pd.to_numeric(plot_df["connected_suspect_count"], errors="coerce").fillna(0)
     plot_df["vessel_links"] = pd.to_numeric(plot_df["vessel_links"], errors="coerce").fillna(0)
@@ -340,6 +341,14 @@ def candidate_bubble_figure(candidates: pd.DataFrame) -> go.Figure:
         ["connected_suspect_count", "min_distance_to_suspect", "vessel_links", "priority_score"],
         ascending=[False, True, False, False],
     ).reset_index(drop=True)
+    distance_values = sorted(plot_df["min_distance_to_suspect"].dropna().unique().tolist())
+    sampled_groups = []
+    per_distance_limit = max(18, 70 // max(len(distance_values), 1))
+    for distance in distance_values:
+        sampled_groups.append(
+            plot_df[plot_df["min_distance_to_suspect"] == distance].head(per_distance_limit)
+        )
+    plot_df = pd.concat(sampled_groups, ignore_index=True).head(90)
     offsets = [-0.16, -0.09, -0.03, 0.04, 0.11, 0.17]
     plot_df["x_plot"] = plot_df["min_distance_to_suspect"] + [offsets[idx % len(offsets)] for idx in range(len(plot_df))]
     plot_df["y_plot"] = plot_df["connected_suspect_count"] + [offsets[(idx * 2) % len(offsets)] for idx in range(len(plot_df))]
@@ -472,13 +481,13 @@ def suspect_compare_figure(suspects: pd.DataFrame) -> go.Figure:
     if suspects.empty:
         return go.Figure()
     plot_df = suspects.copy()
-    plot_df["entity_label"] = plot_df["entity"].map(lambda value: short_label(value, 26))
+    plot_df["entity_label"] = plot_df["entity"].map(lambda value: str(short_label(value, 26)))
     fig = go.Figure()
     for col_name, label, color in [
         ("fishhook_anomaly_score", "FishHook分", THEME["blue"]),
-        ("vessel_links", "船只连接", THEME["cyan"]),
+        ("vessel_links", "一跳船只", THEME["cyan"]),
         ("short_cycle_count", "短环路", THEME["red"]),
-        ("ownership_edges", "所有权边", THEME["amber"]),
+        ("ownership_edges", "所有权关系", THEME["amber"]),
     ]:
         if col_name in plot_df.columns:
             fig.add_trace(
@@ -487,10 +496,22 @@ def suspect_compare_figure(suspects: pd.DataFrame) -> go.Figure:
                     y=pd.to_numeric(plot_df[col_name], errors="coerce").fillna(0),
                     name=label,
                     marker_color=color,
-                    hovertemplate=f"{label}：%{{y}}<extra></extra>",
+                    customdata=plot_df[["entity"]].values,
+                    hovertemplate="<b>%{customdata[0]}</b><br>" + f"{label}：%{{y}}<extra></extra>",
                 )
             )
-    fig.update_layout(title=dict(text="官方可疑实体特征对比", x=0.02, font=dict(size=18)), barmode="group")
+    fig.update_layout(
+        title=dict(text="4个官方可疑实体的关键特征对比", x=0.02, font=dict(size=18)),
+        barmode="group",
+        legend=dict(title="指标"),
+    )
+    fig.update_xaxes(
+        title="官方可疑实体",
+        type="category",
+        categoryorder="array",
+        categoryarray=plot_df["entity_label"].tolist(),
+    )
+    fig.update_yaxes(title="数值")
     fig.update_yaxes(showgrid=True, gridcolor="#e5e7eb")
     return plot_layout(fig, height=420)
 
@@ -828,12 +849,9 @@ def evidence_sankey_figure(paths: pd.DataFrame, limit: int = 10) -> go.Figure:
     link_counts: dict[tuple[str, str], int] = {}
     node_depths: dict[str, int] = {}
     max_depth = 1
-    target_nodes: set[str] = set()
     for path_text in paths["path"].head(limit):
         parts = [part.strip() for part in str(path_text).split("->") if part.strip()]
         max_depth = max(max_depth, len(parts) - 1)
-        if parts:
-            target_nodes.add(parts[-1])
         for idx, part in enumerate(parts):
             node_depths[part] = min(idx, node_depths.get(part, idx))
         for source, target in zip(parts, parts[1:]):
@@ -848,16 +866,15 @@ def evidence_sankey_figure(paths: pd.DataFrame, limit: int = 10) -> go.Figure:
     node_x = []
     node_y = []
     node_colors = []
+    suspect_labels = {str(item) for item in SUSPECT_ENTITIES}
     for label in labels:
         depth = node_depths.get(label, 0)
         layer_seen[depth] = layer_seen.get(depth, 0) + 1
         denominator = max(layer_counts.get(depth, 1) - 1, 1)
         node_x.append(depth / max(max_depth, 1))
         node_y.append((layer_seen[depth] - 1) / denominator if layer_counts.get(depth, 1) > 1 else 0.5)
-        if label in SUSPECT_ENTITIES:
+        if str(label) in suspect_labels:
             node_colors.append("#dc2626")
-        elif label in target_nodes:
-            node_colors.append("#f59e0b")
         else:
             node_colors.append("#2563eb")
 
@@ -898,9 +915,40 @@ def evidence_sankey_figure(paths: pd.DataFrame, limit: int = 10) -> go.Figure:
         showarrow=False,
         align="left",
         font=dict(size=14, color="#4b5563"),
-        text="红色为官方可疑实体，蓝色为中间实体，橙色为关键词相关目标节点；流向表示证据路径方向。",
+        text="红色为官方可疑实体，蓝色为其他实体；流向表示路径方向。",
     )
     return fig
+
+
+def path_hops_bar_figure(paths: pd.DataFrame, top_n: int = 12) -> go.Figure:
+    if paths.empty:
+        return go.Figure()
+    plot_df = paths.head(top_n).copy()
+    plot_df["path_hops"] = pd.to_numeric(plot_df["path_hops"], errors="coerce").fillna(0)
+    plot_df["label_text"] = plot_df["target"].map(lambda value: str(short_label(value, 34)))
+    plot_df = plot_df.sort_values(["path_hops", "label_text"], ascending=[False, True])
+    colors = plot_df["is_official_suspect"].map(lambda value: "#dc2626" if bool(value) else "#2563eb")
+    fig = go.Figure(
+        go.Bar(
+            x=plot_df["path_hops"],
+            y=plot_df["label_text"],
+            orientation="h",
+            marker=dict(color=colors, line=dict(color="rgba(255,255,255,0.9)", width=1)),
+            text=plot_df["path_hops"].map(lambda value: f"{int(value)}"),
+            textposition="outside",
+            customdata=plot_df[["target_kind", "path"]].values,
+            hovertemplate=(
+                "%{y}<br>"
+                "类型：%{customdata[0]}<br>"
+                "跳数：%{x}<br>"
+                "路径：%{customdata[1]}<extra></extra>"
+            ),
+        )
+    )
+    fig.update_layout(title=dict(text="路径跳数", x=0.02, font=dict(size=18)), showlegend=False)
+    fig.update_xaxes(title="跳数", dtick=1, showgrid=True, gridcolor="#e5e7eb", zeroline=False)
+    fig.update_yaxes(type="category", showgrid=False, categoryorder="array", categoryarray=plot_df["label_text"].tolist())
+    return plot_layout(fig, height=max(360, 42 * len(plot_df) + 90))
 
 
 def common_neighbor_heatmap(common: pd.DataFrame) -> go.Figure:
@@ -947,7 +995,7 @@ def common_neighbor_heatmap(common: pd.DataFrame) -> go.Figure:
             ),
         )
     )
-    fig.update_layout(title=dict(text="实体对共享邻居数量", x=0.02, font=dict(size=18)), showlegend=False)
+    fig.update_layout(title=dict(text="两两实体的一跳共同邻居数", x=0.02, font=dict(size=18)), showlegend=False)
     fig.update_xaxes(title="共同邻居数量", dtick=1, showgrid=True, gridcolor="#e5e7eb", zeroline=False)
     fig.update_yaxes(title="", showgrid=False)
     fig = plot_layout(fig, height=440)
@@ -981,7 +1029,7 @@ def common_neighbor_network_figure(common: pd.DataFrame) -> go.Figure:
         positions[node] = (0, 1 - 2 * idx / suspect_count)
     neighbor_count = max(len(neighbor_nodes) - 1, 1)
     for idx, node in enumerate(neighbor_nodes):
-        positions[node] = (1.7, 1 - 2 * idx / neighbor_count if len(neighbor_nodes) > 1 else 0)
+        positions[node] = (1.55, 1 - 2 * idx / neighbor_count if len(neighbor_nodes) > 1 else 0)
 
     edge_x: list[float | None] = []
     edge_y: list[float | None] = []
@@ -1031,7 +1079,7 @@ def common_neighbor_network_figure(common: pd.DataFrame) -> go.Figure:
                 textposition="middle left",
                 hovertext=suspect_nodes,
                 hoverinfo="text",
-                name="可疑实体",
+                name="参与比较实体",
             ),
             go.Scatter(
                 x=neighbor_x,
@@ -1046,14 +1094,15 @@ def common_neighbor_network_figure(common: pd.DataFrame) -> go.Figure:
             ),
         ]
     )
+    dynamic_height = max(440, 120 + max(len(suspect_nodes), len(neighbor_nodes)) * 34)
     fig.update_layout(
-        height=440,
-        margin=dict(l=30, r=30, t=70, b=30),
+        height=dynamic_height,
+        margin=dict(l=120, r=180, t=74, b=34),
         showlegend=True,
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
-        title=dict(text="共享邻居连接图", x=0.02, font=dict(size=18)),
-        xaxis=dict(visible=False),
-        yaxis=dict(visible=False),
+        title=dict(text="共同邻居示例连接图", x=0.02, font=dict(size=18)),
+        xaxis=dict(visible=False, range=[-0.42, 2.45]),
+        yaxis=dict(visible=False, range=[-1.12, 1.12]),
         plot_bgcolor="#ffffff",
         paper_bgcolor="#ffffff",
     )
@@ -1076,6 +1125,13 @@ def main() -> None:
         st.header("分析设置")
         preset = st.selectbox("官方可疑实体", SUSPECT_ENTITIES)
         manual = st.text_input("搜索其他实体")
+        selected = preset
+        if manual.strip():
+            matches = find_entity_matches(manual, all_entities)
+            if matches:
+                selected = st.selectbox("选择匹配结果", matches, format_func=str)
+            else:
+                st.warning("没有找到匹配实体，仍显示官方选择项。")
         depth = st.slider("关系网络深度", min_value=1, max_value=2, value=1)
         max_nodes = st.slider("最多显示节点数", min_value=20, max_value=500, value=180, step=10)
         graph_mode = st.radio(
@@ -1086,14 +1142,6 @@ def main() -> None:
         )
         evidence_depth = st.slider("证据路径最大深度", min_value=2, max_value=5, value=3)
         expansion_depth = st.slider("可疑实体扩展深度", min_value=1, max_value=3, value=2)
-
-    selected = preset
-    if manual.strip():
-        matches = find_entity_matches(manual, all_entities)
-        if matches:
-            selected = st.sidebar.selectbox("选择匹配结果", matches, format_func=str)
-        else:
-            st.sidebar.warning("没有找到匹配实体，仍显示官方选择项。")
 
     index = build_graph_index(nodes, edges)
     stats = summarize_entity(nodes, edges, selected)
@@ -1421,6 +1469,18 @@ def main() -> None:
         )
         if selected_types:
             candidates = candidates[candidates["type"].isin(selected_types)]
+        if not candidates.empty and "min_distance_to_suspect" in candidates.columns:
+            distance_counts = (
+                pd.to_numeric(candidates["min_distance_to_suspect"], errors="coerce")
+                .dropna()
+                .astype(int)
+                .value_counts()
+                .sort_index()
+            )
+            st.caption(
+                "当前筛选后候选距离分布："
+                + "；".join(f"{distance}跳 {count} 个" for distance, count in distance_counts.items())
+            )
         st.plotly_chart(candidate_bubble_figure(candidates), use_container_width=True)
         expand_cols = st.columns([1, 1])
         with expand_cols[0]:
@@ -1441,47 +1501,111 @@ def main() -> None:
             st.dataframe(candidates, use_container_width=True)
 
     with tab_evidence:
-        st.caption("当前实体到非法捕鱼相关关键词节点的短路径。关键词路径只是辅助线索，不是单独证据。")
-        evidence_paths = keyword_evidence_paths(nodes, edges, selected, max_depth=evidence_depth, limit=20)
-        if evidence_paths.empty:
-            st.info("在当前最大深度内没有找到关键词证据路径。")
+        st.caption(
+            "证据路径来自知识图谱里的最短路径搜索：先显示当前实体到非法捕鱼关键词节点的路径；"
+            "如果在同一深度范围内能到达官方可疑实体，也会一起显示。路径只是辅助线索，不是单独证据。"
+        )
+        keyword_paths = keyword_evidence_paths(nodes, edges, selected, max_depth=evidence_depth, limit=20)
+        suspect_paths = official_suspect_paths(nodes, edges, selected, max_depth=evidence_depth)
+
+        combined_parts = []
+        if not keyword_paths.empty:
+            keyword_display = keyword_paths.rename(
+                columns={
+                    "target_keyword_node": "target",
+                    "path_length": "path_hops",
+                }
+            ).copy()
+            keyword_display["target_kind"] = "关键词节点"
+            keyword_display["is_official_suspect"] = False
+            combined_parts.append(
+                keyword_display[
+                    [
+                        "target",
+                        "target_kind",
+                        "target_type",
+                        "path_hops",
+                        "path",
+                        "relation_steps",
+                        "is_official_suspect",
+                    ]
+                ]
+            )
+        if not suspect_paths.empty:
+            suspect_display = suspect_paths.rename(columns={"target_suspect": "target"}).copy()
+            suspect_display["target_kind"] = "官方可疑实体"
+            suspect_display["is_official_suspect"] = True
+            combined_parts.append(
+                suspect_display[
+                    [
+                        "target",
+                        "target_kind",
+                        "target_type",
+                        "path_hops",
+                        "path",
+                        "relation_steps",
+                        "is_official_suspect",
+                    ]
+                ]
+            )
+
+        if not combined_parts:
+            st.info("在当前最大深度内没有找到关键词节点或官方可疑实体路径。")
         else:
+            combined_paths = (
+                pd.concat(combined_parts, ignore_index=True)
+                .sort_values(["path_hops", "is_official_suspect", "target"], ascending=[True, False, True])
+                .reset_index(drop=True)
+            )
+            shown_keyword_paths = combined_paths[~combined_paths["is_official_suspect"]].head(10)
+            shown_suspect_paths = combined_paths[combined_paths["is_official_suspect"]]
+            shown_paths = pd.concat([shown_keyword_paths, shown_suspect_paths], ignore_index=True)
             path_cols = st.columns([1.5, 1])
             with path_cols[0]:
-                st.plotly_chart(evidence_sankey_figure(evidence_paths), use_container_width=True)
+                st.plotly_chart(evidence_sankey_figure(shown_paths, limit=len(shown_paths)), use_container_width=True)
             with path_cols[1]:
-                st.plotly_chart(
-                    horizontal_bar_figure(
-                        evidence_paths,
-                        "target_keyword_node",
-                        "path_length",
-                        "关键词路径长度",
-                        THEME["amber"],
-                        top_n=10,
-                    ),
+                st.plotly_chart(path_hops_bar_figure(shown_paths, top_n=len(shown_paths)), use_container_width=True)
+            st.caption("红色节点是官方可疑实体，蓝色节点是其他实体或关键词目标。")
+            with st.expander("查看路径明细"):
+                st.dataframe(
+                    combined_paths.drop(columns=["is_official_suspect"]),
                     use_container_width=True,
                 )
-            with st.expander("查看证据路径明细"):
-                st.dataframe(evidence_paths, use_container_width=True)
 
     with tab_neighbors:
-        st.caption("共同邻居用于发现可疑实体是否共享中介、组织或地点。先看左侧实体对排名，再看右侧共享到了哪些邻居。")
+        if selected in SUSPECT_ENTITIES:
+            st.caption(
+                "共同邻居=两个实体都直接连接到的同一个一跳节点。"
+                "当前选择的是官方可疑实体，因此这里比较官方4个可疑实体之间共享了哪些中介、组织、地点或船只。"
+            )
+        else:
+            st.caption(
+                "共同邻居=两个实体都直接连接到的同一个一跳节点。"
+                "当前选择的不是官方可疑实体，因此这里只比较当前实体分别与官方4个可疑实体共享了哪些邻居。"
+            )
         comparison_entities = list(SUSPECT_ENTITIES)
         if selected not in comparison_entities:
             comparison_entities = [selected] + comparison_entities
         overlap = common_neighbor_summary(nodes, edges, comparison_entities)
-        col1, col2 = st.columns([1, 1])
+        if selected not in SUSPECT_ENTITIES and not overlap.empty:
+            overlap = overlap[
+                (overlap["entity_a"] == selected) | (overlap["entity_b"] == selected)
+            ].copy()
+        col1, col2 = st.columns([0.92, 1.18])
         with col1:
             st.plotly_chart(common_neighbor_heatmap(overlap), use_container_width=True)
         with col2:
             st.plotly_chart(common_neighbor_network_figure(overlap), use_container_width=True)
+        st.caption(
+            "左图显示每一对实体共享的一跳邻居数量；右图左侧是参与比较的实体，右侧是共同邻居示例，连线表示该邻居同时连接到这些实体。"
+        )
         with st.expander("查看共同邻居明细"):
             st.dataframe(overlap, use_container_width=True)
 
     with tab_suspects:
         st.caption(
-            "该表用于解释官方给出的 4 个已知可疑实体在 FishHook 特征上的差异。"
-            "其中“连通分量”类字段是整片网络组件的属性，不是单个实体独有属性。"
+            "横轴是官方给出的 4 个可疑实体；颜色代表对比指标。"
+            "用它快速看出每个实体的异常分、船只连接、短环路和所有权关系差异。"
         )
         suspect_features = suspect_summary(nodes, edges)
         suspect_display_cols = [
@@ -1496,10 +1620,6 @@ def main() -> None:
             "short_cycle_count",
             "family_edges_1_2_hop",
             "political_nodes_1_2_hop",
-            "component_id",
-            "component_size",
-            "component_vessel_ratio",
-            "vessel_ratio_delta",
         ]
         suspect_column_names = {
             "entity": "实体",
@@ -1513,26 +1633,18 @@ def main() -> None:
             "short_cycle_count": "短环路数",
             "family_edges_1_2_hop": "1-2跳家族关系",
             "political_nodes_1_2_hop": "1-2跳政治组织",
-            "component_id": "连通分量编号",
-            "component_size": "所在分量节点数",
-            "component_vessel_ratio": "分量船只比例",
-            "vessel_ratio_delta": "船只比例偏离",
         }
         st.plotly_chart(suspect_compare_figure(suspect_features), use_container_width=True)
+        st.caption(
+            "指标含义：FishHook分=综合调查优先级；一跳船只=直接相连的船只数量；"
+            "短环路=关系网络中反复闭合的可疑结构；所有权关系=直接涉及的 ownership 边。"
+        )
         with st.expander("查看官方可疑实体特征明细"):
             st.dataframe(
                 suspect_features[[col for col in suspect_display_cols if col in suspect_features.columns]].rename(
                     columns=suspect_column_names
                 ),
                 use_container_width=True,
-            )
-        with st.expander("为什么有些字段四个实体都相同？", expanded=True):
-            st.write(
-                "因为这些字段描述的是“实体所在的弱连通分量”，不是实体本身。"
-                "如果四个官方可疑实体都落在同一个大连通分量里，那么它们的连通分量编号、所在分量节点数、"
-                "分量船只比例、船只比例偏离就会完全相同。"
-                "真正用于区分四个实体的是 FishHook异常分、一跳船只数、所有权边、成员边、短环路数、"
-                "1-2跳家族关系、1-2跳政治组织、到其他官方可疑实体的距离等实体级字段。"
             )
 
     with tab_recommend:

@@ -81,6 +81,55 @@ def keyword_evidence_paths(
     )
 
 
+def official_suspect_paths(
+    nodes: pd.DataFrame,
+    edges: pd.DataFrame,
+    entity_id: Any,
+    max_depth: int = 3,
+) -> pd.DataFrame:
+    """Return short paths from an entity to official suspicious entities."""
+    index = build_graph_index(nodes, edges)
+    label_lookup = nodes.set_index("id")["label"].to_dict()
+    type_lookup = nodes.set_index("id")["type"].to_dict()
+
+    rows: list[dict[str, Any]] = []
+    for suspect in SUSPECT_ENTITIES:
+        if suspect == entity_id:
+            continue
+        path = shortest_path(index, entity_id, [suspect], max_depth=max_depth)
+        if not path:
+            continue
+        relation_steps = [
+            _edge_types_between(edges, path[idx], path[idx + 1])
+            for idx in range(len(path) - 1)
+        ]
+        rows.append(
+            {
+                "target_suspect": label_lookup.get(suspect, suspect),
+                "target_type": type_lookup.get(suspect, "unknown"),
+                "path_hops": len(path) - 1,
+                "path": " -> ".join(map(str, path)),
+                "relation_steps": " -> ".join(relation_steps),
+            }
+        )
+
+    if not rows:
+        return pd.DataFrame(
+            columns=[
+                "target_suspect",
+                "target_type",
+                "path_hops",
+                "path",
+                "relation_steps",
+            ]
+        )
+    return (
+        pd.DataFrame(rows)
+        .sort_values(["path_hops", "target_suspect"])
+        .reset_index(drop=True)
+    )
+
+
 def common_neighbor_summary(
     nodes: pd.DataFrame,
     edges: pd.DataFrame,
